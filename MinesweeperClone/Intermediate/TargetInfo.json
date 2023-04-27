@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MinesweeperClone",
+			"Path": "D:\\FlixInteractive\\MinesweeperClone\\MinesweeperClone\\Source\\MinesweeperClone.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MinesweeperCloneEditor",
+			"Path": "D:\\FlixInteractive\\MinesweeperClone\\MinesweeperClone\\Source\\MinesweeperCloneEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

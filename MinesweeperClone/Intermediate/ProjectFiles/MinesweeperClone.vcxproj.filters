@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MinesweeperClone.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{8A27D35E-EBF9-424B-92B2-0FA75A662632}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MinesweeperClone.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MinesweeperCloneEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{6355B683-FCBF-4E58-851E-6D33324C37AB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\MinesweeperClone">
+      <UniqueIdentifier>{6DC443DF-9652-40B6-ABEE-B5D30C0B3018}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MinesweeperClone\MinesweeperClone.Build.cs">
+      <Filter>Source\MinesweeperClone</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MinesweeperClone\MinesweeperClone.cpp">
+      <Filter>Source\MinesweeperClone</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MinesweeperClone\MinesweeperClone.h">
+      <Filter>Source\MinesweeperClone</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MinesweeperClone\MinesweeperCloneBlock.cpp">
+      <Filter>Source\MinesweeperClone</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MinesweeperClone\MinesweeperCloneBlock.h">
+      <Filter>Source\MinesweeperClone</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MinesweeperClone\MinesweeperCloneBlockGrid.cpp">
+      <Filter>Source\MinesweeperClone</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MinesweeperClone\MinesweeperCloneBlockGrid.h">
+      <Filter>Source\MinesweeperClone</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MinesweeperClone\MinesweeperCloneGameMode.cpp">
+      <Filter>Source\MinesweeperClone</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MinesweeperClone\MinesweeperCloneGameMode.h">
+      <Filter>Source\MinesweeperClone</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MinesweeperClone\MinesweeperClonePawn.cpp">
+      <Filter>Source\MinesweeperClone</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MinesweeperClone\MinesweeperClonePawn.h">
+      <Filter>Source\MinesweeperClone</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MinesweeperClone\MinesweeperClonePlayerController.cpp">
+      <Filter>Source\MinesweeperClone</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MinesweeperClone\MinesweeperClonePlayerController.h">
+      <Filter>Source\MinesweeperClone</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

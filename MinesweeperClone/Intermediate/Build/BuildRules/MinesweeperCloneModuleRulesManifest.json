@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\FlixInteractive\\MinesweeperClone\\MinesweeperClone\\Source\\MinesweeperClone\\MinesweeperClone.Build.cs",
+		"D:\\FlixInteractive\\MinesweeperClone\\MinesweeperClone\\Source\\MinesweeperClone.Target.cs",
+		"D:\\FlixInteractive\\MinesweeperClone\\MinesweeperClone\\Source\\MinesweeperCloneEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}
