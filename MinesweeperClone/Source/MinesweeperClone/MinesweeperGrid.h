@@ -6,6 +6,8 @@
 #include "GameFramework/Actor.h"
 #include "MinesweeperGrid.generated.h"
 
+class AGridSquare;
+
 UCLASS()
 class MINESWEEPERCLONE_API AMinesweeperGrid : public AActor
 {
@@ -14,6 +16,16 @@ class MINESWEEPERCLONE_API AMinesweeperGrid : public AActor
 public:	
 	// Sets default values for this actor's properties
 	AMinesweeperGrid();
+
+	UPROPERTY(EditDefaultsOnly, Category = "GridCell")
+	TSubclassOf<AGridSquare> GridSquare;
+
+	UPROPERTY(Category = Grid, EditAnywhere, BlueprintReadOnly)
+	int32 GridSize;
+	uint32 CellSpacing;
+
+private:
+	uint32 NumGridCells;
 
 protected:
 	// Called when the game starts or when spawned
