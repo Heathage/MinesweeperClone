@@ -25,6 +25,19 @@ void AMinesweeperGrid::BeginPlay()
 {
 	Super::BeginPlay();
 
+	CreateGrid();
+	SetMines();
+}
+
+// Called every frame
+void AMinesweeperGrid::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+}
+
+void AMinesweeperGrid::CreateGrid()
+{
 	NumGridCells = GridSize * GridSize;
 
 	for (int32 i = 0; i < NumGridCells; i++)
@@ -43,8 +56,11 @@ void AMinesweeperGrid::BeginPlay()
 			NewGridSquare->OwningGrid = this;
 		}
 	}
+}
 
-	for (int32 i = 0; i < 10; i++)
+void AMinesweeperGrid::SetMines()
+{
+	for (int32 i = 0; i < 9; i++)
 	{
 		GenerateRandomNumber();
 
@@ -60,21 +76,6 @@ void AMinesweeperGrid::BeginPlay()
 			GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Red, TEXT("Set Mine"));
 		}
 	}
-
-	for (AGridSquare* Cell : ListOfGridSquares)
-	{
-
-	}
-
-	
-	
-}
-
-// Called every frame
-void AMinesweeperGrid::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
 }
 
 void AMinesweeperGrid::GenerateRandomNumber()

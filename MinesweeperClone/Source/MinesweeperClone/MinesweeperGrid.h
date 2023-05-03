@@ -40,5 +40,7 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 private:
+	void CreateGrid();
+	void SetMines();
 	void GenerateRandomNumber();
 };

@@ -20,6 +20,7 @@ public:
 
 	UPROPERTY(VisibleAnywhere)
 	bool IsMine;
+	int32 NumNeighbouringMines;
 
 protected:
 	// Called when the game starts or when spawned

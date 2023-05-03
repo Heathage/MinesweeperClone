@@ -2023,3 +2023,10 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.05.03-13.42.33:561][298]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2023.05.03-13.42.33:566][298]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
 [2023.05.03-13.42.33:576][299]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2023.05.03-13.56.44:818][995]LogHotReload: New module detected: UE4Editor-MinesweeperClone-0013.dll
+[2023.05.03-13.56.45:174][997]LogHotReload: Starting Hot-Reload from IDE
+[2023.05.03-13.56.45:238][997]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MinesweeperClone' in 0.0003 seconds. Added 8 classes and 3 folders.
+[2023.05.03-13.56.45:242][997]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2023.05.03-13.56.45:305][997]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0089 seconds. Added 3830 classes and 931 folders.
+[2023.05.03-13.56.45:317][997]Display: HotReload took  0.1s.
+[2023.05.03-14.01.01:328][369]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
