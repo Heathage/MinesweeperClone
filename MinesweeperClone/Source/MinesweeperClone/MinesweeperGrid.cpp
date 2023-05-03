@@ -36,11 +36,37 @@ void AMinesweeperGrid::BeginPlay()
 
 		AGridSquare* NewGridSquare = GetWorld()->SpawnActor<AGridSquare>(GridSquare, CellLocation, FRotator::ZeroRotator);
 
+		ListOfGridSquares.Add(NewGridSquare);
+
 		if (NewGridSquare != nullptr)
 		{
 			NewGridSquare->OwningGrid = this;
 		}
 	}
+
+	for (int32 i = 0; i < 10; i++)
+	{
+		GenerateRandomNumber();
+
+		while (ListOfGridSquares[Random]->IsMine)
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, TEXT("Repeated"));
+			GenerateRandomNumber();
+		}
+
+		if (ListOfGridSquares[Random]->IsMine == false)
+		{
+			ListOfGridSquares[Random]->IsMine = true;
+			GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Red, TEXT("Set Mine"));
+		}
+	}
+
+	for (AGridSquare* Cell : ListOfGridSquares)
+	{
+
+	}
+
+	
 	
 }
 
@@ -49,5 +75,10 @@ void AMinesweeperGrid::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+}
+
+void AMinesweeperGrid::GenerateRandomNumber()
+{
+	Random = FMath::RandRange(0, 99);
 }
 

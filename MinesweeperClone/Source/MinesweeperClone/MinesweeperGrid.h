@@ -17,7 +17,7 @@ public:
 	// Sets default values for this actor's properties
 	AMinesweeperGrid();
 
-	UPROPERTY(EditDefaultsOnly, Category = "GridCell")
+	UPROPERTY(EditAnywhere, Category = "GridCell")
 	TSubclassOf<AGridSquare> GridSquare;
 
 	UPROPERTY(Category = Grid, EditAnywhere, BlueprintReadOnly)
@@ -26,13 +26,19 @@ public:
 
 private:
 	int32 NumGridCells;
+	int32 Random;
+
+	TArray<AGridSquare*> ListOfGridSquares;
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+private:
+	void GenerateRandomNumber();
 };

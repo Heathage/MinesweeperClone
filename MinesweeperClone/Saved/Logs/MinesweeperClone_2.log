@@ -1037,3 +1037,989 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.05.03-11.13.47:506][933]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2023.05.03-11.13.47:509][933]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
 [2023.05.03-11.13.47:559][939]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2023.05.03-12.10.44:879][752]LogHotReload: New module detected: UE4Editor-MinesweeperClone-0001.dll
+[2023.05.03-12.10.46:580][758]LogHotReload: Starting Hot-Reload from IDE
+[2023.05.03-12.10.46:613][758]LogClass: Could not find existing class GridSquare in package /Script/MinesweeperClone for HotReload, assuming new class
+[2023.05.03-12.10.46:618][758]LogHotReload: Re-instancing GridSquare after hot-reload.
+[2023.05.03-12.10.46:683][758]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MinesweeperClone' in 0.0003 seconds. Added 8 classes and 3 folders.
+[2023.05.03-12.10.46:685][758]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2023.05.03-12.10.46:726][758]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0081 seconds. Added 3830 classes and 931 folders.
+[2023.05.03-12.10.46:732][758]Display: HotReload took  0.2s.
+[2023.05.03-12.10.48:628][771]LogTemp: Repeating last play command: Selected Viewport
+[2023.05.03-12.10.48:632][771]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.03-12.10.48:632][771]PIE: New page: PIE session: MineswepperMap (3 May 2023, 14:10:48)
+[2023.05.03-12.10.48:632][771]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MineswepperMap
+[2023.05.03-12.10.48:633][771]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000781s)
+[2023.05.03-12.10.48:633][771]LogAIModule: Creating AISystem for world MineswepperMap
+[2023.05.03-12.10.48:633][771]LogPlayLevel: PIE: World Init took: (0.000729s)
+[2023.05.03-12.10.48:633][771]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MineswepperMap.MineswepperMap to /Game/UEDPIE_0_MineswepperMap.MineswepperMap (0.001587s)
+[2023.05.03-12.10.48:637][771]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.05.03-12.10.48:638][771]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.05.03-12.10.48:638][771]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.03-12.10.48:638][771]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.03-12.10.48:638][771]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.03-12.10.48:638][771]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.03-12.10.48:638][771]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.03-12.10.48:638][771]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.05.03-12.10.48:638][771]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.03-12.10.48:638][771]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.03-12.10.48:638][771]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.03-12.10.48:638][771]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.03-12.10.48:638][771]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.03-12.10.48:638][771]LogAudioMixer: Display: Initializing audio mixer.
+[2023.05.03-12.10.48:641][771]LogAudioMixer: Display: 0: FrontLeft
+[2023.05.03-12.10.48:641][771]LogAudioMixer: Display: 1: FrontRight
+[2023.05.03-12.10.48:641][771]LogAudioMixer: Display: 2: FrontCenter
+[2023.05.03-12.10.48:641][771]LogAudioMixer: Display: 3: LowFrequency
+[2023.05.03-12.10.48:641][771]LogAudioMixer: Display: 4: BackLeft
+[2023.05.03-12.10.48:641][771]LogAudioMixer: Display: 5: BackRight
+[2023.05.03-12.10.48:641][771]LogAudioMixer: Display: 6: SideLeft
+[2023.05.03-12.10.48:641][771]LogAudioMixer: Display: 7: SideRight
+[2023.05.03-12.10.48:776][771]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR VOID ELITE USB Gaming Headset)
+[2023.05.03-12.10.48:776][771]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.03-12.10.48:776][771]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.03-12.10.48:776][771]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.03-12.10.48:777][771]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.05.03-12.10.48:777][771]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.05.03-12.10.48:777][771]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2023.05.03-12.10.48:777][771]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.05.03-12.10.48:777][771]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.05.03-12.10.48:777][771]LogInit: FAudioDevice initialized.
+[2023.05.03-12.10.48:777][771]LogAudio: Display: Audio Device (ID: 3) registered with world 'MineswepperMap'.
+[2023.05.03-12.10.48:785][771]LogLoad: Game class is 'MinesweeperGameMode'
+[2023.05.03-12.10.48:785][771]LogWorld: Bringing World /Game/UEDPIE_0_MineswepperMap.MineswepperMap up for play (max tick rate 0) at 2023.05.03-13.10.48
+[2023.05.03-12.10.48:785][771]LogWorld: Bringing up level for play took: 0.000227
+[2023.05.03-12.10.48:785][771]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2023.05.03-12.10.48:797][771]PIE: Server logged in
+[2023.05.03-12.10.48:798][771]PIE: Play in editor total start time 0.167 seconds.
+[2023.05.03-12.10.51:197][ 54]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare)
+[2023.05.03-12.13.13:465][122]LogHotReload: New module detected: UE4Editor-MinesweeperClone-0002.dll
+[2023.05.03-12.13.20:338][348]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-12.13.20:338][348]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MineswepperMap
+[2023.05.03-12.13.20:339][348]LogWorld: UWorld::CleanupWorld for MineswepperMap, bSessionEnded=true, bCleanupResources=true
+[2023.05.03-12.13.20:339][348]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-12.13.20:348][348]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.03-12.13.20:349][348]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-12.13.20:353][348]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.03-12.13.20:353][348]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.03-12.13.20:353][348]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.03-12.13.20:356][348]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-12.13.20:358][348]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.05.03-12.13.20:377][349]LogHotReload: Starting Hot-Reload from IDE
+[2023.05.03-12.13.20:409][349]LogClass: Could not find existing class MinesweeperGrid in package /Script/MinesweeperClone for HotReload, assuming new class
+[2023.05.03-12.13.20:413][349]LogHotReload: Re-instancing MinesweeperGrid after hot-reload.
+[2023.05.03-12.13.20:416][349]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MinesweeperClone' in 0.0003 seconds. Added 8 classes and 3 folders.
+[2023.05.03-12.13.20:417][349]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2023.05.03-12.13.20:443][349]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0077 seconds. Added 3830 classes and 931 folders.
+[2023.05.03-12.13.20:455][349]Display: HotReload took  0.1s.
+[2023.05.03-12.13.20:484][349]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2023.05.03-12.13.21:387][426]LogTemp: Repeating last play command: Selected Viewport
+[2023.05.03-12.13.21:391][426]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.03-12.13.21:391][426]PIE: New page: PIE session: MineswepperMap (3 May 2023, 14:13:21)
+[2023.05.03-12.13.21:391][426]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MineswepperMap
+[2023.05.03-12.13.21:392][426]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000773s)
+[2023.05.03-12.13.21:392][426]LogAIModule: Creating AISystem for world MineswepperMap
+[2023.05.03-12.13.21:393][426]LogPlayLevel: PIE: World Init took: (0.000840s)
+[2023.05.03-12.13.21:393][426]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MineswepperMap.MineswepperMap to /Game/UEDPIE_0_MineswepperMap.MineswepperMap (0.001695s)
+[2023.05.03-12.13.21:400][426]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.05.03-12.13.21:401][426]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.05.03-12.13.21:401][426]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.03-12.13.21:401][426]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.03-12.13.21:401][426]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.03-12.13.21:401][426]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.03-12.13.21:401][426]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.03-12.13.21:401][426]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.05.03-12.13.21:401][426]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.03-12.13.21:401][426]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.03-12.13.21:401][426]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.03-12.13.21:401][426]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.03-12.13.21:401][426]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.03-12.13.21:401][426]LogAudioMixer: Display: Initializing audio mixer.
+[2023.05.03-12.13.21:403][426]LogAudioMixer: Display: 0: FrontLeft
+[2023.05.03-12.13.21:403][426]LogAudioMixer: Display: 1: FrontRight
+[2023.05.03-12.13.21:403][426]LogAudioMixer: Display: 2: FrontCenter
+[2023.05.03-12.13.21:403][426]LogAudioMixer: Display: 3: LowFrequency
+[2023.05.03-12.13.21:403][426]LogAudioMixer: Display: 4: BackLeft
+[2023.05.03-12.13.21:403][426]LogAudioMixer: Display: 5: BackRight
+[2023.05.03-12.13.21:403][426]LogAudioMixer: Display: 6: SideLeft
+[2023.05.03-12.13.21:403][426]LogAudioMixer: Display: 7: SideRight
+[2023.05.03-12.13.21:541][426]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR VOID ELITE USB Gaming Headset)
+[2023.05.03-12.13.21:542][426]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.03-12.13.21:542][426]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.03-12.13.21:542][426]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.03-12.13.21:542][426]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.05.03-12.13.21:542][426]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.05.03-12.13.21:542][426]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2023.05.03-12.13.21:543][426]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.05.03-12.13.21:543][426]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.05.03-12.13.21:543][426]LogInit: FAudioDevice initialized.
+[2023.05.03-12.13.21:543][426]LogAudio: Display: Audio Device (ID: 4) registered with world 'MineswepperMap'.
+[2023.05.03-12.13.21:548][426]LogLoad: Game class is 'MinesweeperGameMode'
+[2023.05.03-12.13.21:549][426]LogWorld: Bringing World /Game/UEDPIE_0_MineswepperMap.MineswepperMap up for play (max tick rate 0) at 2023.05.03-13.13.21
+[2023.05.03-12.13.21:549][426]LogWorld: Bringing up level for play took: 0.000217
+[2023.05.03-12.13.21:549][426]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2023.05.03-12.13.21:561][426]PIE: Server logged in
+[2023.05.03-12.13.21:561][426]PIE: Play in editor total start time 0.171 seconds.
+[2023.05.03-12.16.09:840][366]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-12.16.09:840][366]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MineswepperMap
+[2023.05.03-12.16.09:840][366]LogWorld: UWorld::CleanupWorld for MineswepperMap, bSessionEnded=true, bCleanupResources=true
+[2023.05.03-12.16.09:840][366]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-12.16.09:846][366]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.03-12.16.09:847][366]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-12.16.09:850][366]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.03-12.16.09:850][366]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.03-12.16.09:851][366]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.03-12.16.09:853][366]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-12.16.09:855][366]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.05.03-12.16.09:904][372]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2023.05.03-12.16.54:015][796]LogTemp: Repeating last play command: Selected Viewport
+[2023.05.03-12.16.54:019][796]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.03-12.16.54:019][796]PIE: New page: PIE session: MineswepperMap (3 May 2023, 14:16:54)
+[2023.05.03-12.16.54:019][796]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MineswepperMap
+[2023.05.03-12.16.54:020][796]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000810s)
+[2023.05.03-12.16.54:021][796]LogAIModule: Creating AISystem for world MineswepperMap
+[2023.05.03-12.16.54:021][796]LogPlayLevel: PIE: World Init took: (0.000725s)
+[2023.05.03-12.16.54:021][796]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MineswepperMap.MineswepperMap to /Game/UEDPIE_0_MineswepperMap.MineswepperMap (0.001612s)
+[2023.05.03-12.16.54:024][796]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2023.05.03-12.16.54:025][796]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.05.03-12.16.54:025][796]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.03-12.16.54:025][796]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.03-12.16.54:025][796]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.03-12.16.54:025][796]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.03-12.16.54:025][796]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.03-12.16.54:025][796]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.05.03-12.16.54:025][796]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.03-12.16.54:025][796]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.03-12.16.54:026][796]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.03-12.16.54:026][796]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.03-12.16.54:026][796]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.03-12.16.54:026][796]LogAudioMixer: Display: Initializing audio mixer.
+[2023.05.03-12.16.54:028][796]LogAudioMixer: Display: 0: FrontLeft
+[2023.05.03-12.16.54:028][796]LogAudioMixer: Display: 1: FrontRight
+[2023.05.03-12.16.54:028][796]LogAudioMixer: Display: 2: FrontCenter
+[2023.05.03-12.16.54:028][796]LogAudioMixer: Display: 3: LowFrequency
+[2023.05.03-12.16.54:028][796]LogAudioMixer: Display: 4: BackLeft
+[2023.05.03-12.16.54:028][796]LogAudioMixer: Display: 5: BackRight
+[2023.05.03-12.16.54:028][796]LogAudioMixer: Display: 6: SideLeft
+[2023.05.03-12.16.54:028][796]LogAudioMixer: Display: 7: SideRight
+[2023.05.03-12.16.54:155][796]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR VOID ELITE USB Gaming Headset)
+[2023.05.03-12.16.54:155][796]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.03-12.16.54:155][796]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.03-12.16.54:155][796]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.03-12.16.54:156][796]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.05.03-12.16.54:156][796]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.05.03-12.16.54:156][796]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2023.05.03-12.16.54:156][796]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.05.03-12.16.54:156][796]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.05.03-12.16.54:156][796]LogInit: FAudioDevice initialized.
+[2023.05.03-12.16.54:156][796]LogAudio: Display: Audio Device (ID: 5) registered with world 'MineswepperMap'.
+[2023.05.03-12.16.54:161][796]LogLoad: Game class is 'MinesweeperGameMode'
+[2023.05.03-12.16.54:162][796]LogWorld: Bringing World /Game/UEDPIE_0_MineswepperMap.MineswepperMap up for play (max tick rate 0) at 2023.05.03-13.16.54
+[2023.05.03-12.16.54:162][796]LogWorld: Bringing up level for play took: 0.000214
+[2023.05.03-12.16.54:162][796]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2023.05.03-12.16.54:174][796]PIE: Server logged in
+[2023.05.03-12.16.54:174][796]PIE: Play in editor total start time 0.156 seconds.
+[2023.05.03-12.16.55:049][894]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-12.16.55:050][894]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MineswepperMap
+[2023.05.03-12.16.55:050][894]LogWorld: UWorld::CleanupWorld for MineswepperMap, bSessionEnded=true, bCleanupResources=true
+[2023.05.03-12.16.55:050][894]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-12.16.55:055][894]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.03-12.16.55:056][894]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-12.16.55:059][894]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-12.16.55:059][894]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.03-12.16.55:060][894]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.03-12.16.55:063][894]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.05.03-12.16.55:118][900]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2023.05.03-12.17.01:319][ 52]LogHotReload: New module detected: UE4Editor-MinesweeperClone-0004.dll
+[2023.05.03-12.17.01:667][ 54]LogHotReload: Starting Hot-Reload from IDE
+[2023.05.03-12.17.01:711][ 54]LogClass: Could not find existing class GridSquare in package /Script/MinesweeperClone for HotReload, assuming new class
+[2023.05.03-12.17.01:716][ 54]LogHotReload: Re-instancing GridSquare after hot-reload.
+[2023.05.03-12.17.01:724][ 54]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MinesweeperClone' in 0.0003 seconds. Added 8 classes and 3 folders.
+[2023.05.03-12.17.01:726][ 54]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2023.05.03-12.17.01:754][ 54]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0085 seconds. Added 3830 classes and 931 folders.
+[2023.05.03-12.17.01:759][ 54]Display: HotReload took  0.1s.
+[2023.05.03-12.18.02:180][462]LogTemp: Repeating last play command: Selected Viewport
+[2023.05.03-12.18.02:183][462]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.03-12.18.02:184][462]PIE: New page: PIE session: MineswepperMap (3 May 2023, 14:18:02)
+[2023.05.03-12.18.02:184][462]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MineswepperMap
+[2023.05.03-12.18.02:184][462]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000785s)
+[2023.05.03-12.18.02:185][462]LogAIModule: Creating AISystem for world MineswepperMap
+[2023.05.03-12.18.02:185][462]LogPlayLevel: PIE: World Init took: (0.000853s)
+[2023.05.03-12.18.02:185][462]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MineswepperMap.MineswepperMap to /Game/UEDPIE_0_MineswepperMap.MineswepperMap (0.001717s)
+[2023.05.03-12.18.02:189][462]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.05.03-12.18.02:190][462]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.05.03-12.18.02:190][462]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.03-12.18.02:190][462]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.03-12.18.02:190][462]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.03-12.18.02:190][462]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.03-12.18.02:190][462]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.03-12.18.02:190][462]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.05.03-12.18.02:190][462]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.03-12.18.02:190][462]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.03-12.18.02:190][462]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.03-12.18.02:190][462]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.03-12.18.02:190][462]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.03-12.18.02:190][462]LogAudioMixer: Display: Initializing audio mixer.
+[2023.05.03-12.18.02:193][462]LogAudioMixer: Display: 0: FrontLeft
+[2023.05.03-12.18.02:193][462]LogAudioMixer: Display: 1: FrontRight
+[2023.05.03-12.18.02:193][462]LogAudioMixer: Display: 2: FrontCenter
+[2023.05.03-12.18.02:193][462]LogAudioMixer: Display: 3: LowFrequency
+[2023.05.03-12.18.02:193][462]LogAudioMixer: Display: 4: BackLeft
+[2023.05.03-12.18.02:193][462]LogAudioMixer: Display: 5: BackRight
+[2023.05.03-12.18.02:193][462]LogAudioMixer: Display: 6: SideLeft
+[2023.05.03-12.18.02:193][462]LogAudioMixer: Display: 7: SideRight
+[2023.05.03-12.18.02:324][462]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR VOID ELITE USB Gaming Headset)
+[2023.05.03-12.18.02:324][462]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.03-12.18.02:324][462]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.03-12.18.02:324][462]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.03-12.18.02:325][462]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.05.03-12.18.02:325][462]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.05.03-12.18.02:325][462]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2023.05.03-12.18.02:325][462]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.05.03-12.18.02:325][462]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.05.03-12.18.02:325][462]LogInit: FAudioDevice initialized.
+[2023.05.03-12.18.02:325][462]LogAudio: Display: Audio Device (ID: 6) registered with world 'MineswepperMap'.
+[2023.05.03-12.18.02:336][462]LogLoad: Game class is 'MinesweeperGameMode'
+[2023.05.03-12.18.02:336][462]LogWorld: Bringing World /Game/UEDPIE_0_MineswepperMap.MineswepperMap up for play (max tick rate 0) at 2023.05.03-13.18.02
+[2023.05.03-12.18.02:336][462]LogWorld: Bringing up level for play took: 0.000213
+[2023.05.03-12.18.02:336][462]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2023.05.03-12.18.02:348][462]PIE: Server logged in
+[2023.05.03-12.18.02:348][462]PIE: Play in editor total start time 0.166 seconds.
+[2023.05.03-12.29.03:234][106]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-12.29.03:234][106]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MineswepperMap
+[2023.05.03-12.29.03:235][106]LogWorld: UWorld::CleanupWorld for MineswepperMap, bSessionEnded=true, bCleanupResources=true
+[2023.05.03-12.29.03:235][106]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-12.29.03:253][106]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.03-12.29.03:254][106]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-12.29.03:257][106]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.03-12.29.03:257][106]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.03-12.29.03:258][106]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.03-12.29.03:260][106]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-12.29.03:261][106]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.05.03-12.29.03:302][111]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2023.05.03-12.29.07:944][661]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MyBlueprints/BP_MyGridSquare.BP_MyGridSquare
+[2023.05.03-12.29.08:964][661]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 126 classes and 0 folders.
+[2023.05.03-12.29.10:239][661]LogSlate: Took 0.042219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.05.03-12.29.13:229][987]LogSlate: Window 'BP_MyGridSquare' being destroyed
+[2023.05.03-12.29.24:215][291]LogRenderer: Reallocating scene render targets to support 1208x708 Format 10 NumSamples 1 (Frame:1).
+[2023.05.03-13.06.32:823][332]LogHotReload: New module detected: UE4Editor-MinesweeperClone-0006.dll
+[2023.05.03-13.06.33:512][335]LogHotReload: Starting Hot-Reload from IDE
+[2023.05.03-13.06.33:541][335]LogClass: Could not find existing class GridSquare in package /Script/MinesweeperClone for HotReload, assuming new class
+[2023.05.03-13.06.33:551][335]LogHotReload: Re-instancing GridSquare after hot-reload.
+[2023.05.03-13.06.33:581][335]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MinesweeperClone' in 0.0003 seconds. Added 8 classes and 3 folders.
+[2023.05.03-13.06.33:584][335]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2023.05.03-13.06.33:626][335]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0079 seconds. Added 3830 classes and 931 folders.
+[2023.05.03-13.06.33:634][335]Display: HotReload took  0.1s.
+[2023.05.03-13.06.35:241][348]LogTemp: Repeating last play command: Selected Viewport
+[2023.05.03-13.06.35:245][348]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.03-13.06.35:245][348]PIE: New page: PIE session: MineswepperMap (3 May 2023, 15:06:35)
+[2023.05.03-13.06.35:245][348]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MineswepperMap
+[2023.05.03-13.06.35:246][348]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000769s)
+[2023.05.03-13.06.35:248][348]LogAIModule: Creating AISystem for world MineswepperMap
+[2023.05.03-13.06.35:248][348]LogPlayLevel: PIE: World Init took: (0.002334s)
+[2023.05.03-13.06.35:248][348]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MineswepperMap.MineswepperMap to /Game/UEDPIE_0_MineswepperMap.MineswepperMap (0.003181s)
+[2023.05.03-13.06.35:285][348]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2023.05.03-13.06.35:285][348]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.05.03-13.06.35:286][348]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.03-13.06.35:286][348]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.03-13.06.35:286][348]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.03-13.06.35:286][348]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.03-13.06.35:286][348]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.03-13.06.35:286][348]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.05.03-13.06.35:286][348]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.03-13.06.35:286][348]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.03-13.06.35:286][348]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.03-13.06.35:286][348]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.03-13.06.35:286][348]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.03-13.06.35:286][348]LogAudioMixer: Display: Initializing audio mixer.
+[2023.05.03-13.06.35:288][348]LogAudioMixer: Display: 0: FrontLeft
+[2023.05.03-13.06.35:288][348]LogAudioMixer: Display: 1: FrontRight
+[2023.05.03-13.06.35:288][348]LogAudioMixer: Display: 2: FrontCenter
+[2023.05.03-13.06.35:288][348]LogAudioMixer: Display: 3: LowFrequency
+[2023.05.03-13.06.35:288][348]LogAudioMixer: Display: 4: BackLeft
+[2023.05.03-13.06.35:288][348]LogAudioMixer: Display: 5: BackRight
+[2023.05.03-13.06.35:288][348]LogAudioMixer: Display: 6: SideLeft
+[2023.05.03-13.06.35:288][348]LogAudioMixer: Display: 7: SideRight
+[2023.05.03-13.06.35:418][348]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR VOID ELITE USB Gaming Headset)
+[2023.05.03-13.06.35:418][348]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.03-13.06.35:418][348]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.03-13.06.35:418][348]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.03-13.06.35:418][348]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.05.03-13.06.35:418][348]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.05.03-13.06.35:418][348]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2023.05.03-13.06.35:419][348]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.05.03-13.06.35:419][348]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.05.03-13.06.35:419][348]LogInit: FAudioDevice initialized.
+[2023.05.03-13.06.35:419][348]LogAudio: Display: Audio Device (ID: 7) registered with world 'MineswepperMap'.
+[2023.05.03-13.06.35:430][348]LogLoad: Game class is 'MinesweeperGameMode'
+[2023.05.03-13.06.35:430][348]LogWorld: Bringing World /Game/UEDPIE_0_MineswepperMap.MineswepperMap up for play (max tick rate 0) at 2023.05.03-14.06.35
+[2023.05.03-13.06.35:430][348]LogWorld: Bringing up level for play took: 0.000245
+[2023.05.03-13.06.35:430][348]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2023.05.03-13.06.35:442][348]PIE: Server logged in
+[2023.05.03-13.06.35:442][348]PIE: Play in editor total start time 0.198 seconds.
+[2023.05.03-13.06.55:459][721]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-13.06.55:459][721]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MineswepperMap
+[2023.05.03-13.06.55:459][721]LogWorld: UWorld::CleanupWorld for MineswepperMap, bSessionEnded=true, bCleanupResources=true
+[2023.05.03-13.06.55:459][721]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.06.55:467][721]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.03-13.06.55:470][721]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.06.55:485][721]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-13.06.55:486][721]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.03-13.06.55:486][721]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.03-13.06.55:494][721]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2023.05.03-13.06.55:520][724]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2023.05.03-13.08.56:431][464]LogTemp: Repeating last play command: Selected Viewport
+[2023.05.03-13.08.56:436][464]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.03-13.08.56:436][464]PIE: New page: PIE session: MineswepperMap (3 May 2023, 15:08:56)
+[2023.05.03-13.08.56:436][464]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MineswepperMap
+[2023.05.03-13.08.56:437][464]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000837s)
+[2023.05.03-13.08.56:438][464]LogAIModule: Creating AISystem for world MineswepperMap
+[2023.05.03-13.08.56:438][464]LogPlayLevel: PIE: World Init took: (0.001411s)
+[2023.05.03-13.08.56:438][464]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MineswepperMap.MineswepperMap to /Game/UEDPIE_0_MineswepperMap.MineswepperMap (0.002327s)
+[2023.05.03-13.08.56:456][464]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2023.05.03-13.08.56:457][464]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.05.03-13.08.56:457][464]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.03-13.08.56:457][464]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.03-13.08.56:457][464]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.03-13.08.56:457][464]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.03-13.08.56:457][464]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.03-13.08.56:457][464]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.05.03-13.08.56:457][464]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.03-13.08.56:457][464]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.03-13.08.56:457][464]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.03-13.08.56:457][464]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.03-13.08.56:457][464]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.03-13.08.56:457][464]LogAudioMixer: Display: Initializing audio mixer.
+[2023.05.03-13.08.56:460][464]LogAudioMixer: Display: 0: FrontLeft
+[2023.05.03-13.08.56:460][464]LogAudioMixer: Display: 1: FrontRight
+[2023.05.03-13.08.56:460][464]LogAudioMixer: Display: 2: FrontCenter
+[2023.05.03-13.08.56:460][464]LogAudioMixer: Display: 3: LowFrequency
+[2023.05.03-13.08.56:460][464]LogAudioMixer: Display: 4: BackLeft
+[2023.05.03-13.08.56:460][464]LogAudioMixer: Display: 5: BackRight
+[2023.05.03-13.08.56:460][464]LogAudioMixer: Display: 6: SideLeft
+[2023.05.03-13.08.56:460][464]LogAudioMixer: Display: 7: SideRight
+[2023.05.03-13.08.56:594][464]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR VOID ELITE USB Gaming Headset)
+[2023.05.03-13.08.56:594][464]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.03-13.08.56:594][464]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.03-13.08.56:594][464]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.03-13.08.56:595][464]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.05.03-13.08.56:595][464]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.05.03-13.08.56:595][464]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2023.05.03-13.08.56:595][464]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.05.03-13.08.56:595][464]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.05.03-13.08.56:595][464]LogInit: FAudioDevice initialized.
+[2023.05.03-13.08.56:596][464]LogAudio: Display: Audio Device (ID: 8) registered with world 'MineswepperMap'.
+[2023.05.03-13.08.56:600][464]LogLoad: Game class is 'MinesweeperGameMode'
+[2023.05.03-13.08.56:601][464]LogWorld: Bringing World /Game/UEDPIE_0_MineswepperMap.MineswepperMap up for play (max tick rate 0) at 2023.05.03-14.08.56
+[2023.05.03-13.08.56:601][464]LogWorld: Bringing up level for play took: 0.000228
+[2023.05.03-13.08.56:601][464]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2023.05.03-13.08.56:613][464]PIE: Server logged in
+[2023.05.03-13.08.56:614][464]PIE: Play in editor total start time 0.179 seconds.
+[2023.05.03-13.09.02:800][171]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-13.09.02:800][171]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MineswepperMap
+[2023.05.03-13.09.02:800][171]LogWorld: UWorld::CleanupWorld for MineswepperMap, bSessionEnded=true, bCleanupResources=true
+[2023.05.03-13.09.02:800][171]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.09.02:809][171]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.03-13.09.02:812][171]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.09.02:827][171]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-13.09.02:827][171]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.03-13.09.02:828][171]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.03-13.09.02:833][171]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2023.05.03-13.09.02:877][176]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2023.05.03-13.14.00:815][139]LogHotReload: New module detected: UE4Editor-MinesweeperClone-0007.dll
+[2023.05.03-13.14.01:165][141]LogHotReload: Starting Hot-Reload from IDE
+[2023.05.03-13.14.01:217][141]LogClass: Could not find existing class MinesweeperGrid in package /Script/MinesweeperClone for HotReload, assuming new class
+[2023.05.03-13.14.01:224][141]LogHotReload: Re-instancing MinesweeperGrid after hot-reload.
+[2023.05.03-13.14.01:238][141]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MinesweeperClone' in 0.0003 seconds. Added 8 classes and 3 folders.
+[2023.05.03-13.14.01:242][141]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2023.05.03-13.14.01:306][141]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0087 seconds. Added 3830 classes and 931 folders.
+[2023.05.03-13.14.01:322][141]Display: HotReload took  0.2s.
+[2023.05.03-13.34.08:018][721]LogHotReload: New module detected: UE4Editor-MinesweeperClone-0008.dll
+[2023.05.03-13.34.08:708][724]LogHotReload: Starting Hot-Reload from IDE
+[2023.05.03-13.34.08:759][724]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MinesweeperClone' in 0.0003 seconds. Added 8 classes and 3 folders.
+[2023.05.03-13.34.08:764][724]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2023.05.03-13.34.08:848][724]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0086 seconds. Added 3830 classes and 931 folders.
+[2023.05.03-13.34.08:863][724]Display: HotReload took  0.2s.
+[2023.05.03-13.38.58:602][583]LogHotReload: New module detected: UE4Editor-MinesweeperClone-0010.dll
+[2023.05.03-13.38.59:295][586]LogHotReload: Starting Hot-Reload from IDE
+[2023.05.03-13.38.59:356][586]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MinesweeperClone' in 0.0003 seconds. Added 8 classes and 3 folders.
+[2023.05.03-13.38.59:361][586]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2023.05.03-13.38.59:459][586]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0094 seconds. Added 3830 classes and 931 folders.
+[2023.05.03-13.38.59:466][586]Display: HotReload took  0.2s.
+[2023.05.03-13.39.08:212][815]LogTemp: Repeating last play command: Selected Viewport
+[2023.05.03-13.39.08:216][815]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.03-13.39.08:216][815]PIE: New page: PIE session: MineswepperMap (3 May 2023, 15:39:08)
+[2023.05.03-13.39.08:216][815]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MineswepperMap
+[2023.05.03-13.39.08:217][815]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000839s)
+[2023.05.03-13.39.08:220][815]LogAIModule: Creating AISystem for world MineswepperMap
+[2023.05.03-13.39.08:221][815]LogPlayLevel: PIE: World Init took: (0.003802s)
+[2023.05.03-13.39.08:221][815]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MineswepperMap.MineswepperMap to /Game/UEDPIE_0_MineswepperMap.MineswepperMap (0.004720s)
+[2023.05.03-13.39.08:353][815]LogUObjectHash: Compacting FUObjectHashTables data took   5.31ms
+[2023.05.03-13.39.08:354][815]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.05.03-13.39.08:354][815]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.03-13.39.08:354][815]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.03-13.39.08:354][815]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.03-13.39.08:354][815]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.03-13.39.08:354][815]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.03-13.39.08:354][815]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.05.03-13.39.08:354][815]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.03-13.39.08:354][815]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.03-13.39.08:355][815]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.03-13.39.08:355][815]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.03-13.39.08:355][815]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.03-13.39.08:355][815]LogAudioMixer: Display: Initializing audio mixer.
+[2023.05.03-13.39.08:357][815]LogAudioMixer: Display: 0: FrontLeft
+[2023.05.03-13.39.08:357][815]LogAudioMixer: Display: 1: FrontRight
+[2023.05.03-13.39.08:358][815]LogAudioMixer: Display: 2: FrontCenter
+[2023.05.03-13.39.08:358][815]LogAudioMixer: Display: 3: LowFrequency
+[2023.05.03-13.39.08:358][815]LogAudioMixer: Display: 4: BackLeft
+[2023.05.03-13.39.08:358][815]LogAudioMixer: Display: 5: BackRight
+[2023.05.03-13.39.08:358][815]LogAudioMixer: Display: 6: SideLeft
+[2023.05.03-13.39.08:358][815]LogAudioMixer: Display: 7: SideRight
+[2023.05.03-13.39.08:492][815]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR VOID ELITE USB Gaming Headset)
+[2023.05.03-13.39.08:492][815]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.03-13.39.08:492][815]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.03-13.39.08:492][815]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.03-13.39.08:492][815]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.05.03-13.39.08:493][815]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.05.03-13.39.08:493][815]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2023.05.03-13.39.08:493][815]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.05.03-13.39.08:493][815]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.05.03-13.39.08:493][815]LogInit: FAudioDevice initialized.
+[2023.05.03-13.39.08:493][815]LogAudio: Display: Audio Device (ID: 9) registered with world 'MineswepperMap'.
+[2023.05.03-13.39.08:502][815]LogLoad: Game class is 'MinesweeperGameMode'
+[2023.05.03-13.39.08:503][815]LogWorld: Bringing World /Game/UEDPIE_0_MineswepperMap.MineswepperMap up for play (max tick rate 0) at 2023.05.03-14.39.08
+[2023.05.03-13.39.08:503][815]LogWorld: Bringing up level for play took: 0.000241
+[2023.05.03-13.39.08:503][815]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2023.05.03-13.39.08:516][815]PIE: Server logged in
+[2023.05.03-13.39.08:516][815]PIE: Play in editor total start time 0.301 seconds.
+[2023.05.03-13.39.36:962][612]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare)
+[2023.05.03-13.39.40:895][ 78]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare10)
+[2023.05.03-13.39.41:828][187]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare20)
+[2023.05.03-13.39.43:556][390]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare30)
+[2023.05.03-13.39.44:436][492]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare40)
+[2023.05.03-13.39.45:639][632]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare50)
+[2023.05.03-13.39.46:835][772]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare60)
+[2023.05.03-13.39.47:953][899]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare70)
+[2023.05.03-13.39.49:392][ 65]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare80)
+[2023.05.03-13.39.50:601][207]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare90)
+[2023.05.03-13.39.51:906][356]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare1)
+[2023.05.03-13.39.54:650][680]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare11)
+[2023.05.03-13.39.55:885][824]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare21)
+[2023.05.03-13.39.57:200][978]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare31)
+[2023.05.03-13.39.58:369][114]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare41)
+[2023.05.03-13.39.59:198][211]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare51)
+[2023.05.03-13.40.00:242][330]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare61)
+[2023.05.03-13.40.01:022][419]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare71)
+[2023.05.03-13.40.02:321][570]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare81)
+[2023.05.03-13.40.03:004][648]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare91)
+[2023.05.03-13.40.04:283][792]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare2)
+[2023.05.03-13.40.05:665][953]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare12)
+[2023.05.03-13.40.06:952][103]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare22)
+[2023.05.03-13.40.07:663][181]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare32)
+[2023.05.03-13.40.08:971][333]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare42)
+[2023.05.03-13.40.10:032][453]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare52)
+[2023.05.03-13.40.11:231][588]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare62)
+[2023.05.03-13.40.12:172][696]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare72)
+[2023.05.03-13.40.13:110][805]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare82)
+[2023.05.03-13.40.14:299][943]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare92)
+[2023.05.03-13.40.15:771][110]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare93)
+[2023.05.03-13.40.16:514][194]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare83)
+[2023.05.03-13.40.17:202][273]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare73)
+[2023.05.03-13.40.17:830][344]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare63)
+[2023.05.03-13.40.18:569][427]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare53)
+[2023.05.03-13.40.19:284][509]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare43)
+[2023.05.03-13.40.20:050][597]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare33)
+[2023.05.03-13.40.20:748][674]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare23)
+[2023.05.03-13.40.21:550][767]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare13)
+[2023.05.03-13.40.22:234][842]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare3)
+[2023.05.03-13.40.23:218][954]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare4)
+[2023.05.03-13.40.23:959][ 39]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare14)
+[2023.05.03-13.40.24:888][146]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare24)
+[2023.05.03-13.40.25:705][242]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare34)
+[2023.05.03-13.40.26:566][342]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare44)
+[2023.05.03-13.40.27:238][419]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare54)
+[2023.05.03-13.40.27:953][502]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare64)
+[2023.05.03-13.40.28:683][585]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare74)
+[2023.05.03-13.40.30:582][805]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare84)
+[2023.05.03-13.40.31:384][897]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare94)
+[2023.05.03-13.40.32:780][ 59]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare95)
+[2023.05.03-13.40.33:549][149]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare85)
+[2023.05.03-13.40.34:230][226]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare75)
+[2023.05.03-13.40.34:987][313]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare55)
+[2023.05.03-13.40.35:969][427]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare65)
+[2023.05.03-13.40.36:793][519]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare45)
+[2023.05.03-13.40.37:567][608]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare35)
+[2023.05.03-13.40.38:652][733]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare25)
+[2023.05.03-13.40.39:480][829]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare15)
+[2023.05.03-13.40.40:433][939]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare5)
+[2023.05.03-13.40.41:879][106]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare6)
+[2023.05.03-13.40.42:955][231]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare16)
+[2023.05.03-13.40.44:181][375]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare26)
+[2023.05.03-13.40.45:027][472]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare36)
+[2023.05.03-13.40.45:730][554]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare46)
+[2023.05.03-13.40.46:653][662]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare56)
+[2023.05.03-13.40.47:706][786]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare66)
+[2023.05.03-13.40.48:415][867]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare76)
+[2023.05.03-13.40.49:233][962]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare86)
+[2023.05.03-13.40.50:089][ 62]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare96)
+[2023.05.03-13.40.51:475][222]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare97)
+[2023.05.03-13.40.52:251][310]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare87)
+[2023.05.03-13.40.52:888][384]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare77)
+[2023.05.03-13.40.53:584][464]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare67)
+[2023.05.03-13.40.54:242][540]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare57)
+[2023.05.03-13.40.54:915][618]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare47)
+[2023.05.03-13.40.55:705][709]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare37)
+[2023.05.03-13.40.56:368][786]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare27)
+[2023.05.03-13.40.57:116][873]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare17)
+[2023.05.03-13.40.58:396][ 22]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare7)
+[2023.05.03-13.40.59:970][205]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare8)
+[2023.05.03-13.41.00:894][313]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare18)
+[2023.05.03-13.41.02:677][519]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare28)
+[2023.05.03-13.41.03:629][631]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare38)
+[2023.05.03-13.41.04:524][736]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare48)
+[2023.05.03-13.41.05:827][889]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare58)
+[2023.05.03-13.41.06:663][986]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare68)
+[2023.05.03-13.41.07:354][ 67]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare78)
+[2023.05.03-13.41.08:275][175]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare88)
+[2023.05.03-13.41.09:252][290]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare98)
+[2023.05.03-13.41.10:692][459]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare99)
+[2023.05.03-13.41.11:459][547]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare89)
+[2023.05.03-13.41.12:122][624]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare79)
+[2023.05.03-13.41.13:326][765]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare69)
+[2023.05.03-13.41.14:434][893]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare59)
+[2023.05.03-13.41.15:129][974]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare49)
+[2023.05.03-13.41.15:741][ 45]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare39)
+[2023.05.03-13.41.16:402][121]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare29)
+[2023.05.03-13.41.16:941][182]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare19)
+[2023.05.03-13.41.17:717][271]LogEditorViewport: Clicking on Actor (LMB): BP_MyGridSquare_C (BP_MyGridSquare9)
+[2023.05.03-13.41.19:522][445]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-13.41.19:522][445]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MineswepperMap
+[2023.05.03-13.41.19:522][445]LogWorld: UWorld::CleanupWorld for MineswepperMap, bSessionEnded=true, bCleanupResources=true
+[2023.05.03-13.41.19:523][445]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.41.19:527][445]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.03-13.41.19:531][445]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.41.19:546][445]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-13.41.19:547][445]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.03-13.41.19:547][445]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.03-13.41.19:555][445]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2023.05.03-13.41.19:588][448]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2023.05.03-13.41.51:267][789]LogHotReload: New module detected: UE4Editor-MinesweeperClone-0011.dll
+[2023.05.03-13.41.51:616][791]LogHotReload: Starting Hot-Reload from IDE
+[2023.05.03-13.41.51:673][791]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MinesweeperClone' in 0.0003 seconds. Added 8 classes and 3 folders.
+[2023.05.03-13.41.51:678][791]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2023.05.03-13.41.51:740][791]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0087 seconds. Added 3830 classes and 931 folders.
+[2023.05.03-13.41.51:754][791]Display: HotReload took  0.1s.
+[2023.05.03-13.42.02:748][823]LogHotReload: New module detected: UE4Editor-MinesweeperClone-0012.dll
+[2023.05.03-13.42.03:437][826]LogHotReload: Starting Hot-Reload from IDE
+[2023.05.03-13.42.03:493][826]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MinesweeperClone' in 0.0003 seconds. Added 8 classes and 3 folders.
+[2023.05.03-13.42.03:497][826]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2023.05.03-13.42.03:565][826]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0082 seconds. Added 3830 classes and 931 folders.
+[2023.05.03-13.42.03:575][826]Display: HotReload took  0.1s.
+[2023.05.03-13.42.06:885][978]LogTemp: Repeating last play command: Selected Viewport
+[2023.05.03-13.42.06:889][978]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.03-13.42.06:889][978]PIE: New page: PIE session: MineswepperMap (3 May 2023, 15:42:06)
+[2023.05.03-13.42.06:889][978]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MineswepperMap
+[2023.05.03-13.42.06:890][978]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000813s)
+[2023.05.03-13.42.06:891][978]LogAIModule: Creating AISystem for world MineswepperMap
+[2023.05.03-13.42.06:891][978]LogPlayLevel: PIE: World Init took: (0.000843s)
+[2023.05.03-13.42.06:891][978]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MineswepperMap.MineswepperMap to /Game/UEDPIE_0_MineswepperMap.MineswepperMap (0.001741s)
+[2023.05.03-13.42.06:974][978]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2023.05.03-13.42.06:974][978]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.05.03-13.42.06:974][978]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.03-13.42.06:974][978]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.03-13.42.06:974][978]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.03-13.42.06:974][978]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.03-13.42.06:974][978]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.03-13.42.06:974][978]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.05.03-13.42.06:974][978]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.03-13.42.06:974][978]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.03-13.42.06:974][978]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.03-13.42.06:974][978]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.03-13.42.06:974][978]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.03-13.42.06:974][978]LogAudioMixer: Display: Initializing audio mixer.
+[2023.05.03-13.42.06:977][978]LogAudioMixer: Display: 0: FrontLeft
+[2023.05.03-13.42.06:977][978]LogAudioMixer: Display: 1: FrontRight
+[2023.05.03-13.42.06:977][978]LogAudioMixer: Display: 2: FrontCenter
+[2023.05.03-13.42.06:977][978]LogAudioMixer: Display: 3: LowFrequency
+[2023.05.03-13.42.06:977][978]LogAudioMixer: Display: 4: BackLeft
+[2023.05.03-13.42.06:977][978]LogAudioMixer: Display: 5: BackRight
+[2023.05.03-13.42.06:977][978]LogAudioMixer: Display: 6: SideLeft
+[2023.05.03-13.42.06:977][978]LogAudioMixer: Display: 7: SideRight
+[2023.05.03-13.42.07:103][978]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR VOID ELITE USB Gaming Headset)
+[2023.05.03-13.42.07:103][978]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.03-13.42.07:103][978]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.03-13.42.07:103][978]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.03-13.42.07:104][978]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.05.03-13.42.07:104][978]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.05.03-13.42.07:104][978]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2023.05.03-13.42.07:105][978]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.05.03-13.42.07:105][978]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.05.03-13.42.07:105][978]LogInit: FAudioDevice initialized.
+[2023.05.03-13.42.07:105][978]LogAudio: Display: Audio Device (ID: 10) registered with world 'MineswepperMap'.
+[2023.05.03-13.42.07:109][978]LogLoad: Game class is 'MinesweeperGameMode'
+[2023.05.03-13.42.07:109][978]LogWorld: Bringing World /Game/UEDPIE_0_MineswepperMap.MineswepperMap up for play (max tick rate 0) at 2023.05.03-14.42.07
+[2023.05.03-13.42.07:109][978]LogWorld: Bringing up level for play took: 0.000223
+[2023.05.03-13.42.07:109][978]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2023.05.03-13.42.07:122][978]PIE: Server logged in
+[2023.05.03-13.42.07:122][978]PIE: Play in editor total start time 0.234 seconds.
+[2023.05.03-13.42.14:002][758]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-13.42.14:002][758]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MineswepperMap
+[2023.05.03-13.42.14:002][758]LogWorld: UWorld::CleanupWorld for MineswepperMap, bSessionEnded=true, bCleanupResources=true
+[2023.05.03-13.42.14:002][758]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.42.14:009][758]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.03-13.42.14:012][758]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.42.14:026][758]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.03-13.42.14:027][758]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.03-13.42.14:028][758]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.03-13.42.14:030][758]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-13.42.14:033][758]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2023.05.03-13.42.14:064][761]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2023.05.03-13.42.19:675][ 32]LogTemp: Repeating last play command: Selected Viewport
+[2023.05.03-13.42.19:679][ 32]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.03-13.42.19:679][ 32]PIE: New page: PIE session: MineswepperMap (3 May 2023, 15:42:19)
+[2023.05.03-13.42.19:679][ 32]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MineswepperMap
+[2023.05.03-13.42.19:680][ 32]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000789s)
+[2023.05.03-13.42.19:680][ 32]LogAIModule: Creating AISystem for world MineswepperMap
+[2023.05.03-13.42.19:680][ 32]LogPlayLevel: PIE: World Init took: (0.000663s)
+[2023.05.03-13.42.19:680][ 32]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MineswepperMap.MineswepperMap to /Game/UEDPIE_0_MineswepperMap.MineswepperMap (0.001521s)
+[2023.05.03-13.42.19:698][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2023.05.03-13.42.19:699][ 32]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.05.03-13.42.19:699][ 32]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.03-13.42.19:699][ 32]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.03-13.42.19:699][ 32]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.03-13.42.19:699][ 32]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.03-13.42.19:699][ 32]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.03-13.42.19:699][ 32]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.05.03-13.42.19:699][ 32]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.03-13.42.19:699][ 32]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.03-13.42.19:699][ 32]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.03-13.42.19:699][ 32]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.03-13.42.19:699][ 32]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.03-13.42.19:699][ 32]LogAudioMixer: Display: Initializing audio mixer.
+[2023.05.03-13.42.19:701][ 32]LogAudioMixer: Display: 0: FrontLeft
+[2023.05.03-13.42.19:701][ 32]LogAudioMixer: Display: 1: FrontRight
+[2023.05.03-13.42.19:701][ 32]LogAudioMixer: Display: 2: FrontCenter
+[2023.05.03-13.42.19:701][ 32]LogAudioMixer: Display: 3: LowFrequency
+[2023.05.03-13.42.19:701][ 32]LogAudioMixer: Display: 4: BackLeft
+[2023.05.03-13.42.19:701][ 32]LogAudioMixer: Display: 5: BackRight
+[2023.05.03-13.42.19:701][ 32]LogAudioMixer: Display: 6: SideLeft
+[2023.05.03-13.42.19:701][ 32]LogAudioMixer: Display: 7: SideRight
+[2023.05.03-13.42.19:826][ 32]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR VOID ELITE USB Gaming Headset)
+[2023.05.03-13.42.19:826][ 32]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.03-13.42.19:826][ 32]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.03-13.42.19:826][ 32]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.03-13.42.19:827][ 32]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.05.03-13.42.19:827][ 32]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.05.03-13.42.19:827][ 32]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2023.05.03-13.42.19:827][ 32]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.05.03-13.42.19:827][ 32]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.05.03-13.42.19:827][ 32]LogInit: FAudioDevice initialized.
+[2023.05.03-13.42.19:827][ 32]LogAudio: Display: Audio Device (ID: 11) registered with world 'MineswepperMap'.
+[2023.05.03-13.42.19:832][ 32]LogLoad: Game class is 'MinesweeperGameMode'
+[2023.05.03-13.42.19:832][ 32]LogWorld: Bringing World /Game/UEDPIE_0_MineswepperMap.MineswepperMap up for play (max tick rate 0) at 2023.05.03-14.42.19
+[2023.05.03-13.42.19:832][ 32]LogWorld: Bringing up level for play took: 0.000215
+[2023.05.03-13.42.19:832][ 32]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2023.05.03-13.42.19:844][ 32]PIE: Server logged in
+[2023.05.03-13.42.19:845][ 32]PIE: Play in editor total start time 0.167 seconds.
+[2023.05.03-13.42.22:282][306]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-13.42.22:282][306]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MineswepperMap
+[2023.05.03-13.42.22:282][306]LogWorld: UWorld::CleanupWorld for MineswepperMap, bSessionEnded=true, bCleanupResources=true
+[2023.05.03-13.42.22:282][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.42.22:298][306]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.03-13.42.22:302][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.42.22:318][306]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-13.42.22:318][306]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.03-13.42.22:318][306]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.03-13.42.22:324][306]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2023.05.03-13.42.22:356][309]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2023.05.03-13.42.22:926][362]LogTemp: Repeating last play command: Selected Viewport
+[2023.05.03-13.42.22:931][362]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.03-13.42.22:931][362]PIE: New page: PIE session: MineswepperMap (3 May 2023, 15:42:22)
+[2023.05.03-13.42.22:931][362]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MineswepperMap
+[2023.05.03-13.42.22:932][362]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000804s)
+[2023.05.03-13.42.22:932][362]LogAIModule: Creating AISystem for world MineswepperMap
+[2023.05.03-13.42.22:933][362]LogPlayLevel: PIE: World Init took: (0.000871s)
+[2023.05.03-13.42.22:933][362]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MineswepperMap.MineswepperMap to /Game/UEDPIE_0_MineswepperMap.MineswepperMap (0.001764s)
+[2023.05.03-13.42.22:950][362]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2023.05.03-13.42.22:950][362]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2023.05.03-13.42.22:950][362]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.03-13.42.22:950][362]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.03-13.42.22:950][362]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.03-13.42.22:950][362]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.03-13.42.22:950][362]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.03-13.42.22:950][362]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.05.03-13.42.22:950][362]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.03-13.42.22:950][362]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.03-13.42.22:951][362]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.03-13.42.22:951][362]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.03-13.42.22:951][362]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.03-13.42.22:951][362]LogAudioMixer: Display: Initializing audio mixer.
+[2023.05.03-13.42.22:953][362]LogAudioMixer: Display: 0: FrontLeft
+[2023.05.03-13.42.22:953][362]LogAudioMixer: Display: 1: FrontRight
+[2023.05.03-13.42.22:953][362]LogAudioMixer: Display: 2: FrontCenter
+[2023.05.03-13.42.22:953][362]LogAudioMixer: Display: 3: LowFrequency
+[2023.05.03-13.42.22:953][362]LogAudioMixer: Display: 4: BackLeft
+[2023.05.03-13.42.22:953][362]LogAudioMixer: Display: 5: BackRight
+[2023.05.03-13.42.22:953][362]LogAudioMixer: Display: 6: SideLeft
+[2023.05.03-13.42.22:953][362]LogAudioMixer: Display: 7: SideRight
+[2023.05.03-13.42.23:082][362]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR VOID ELITE USB Gaming Headset)
+[2023.05.03-13.42.23:083][362]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.03-13.42.23:083][362]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.03-13.42.23:083][362]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.03-13.42.23:083][362]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.05.03-13.42.23:083][362]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.05.03-13.42.23:083][362]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2023.05.03-13.42.23:084][362]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.05.03-13.42.23:084][362]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.05.03-13.42.23:084][362]LogInit: FAudioDevice initialized.
+[2023.05.03-13.42.23:084][362]LogAudio: Display: Audio Device (ID: 12) registered with world 'MineswepperMap'.
+[2023.05.03-13.42.23:090][362]LogLoad: Game class is 'MinesweeperGameMode'
+[2023.05.03-13.42.23:091][362]LogWorld: Bringing World /Game/UEDPIE_0_MineswepperMap.MineswepperMap up for play (max tick rate 0) at 2023.05.03-14.42.23
+[2023.05.03-13.42.23:091][362]LogWorld: Bringing up level for play took: 0.000234
+[2023.05.03-13.42.23:091][362]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2023.05.03-13.42.23:102][362]PIE: Server logged in
+[2023.05.03-13.42.23:103][362]PIE: Play in editor total start time 0.173 seconds.
+[2023.05.03-13.42.23:832][437]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-13.42.23:832][437]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MineswepperMap
+[2023.05.03-13.42.23:832][437]LogWorld: UWorld::CleanupWorld for MineswepperMap, bSessionEnded=true, bCleanupResources=true
+[2023.05.03-13.42.23:832][437]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.42.23:855][437]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.03-13.42.23:859][437]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.42.23:874][437]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-13.42.23:874][437]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.03-13.42.23:875][437]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.03-13.42.23:882][437]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2023.05.03-13.42.23:917][441]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2023.05.03-13.42.24:294][473]LogTemp: Repeating last play command: Selected Viewport
+[2023.05.03-13.42.24:297][473]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.03-13.42.24:297][473]PIE: New page: PIE session: MineswepperMap (3 May 2023, 15:42:24)
+[2023.05.03-13.42.24:297][473]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MineswepperMap
+[2023.05.03-13.42.24:298][473]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000741s)
+[2023.05.03-13.42.24:299][473]LogAIModule: Creating AISystem for world MineswepperMap
+[2023.05.03-13.42.24:299][473]LogPlayLevel: PIE: World Init took: (0.000672s)
+[2023.05.03-13.42.24:299][473]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MineswepperMap.MineswepperMap to /Game/UEDPIE_0_MineswepperMap.MineswepperMap (0.001484s)
+[2023.05.03-13.42.24:316][473]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2023.05.03-13.42.24:317][473]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.05.03-13.42.24:317][473]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.03-13.42.24:317][473]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.03-13.42.24:317][473]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.03-13.42.24:317][473]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.03-13.42.24:317][473]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.03-13.42.24:317][473]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.05.03-13.42.24:317][473]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.03-13.42.24:317][473]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.03-13.42.24:317][473]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.03-13.42.24:317][473]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.03-13.42.24:317][473]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.03-13.42.24:317][473]LogAudioMixer: Display: Initializing audio mixer.
+[2023.05.03-13.42.24:319][473]LogAudioMixer: Display: 0: FrontLeft
+[2023.05.03-13.42.24:319][473]LogAudioMixer: Display: 1: FrontRight
+[2023.05.03-13.42.24:319][473]LogAudioMixer: Display: 2: FrontCenter
+[2023.05.03-13.42.24:319][473]LogAudioMixer: Display: 3: LowFrequency
+[2023.05.03-13.42.24:319][473]LogAudioMixer: Display: 4: BackLeft
+[2023.05.03-13.42.24:319][473]LogAudioMixer: Display: 5: BackRight
+[2023.05.03-13.42.24:319][473]LogAudioMixer: Display: 6: SideLeft
+[2023.05.03-13.42.24:319][473]LogAudioMixer: Display: 7: SideRight
+[2023.05.03-13.42.24:440][473]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR VOID ELITE USB Gaming Headset)
+[2023.05.03-13.42.24:440][473]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.03-13.42.24:440][473]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.03-13.42.24:440][473]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.03-13.42.24:441][473]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.05.03-13.42.24:441][473]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.05.03-13.42.24:441][473]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2023.05.03-13.42.24:441][473]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.05.03-13.42.24:441][473]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.05.03-13.42.24:441][473]LogInit: FAudioDevice initialized.
+[2023.05.03-13.42.24:441][473]LogAudio: Display: Audio Device (ID: 13) registered with world 'MineswepperMap'.
+[2023.05.03-13.42.24:449][473]LogLoad: Game class is 'MinesweeperGameMode'
+[2023.05.03-13.42.24:450][473]LogWorld: Bringing World /Game/UEDPIE_0_MineswepperMap.MineswepperMap up for play (max tick rate 0) at 2023.05.03-14.42.24
+[2023.05.03-13.42.24:450][473]LogWorld: Bringing up level for play took: 0.000217
+[2023.05.03-13.42.24:450][473]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2023.05.03-13.42.24:461][473]PIE: Server logged in
+[2023.05.03-13.42.24:462][473]PIE: Play in editor total start time 0.166 seconds.
+[2023.05.03-13.42.25:192][531]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-13.42.25:192][531]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MineswepperMap
+[2023.05.03-13.42.25:192][531]LogWorld: UWorld::CleanupWorld for MineswepperMap, bSessionEnded=true, bCleanupResources=true
+[2023.05.03-13.42.25:192][531]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.42.25:224][531]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.03-13.42.25:227][531]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.42.25:242][531]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-13.42.25:242][531]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.03-13.42.25:243][531]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.03-13.42.25:248][531]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2023.05.03-13.42.25:268][533]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2023.05.03-13.42.25:682][570]LogTemp: Repeating last play command: Selected Viewport
+[2023.05.03-13.42.25:686][570]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.03-13.42.25:686][570]PIE: New page: PIE session: MineswepperMap (3 May 2023, 15:42:25)
+[2023.05.03-13.42.25:686][570]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MineswepperMap
+[2023.05.03-13.42.25:687][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000836s)
+[2023.05.03-13.42.25:687][570]LogAIModule: Creating AISystem for world MineswepperMap
+[2023.05.03-13.42.25:687][570]LogPlayLevel: PIE: World Init took: (0.000699s)
+[2023.05.03-13.42.25:687][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MineswepperMap.MineswepperMap to /Game/UEDPIE_0_MineswepperMap.MineswepperMap (0.001608s)
+[2023.05.03-13.42.25:705][570]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2023.05.03-13.42.25:705][570]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.05.03-13.42.25:705][570]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.03-13.42.25:705][570]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.03-13.42.25:705][570]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.03-13.42.25:705][570]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.03-13.42.25:705][570]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.03-13.42.25:705][570]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.05.03-13.42.25:705][570]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.03-13.42.25:705][570]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.03-13.42.25:706][570]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.03-13.42.25:706][570]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.03-13.42.25:706][570]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.03-13.42.25:706][570]LogAudioMixer: Display: Initializing audio mixer.
+[2023.05.03-13.42.25:708][570]LogAudioMixer: Display: 0: FrontLeft
+[2023.05.03-13.42.25:708][570]LogAudioMixer: Display: 1: FrontRight
+[2023.05.03-13.42.25:708][570]LogAudioMixer: Display: 2: FrontCenter
+[2023.05.03-13.42.25:708][570]LogAudioMixer: Display: 3: LowFrequency
+[2023.05.03-13.42.25:708][570]LogAudioMixer: Display: 4: BackLeft
+[2023.05.03-13.42.25:708][570]LogAudioMixer: Display: 5: BackRight
+[2023.05.03-13.42.25:708][570]LogAudioMixer: Display: 6: SideLeft
+[2023.05.03-13.42.25:708][570]LogAudioMixer: Display: 7: SideRight
+[2023.05.03-13.42.25:830][570]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR VOID ELITE USB Gaming Headset)
+[2023.05.03-13.42.25:830][570]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.03-13.42.25:830][570]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.03-13.42.25:830][570]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.03-13.42.25:831][570]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.05.03-13.42.25:831][570]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.05.03-13.42.25:831][570]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2023.05.03-13.42.25:832][570]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.05.03-13.42.25:832][570]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.05.03-13.42.25:832][570]LogInit: FAudioDevice initialized.
+[2023.05.03-13.42.25:832][570]LogAudio: Display: Audio Device (ID: 14) registered with world 'MineswepperMap'.
+[2023.05.03-13.42.25:838][570]LogLoad: Game class is 'MinesweeperGameMode'
+[2023.05.03-13.42.25:838][570]LogWorld: Bringing World /Game/UEDPIE_0_MineswepperMap.MineswepperMap up for play (max tick rate 0) at 2023.05.03-14.42.25
+[2023.05.03-13.42.25:838][570]LogWorld: Bringing up level for play took: 0.000230
+[2023.05.03-13.42.25:838][570]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2023.05.03-13.42.25:851][570]PIE: Server logged in
+[2023.05.03-13.42.25:851][570]PIE: Play in editor total start time 0.166 seconds.
+[2023.05.03-13.42.26:652][641]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-13.42.26:652][641]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MineswepperMap
+[2023.05.03-13.42.26:652][641]LogWorld: UWorld::CleanupWorld for MineswepperMap, bSessionEnded=true, bCleanupResources=true
+[2023.05.03-13.42.26:653][641]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.42.26:659][641]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.03-13.42.26:662][641]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.42.26:678][641]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-13.42.26:678][641]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.03-13.42.26:679][641]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.03-13.42.26:684][641]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2023.05.03-13.42.26:712][644]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2023.05.03-13.42.27:100][680]LogTemp: Repeating last play command: Selected Viewport
+[2023.05.03-13.42.27:104][680]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.03-13.42.27:104][680]PIE: New page: PIE session: MineswepperMap (3 May 2023, 15:42:27)
+[2023.05.03-13.42.27:104][680]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MineswepperMap
+[2023.05.03-13.42.27:105][680]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000806s)
+[2023.05.03-13.42.27:106][680]LogAIModule: Creating AISystem for world MineswepperMap
+[2023.05.03-13.42.27:106][680]LogPlayLevel: PIE: World Init took: (0.000700s)
+[2023.05.03-13.42.27:106][680]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MineswepperMap.MineswepperMap to /Game/UEDPIE_0_MineswepperMap.MineswepperMap (0.001582s)
+[2023.05.03-13.42.27:124][680]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2023.05.03-13.42.27:124][680]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.05.03-13.42.27:124][680]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.03-13.42.27:124][680]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.03-13.42.27:124][680]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.03-13.42.27:124][680]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.03-13.42.27:124][680]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.03-13.42.27:124][680]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.05.03-13.42.27:124][680]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.03-13.42.27:124][680]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.03-13.42.27:124][680]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.03-13.42.27:124][680]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.03-13.42.27:124][680]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.03-13.42.27:124][680]LogAudioMixer: Display: Initializing audio mixer.
+[2023.05.03-13.42.27:127][680]LogAudioMixer: Display: 0: FrontLeft
+[2023.05.03-13.42.27:127][680]LogAudioMixer: Display: 1: FrontRight
+[2023.05.03-13.42.27:127][680]LogAudioMixer: Display: 2: FrontCenter
+[2023.05.03-13.42.27:127][680]LogAudioMixer: Display: 3: LowFrequency
+[2023.05.03-13.42.27:127][680]LogAudioMixer: Display: 4: BackLeft
+[2023.05.03-13.42.27:127][680]LogAudioMixer: Display: 5: BackRight
+[2023.05.03-13.42.27:127][680]LogAudioMixer: Display: 6: SideLeft
+[2023.05.03-13.42.27:127][680]LogAudioMixer: Display: 7: SideRight
+[2023.05.03-13.42.27:257][680]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR VOID ELITE USB Gaming Headset)
+[2023.05.03-13.42.27:257][680]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.03-13.42.27:257][680]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.03-13.42.27:257][680]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.03-13.42.27:257][680]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.05.03-13.42.27:257][680]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.05.03-13.42.27:257][680]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2023.05.03-13.42.27:258][680]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.05.03-13.42.27:258][680]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.05.03-13.42.27:258][680]LogInit: FAudioDevice initialized.
+[2023.05.03-13.42.27:258][680]LogAudio: Display: Audio Device (ID: 15) registered with world 'MineswepperMap'.
+[2023.05.03-13.42.27:267][680]LogLoad: Game class is 'MinesweeperGameMode'
+[2023.05.03-13.42.27:267][680]LogWorld: Bringing World /Game/UEDPIE_0_MineswepperMap.MineswepperMap up for play (max tick rate 0) at 2023.05.03-14.42.27
+[2023.05.03-13.42.27:267][680]LogWorld: Bringing up level for play took: 0.000228
+[2023.05.03-13.42.27:267][680]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2023.05.03-13.42.27:279][680]PIE: Server logged in
+[2023.05.03-13.42.27:280][680]PIE: Play in editor total start time 0.176 seconds.
+[2023.05.03-13.42.28:042][752]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-13.42.28:042][752]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MineswepperMap
+[2023.05.03-13.42.28:042][752]LogWorld: UWorld::CleanupWorld for MineswepperMap, bSessionEnded=true, bCleanupResources=true
+[2023.05.03-13.42.28:042][752]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.42.28:049][752]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.03-13.42.28:052][752]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.42.28:068][752]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-13.42.28:068][752]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.03-13.42.28:069][752]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.03-13.42.28:073][752]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2023.05.03-13.42.28:115][756]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2023.05.03-13.42.28:558][788]LogTemp: Repeating last play command: Selected Viewport
+[2023.05.03-13.42.28:561][788]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.03-13.42.28:562][788]PIE: New page: PIE session: MineswepperMap (3 May 2023, 15:42:28)
+[2023.05.03-13.42.28:562][788]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MineswepperMap
+[2023.05.03-13.42.28:563][788]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000958s)
+[2023.05.03-13.42.28:564][788]LogAIModule: Creating AISystem for world MineswepperMap
+[2023.05.03-13.42.28:564][788]LogPlayLevel: PIE: World Init took: (0.001092s)
+[2023.05.03-13.42.28:564][788]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MineswepperMap.MineswepperMap to /Game/UEDPIE_0_MineswepperMap.MineswepperMap (0.002124s)
+[2023.05.03-13.42.28:581][788]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2023.05.03-13.42.28:582][788]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.05.03-13.42.28:582][788]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.03-13.42.28:582][788]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.03-13.42.28:582][788]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.03-13.42.28:582][788]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.03-13.42.28:582][788]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.03-13.42.28:582][788]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.05.03-13.42.28:582][788]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.03-13.42.28:582][788]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.03-13.42.28:582][788]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.03-13.42.28:582][788]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.03-13.42.28:582][788]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.03-13.42.28:582][788]LogAudioMixer: Display: Initializing audio mixer.
+[2023.05.03-13.42.28:584][788]LogAudioMixer: Display: 0: FrontLeft
+[2023.05.03-13.42.28:584][788]LogAudioMixer: Display: 1: FrontRight
+[2023.05.03-13.42.28:584][788]LogAudioMixer: Display: 2: FrontCenter
+[2023.05.03-13.42.28:584][788]LogAudioMixer: Display: 3: LowFrequency
+[2023.05.03-13.42.28:584][788]LogAudioMixer: Display: 4: BackLeft
+[2023.05.03-13.42.28:584][788]LogAudioMixer: Display: 5: BackRight
+[2023.05.03-13.42.28:584][788]LogAudioMixer: Display: 6: SideLeft
+[2023.05.03-13.42.28:584][788]LogAudioMixer: Display: 7: SideRight
+[2023.05.03-13.42.28:704][788]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR VOID ELITE USB Gaming Headset)
+[2023.05.03-13.42.28:705][788]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.03-13.42.28:705][788]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.03-13.42.28:705][788]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.03-13.42.28:705][788]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.05.03-13.42.28:705][788]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.05.03-13.42.28:705][788]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2023.05.03-13.42.28:706][788]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.05.03-13.42.28:706][788]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.05.03-13.42.28:706][788]LogInit: FAudioDevice initialized.
+[2023.05.03-13.42.28:706][788]LogAudio: Display: Audio Device (ID: 16) registered with world 'MineswepperMap'.
+[2023.05.03-13.42.28:714][788]LogLoad: Game class is 'MinesweeperGameMode'
+[2023.05.03-13.42.28:715][788]LogWorld: Bringing World /Game/UEDPIE_0_MineswepperMap.MineswepperMap up for play (max tick rate 0) at 2023.05.03-14.42.28
+[2023.05.03-13.42.28:715][788]LogWorld: Bringing up level for play took: 0.000225
+[2023.05.03-13.42.28:715][788]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2023.05.03-13.42.28:726][788]PIE: Server logged in
+[2023.05.03-13.42.28:727][788]PIE: Play in editor total start time 0.166 seconds.
+[2023.05.03-13.42.33:463][298]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-13.42.33:463][298]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MineswepperMap
+[2023.05.03-13.42.33:463][298]LogWorld: UWorld::CleanupWorld for MineswepperMap, bSessionEnded=true, bCleanupResources=true
+[2023.05.03-13.42.33:464][298]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.42.33:541][298]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.03-13.42.33:545][298]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.42.33:560][298]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-13.42.33:560][298]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.03-13.42.33:561][298]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.03-13.42.33:566][298]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2023.05.03-13.42.33:576][299]LogPlayLevel: Display: Destroying online subsystem :Context_20

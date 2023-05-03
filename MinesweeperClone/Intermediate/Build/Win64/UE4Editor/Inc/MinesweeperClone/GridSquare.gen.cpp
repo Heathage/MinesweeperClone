@@ -36,6 +36,11 @@ void EmptyLinkFunctionForGeneratedCodeGridSquare() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_OwningGrid_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_OwningGrid;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_IsMine_MetaData[];
+#endif
+		static void NewProp_IsMine_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_IsMine;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -56,8 +61,20 @@ void EmptyLinkFunctionForGeneratedCodeGridSquare() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGridSquare_Statics::NewProp_OwningGrid = { "OwningGrid", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGridSquare, OwningGrid), Z_Construct_UClass_AMinesweeperGrid_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGridSquare_Statics::NewProp_OwningGrid_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGridSquare_Statics::NewProp_OwningGrid_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGridSquare_Statics::NewProp_IsMine_MetaData[] = {
+		{ "Category", "GridSquare" },
+		{ "ModuleRelativePath", "Public/GridSquare.h" },
+	};
+#endif
+	void Z_Construct_UClass_AGridSquare_Statics::NewProp_IsMine_SetBit(void* Obj)
+	{
+		((AGridSquare*)Obj)->IsMine = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AGridSquare_Statics::NewProp_IsMine = { "IsMine", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AGridSquare), &Z_Construct_UClass_AGridSquare_Statics::NewProp_IsMine_SetBit, METADATA_PARAMS(Z_Construct_UClass_AGridSquare_Statics::NewProp_IsMine_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGridSquare_Statics::NewProp_IsMine_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGridSquare_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGridSquare_Statics::NewProp_OwningGrid,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGridSquare_Statics::NewProp_IsMine,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AGridSquare_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AGridSquare>::IsAbstract,
@@ -86,7 +103,7 @@ void EmptyLinkFunctionForGeneratedCodeGridSquare() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGridSquare, 2967029187);
+	IMPLEMENT_CLASS(AGridSquare, 1945385546);
 	template<> MINESWEEPERCLONE_API UClass* StaticClass<AGridSquare>()
 	{
 		return AGridSquare::StaticClass();

@@ -61,7 +61,7 @@ void EmptyLinkFunctionForGeneratedCodeMinesweeperGrid() {}
 		{ "ModuleRelativePath", "MinesweeperGrid.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMinesweeperGrid_Statics::NewProp_GridSquare = { "GridSquare", nullptr, (EPropertyFlags)0x0014000000010001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMinesweeperGrid, GridSquare), Z_Construct_UClass_AGridSquare_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMinesweeperGrid_Statics::NewProp_GridSquare_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMinesweeperGrid_Statics::NewProp_GridSquare_MetaData)) };
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMinesweeperGrid_Statics::NewProp_GridSquare = { "GridSquare", nullptr, (EPropertyFlags)0x0014000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMinesweeperGrid, GridSquare), Z_Construct_UClass_AGridSquare_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMinesweeperGrid_Statics::NewProp_GridSquare_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMinesweeperGrid_Statics::NewProp_GridSquare_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMinesweeperGrid_Statics::NewProp_GridSize_MetaData[] = {
 		{ "Category", "Grid" },
@@ -100,7 +100,7 @@ void EmptyLinkFunctionForGeneratedCodeMinesweeperGrid() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMinesweeperGrid, 1739171169);
+	IMPLEMENT_CLASS(AMinesweeperGrid, 2453195342);
 	template<> MINESWEEPERCLONE_API UClass* StaticClass<AMinesweeperGrid>()
 	{
 		return AMinesweeperGrid::StaticClass();
