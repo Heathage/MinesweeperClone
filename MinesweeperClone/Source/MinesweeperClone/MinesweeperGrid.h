@@ -22,10 +22,10 @@ public:
 
 	UPROPERTY(Category = Grid, EditAnywhere, BlueprintReadOnly)
 	int32 GridSize;
-	uint32 CellSpacing;
+	int32 CellSpacing;
 
 private:
-	uint32 NumGridCells;
+	int32 NumGridCells;
 
 protected:
 	// Called when the game starts or when spawned

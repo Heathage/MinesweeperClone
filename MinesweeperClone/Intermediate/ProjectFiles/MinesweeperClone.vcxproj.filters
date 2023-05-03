@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\MinesweeperClone.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{B3CFCB98-202C-49B4-AB72-9FD827C64CB2}</UniqueIdentifier>
+      <UniqueIdentifier>{EA387738-3500-45CA-A42C-36F4D719660D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MinesweeperClone.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{4DA125F1-4626-410E-8C03-0DB1C0267BB0}</UniqueIdentifier>
+      <UniqueIdentifier>{36AABA15-B6D8-468E-8BC5-5942835358A7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\MinesweeperClone">
-      <UniqueIdentifier>{BE9F3A12-B71A-48C9-846D-1F0086312B93}</UniqueIdentifier>
+      <UniqueIdentifier>{0BBCFBCC-6847-4400-8B37-9C27F15965CB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MinesweeperClone\MinesweeperClone.Build.cs">
       <Filter>Source\MinesweeperClone</Filter>
@@ -78,7 +78,7 @@
       <Filter>Source\MinesweeperClone</Filter>
     </ClInclude>
     <Filter Include="Source\MinesweeperClone\Private">
-      <UniqueIdentifier>{77ED56CD-284D-4406-ABC7-7E126F9D0B6D}</UniqueIdentifier>
+      <UniqueIdentifier>{AE4A7252-CE16-4FFF-83D5-6B0CE1567DAA}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MinesweeperClone\Private\GridSquare.cpp">
       <Filter>Source\MinesweeperClone\Private</Filter>
@@ -87,7 +87,7 @@
       <Filter>Source\MinesweeperClone\Private</Filter>
     </ClCompile>
     <Filter Include="Source\MinesweeperClone\Public">
-      <UniqueIdentifier>{C207C356-CD05-41CD-B979-5384F12CBE9A}</UniqueIdentifier>
+      <UniqueIdentifier>{8492654E-00ED-4FAB-951B-E5ABB5900712}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\MinesweeperClone\Public\GridSquare.h">
       <Filter>Source\MinesweeperClone\Public</Filter>

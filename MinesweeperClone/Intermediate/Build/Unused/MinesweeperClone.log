@@ -1,13 +1,3 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\FlixInteractive\MinesweeperClone).
-  Building MinesweeperCloneEditor...
-  Using Visual Studio 2022 14.34.31937 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933) and Windows 10.0.22000.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 24 processes...
-    [1/4] MinesweeperGrid.cpp
-D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Source\MinesweeperClone\MinesweeperGrid.cpp(16): error C2679: binary '=': no operator found which takes a right-hand operand of type 'const char [34]' (or there is no acceptable conversion)
-    D:\EpicGames\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(127): note: could be 'TSubclassOf<AGridSquare> &TSubclassOf<AGridSquare>::operator =(TSubclassOf<AGridSquare> &&)'
-    D:\EpicGames\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(127): note: or       'TSubclassOf<AGridSquare> &TSubclassOf<AGridSquare>::operator =(const TSubclassOf<AGridSquare> &)'
-    D:\EpicGames\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(55): note: or       'TSubclassOf<AGridSquare> &TSubclassOf<AGridSquare>::operator =(UClass *)'
-    D:\EpicGames\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\Templates/SubclassOf.h(48): note: or       'TSubclassOf<AGridSquare> &TSubclassOf<AGridSquare>::operator =(const TSubclassOf<TClassA> &)'
-    D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Source\MinesweeperClone\MinesweeperGrid.cpp(16): note: 'TSubclassOf<AGridSquare> &TSubclassOf<AGridSquare>::operator =(const TSubclassOf<TClassA> &)': could not deduce template argument for 'const TSubclassOf<TClassA> &' from 'const char [34]'
-    D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Source\MinesweeperClone\MinesweeperGrid.cpp(16): note: while trying to match the argument list '(TSubclassOf<AGridSquare>, const char [34])'
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets(44,5): error MSB3073: The command "D:\EpicGames\UE_4.27\Engine\Build\BatchFiles\Build.bat MinesweeperCloneEditor Win64 Development -Project="D:\FlixInteractive\MinesweeperClone\MinesweeperClone\MinesweeperClone.uproject" -WaitMutex -FromMsBuild" exited with code 6.
+  Target is up to date
+  Total execution time: 0.40 seconds

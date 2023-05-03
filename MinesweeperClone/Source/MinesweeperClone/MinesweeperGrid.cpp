@@ -11,10 +11,13 @@ AMinesweeperGrid::AMinesweeperGrid()
 	PrimaryActorTick.bCanEverTick = true;
 
 	GridSize = 10;
-	CellSpacing = 300;
+	CellSpacing = 100;
 
-	//GridSquare = 
-
+	static ConstructorHelpers::FObjectFinder<UBlueprint>ItemBlueprint(TEXT("Blueprint'/Game/MyBlueprints/BP_MyGridSquare'"));
+	if (ItemBlueprint.Object)
+	{
+		GridSquare = (UClass*)ItemBlueprint.Object->GeneratedClass;
+	}
 }
 
 // Called when the game starts or when spawned
@@ -24,7 +27,7 @@ void AMinesweeperGrid::BeginPlay()
 
 	NumGridCells = GridSize * GridSize;
 
-	for (uint32 i = 0; i < NumGridCells; i++)
+	for (int32 i = 0; i < NumGridCells; i++)
 	{
 		const float XOffset = (i / GridSize) * CellSpacing;
 		const float YOffset = (i % GridSize) * CellSpacing;
