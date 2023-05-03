@@ -13,7 +13,7 @@ AMinesweeperGrid::AMinesweeperGrid()
 	GridSize = 10;
 	CellSpacing = 100;
 
-	static ConstructorHelpers::FObjectFinder<UBlueprint>ItemBlueprint(TEXT("Blueprint'/Game/MyBlueprints/BP_MyGridSquare'"));
+	static ConstructorHelpers::FObjectFinder<UBlueprint>ItemBlueprint(TEXT("Blueprint'/Game/MyBlueprints/BP_GridSquare'"));
 	if (ItemBlueprint.Object)
 	{
 		GridSquare = (UClass*)ItemBlueprint.Object->GeneratedClass;
@@ -72,7 +72,7 @@ void AMinesweeperGrid::SetMines()
 
 		if (ListOfGridSquares[Random]->IsMine == false)
 		{
-			ListOfGridSquares[Random]->IsMine = true;
+			ListOfGridSquares[Random]->SetMineMaterial();
 			GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Red, TEXT("Set Mine"));
 		}
 	}

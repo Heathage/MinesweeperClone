@@ -9,3 +9,5 @@ D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Source\MinesweeperClone\Pri
 D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Inc\MinesweeperClone\MinesweeperClonePawn.generated.h
 D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Source\MinesweeperClone\Private\../MinesweeperGrid.h
 D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Inc\MinesweeperClone\MinesweeperGrid.generated.h
+D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Source\MinesweeperClone\Private\../Public/MyPawn.h
+D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Inc\MinesweeperClone\MyPawn.generated.h

@@ -1,8 +1,10 @@
 D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Source\MinesweeperClone\Public\GridSquare.h
 D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Source\MinesweeperClone\Public\MinesweeperGameMode.h
-D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Source\MinesweeperClone\MinesweeperClonePawn.h
-D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Source\MinesweeperClone\MinesweeperGrid.h
-D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Source\MinesweeperClone\MinesweeperCloneGameMode.h
+D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Source\MinesweeperClone\Public\MyPawn.h
+D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Source\MinesweeperClone\Public\MyPlayerController.h
 D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Source\MinesweeperClone\MinesweeperCloneBlock.h
-D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Source\MinesweeperClone\MinesweeperClonePlayerController.h
 D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Source\MinesweeperClone\MinesweeperCloneBlockGrid.h
+D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Source\MinesweeperClone\MinesweeperCloneGameMode.h
+D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Source\MinesweeperClone\MinesweeperClonePawn.h
+D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Source\MinesweeperClone\MinesweeperClonePlayerController.h
+D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Source\MinesweeperClone\MinesweeperGrid.h

@@ -20,7 +20,30 @@ public:
 
 	UPROPERTY(VisibleAnywhere)
 	bool IsMine;
+
+	UPROPERTY(VisibleAnywhere)
+	uint8 bIsFlipped:1;
+
 	int32 NumNeighbouringMines;
+
+	UPROPERTY(VisibleAnywhere)
+	UMaterial* Mine;
+
+	UPROPERTY(VisibleAnywhere)
+	UMaterial* Flag;
+
+	UPROPERTY(EditAnywhere)
+	UStaticMeshComponent* FrontPlane;
+
+	UPROPERTY(EditAnywhere)
+	UStaticMeshComponent* BackPlane;
+
+	UPROPERTY(VisibleAnywhere)
+	USceneComponent* Root;
+
+	
+
+	
 
 protected:
 	// Called when the game starts or when spawned
@@ -29,5 +52,11 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	void SetMineMaterial();
+
+	void SetFlagMaterial();
+
+	void FlipCell();
 
 };

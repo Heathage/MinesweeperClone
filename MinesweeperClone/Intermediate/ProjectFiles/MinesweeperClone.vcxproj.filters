@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\MinesweeperClone.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{EA387738-3500-45CA-A42C-36F4D719660D}</UniqueIdentifier>
+      <UniqueIdentifier>{1497019A-3528-41E7-AE54-4523DD1C92A6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MinesweeperClone.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{36AABA15-B6D8-468E-8BC5-5942835358A7}</UniqueIdentifier>
+      <UniqueIdentifier>{D3FF831E-5625-49FC-B7E6-A5526E526AED}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\MinesweeperClone">
-      <UniqueIdentifier>{0BBCFBCC-6847-4400-8B37-9C27F15965CB}</UniqueIdentifier>
+      <UniqueIdentifier>{E2F18546-9C73-4E36-86B5-55EE16C1DF60}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\MinesweeperClone\MinesweeperClone.Build.cs">
       <Filter>Source\MinesweeperClone</Filter>
@@ -78,7 +78,7 @@
       <Filter>Source\MinesweeperClone</Filter>
     </ClInclude>
     <Filter Include="Source\MinesweeperClone\Private">
-      <UniqueIdentifier>{AE4A7252-CE16-4FFF-83D5-6B0CE1567DAA}</UniqueIdentifier>
+      <UniqueIdentifier>{E5F2C57F-5082-42C1-B5D6-2E4428500879}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\MinesweeperClone\Private\GridSquare.cpp">
       <Filter>Source\MinesweeperClone\Private</Filter>
@@ -86,13 +86,25 @@
     <ClCompile Include="..\..\Source\MinesweeperClone\Private\MinesweeperGameMode.cpp">
       <Filter>Source\MinesweeperClone\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\MinesweeperClone\Private\MyPawn.cpp">
+      <Filter>Source\MinesweeperClone\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MinesweeperClone\Private\MyPlayerController.cpp">
+      <Filter>Source\MinesweeperClone\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\MinesweeperClone\Public">
-      <UniqueIdentifier>{8492654E-00ED-4FAB-951B-E5ABB5900712}</UniqueIdentifier>
+      <UniqueIdentifier>{ABAEC2E6-7E05-43C1-A1FA-87EF2983370D}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\MinesweeperClone\Public\GridSquare.h">
       <Filter>Source\MinesweeperClone\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\MinesweeperClone\Public\MinesweeperGameMode.h">
+      <Filter>Source\MinesweeperClone\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MinesweeperClone\Public\MyPawn.h">
+      <Filter>Source\MinesweeperClone\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MinesweeperClone\Public\MyPlayerController.h">
       <Filter>Source\MinesweeperClone\Public</Filter>
     </ClInclude>
   </ItemGroup>

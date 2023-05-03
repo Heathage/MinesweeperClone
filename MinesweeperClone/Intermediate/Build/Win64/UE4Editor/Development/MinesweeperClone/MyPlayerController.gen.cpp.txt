@@ -1,0 +1,5 @@
+D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\Definitions.MinesweeperClone.h
+D:\EpicGames\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\EpicGames\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Source\MinesweeperClone/Public/MyPlayerController.h
+D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Inc\MinesweeperClone\MyPlayerController.generated.h

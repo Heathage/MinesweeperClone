@@ -2,6 +2,7 @@
 
 #include "MinesweeperClonePawn.h"
 #include "MinesweeperCloneBlock.h"
+#include "GridSquare.h"
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/PlayerController.h"
@@ -61,9 +62,11 @@ void AMinesweeperClonePawn::OnResetVR()
 
 void AMinesweeperClonePawn::TriggerClick()
 {
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, TEXT("Click"));
 	if (CurrentBlockFocus)
 	{
-		CurrentBlockFocus->HandleClicked();
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, TEXT("Click"));
+		CurrentBlockFocus->FlipCell();
 	}
 }
 
@@ -78,23 +81,20 @@ void AMinesweeperClonePawn::TraceForBlock(const FVector& Start, const FVector& E
 	}
 	if (HitResult.Actor.IsValid())
 	{
-		AMinesweeperCloneBlock* HitBlock = Cast<AMinesweeperCloneBlock>(HitResult.Actor.Get());
+		AGridSquare* HitBlock = Cast<AGridSquare>(HitResult.Actor.Get());
 		if (CurrentBlockFocus != HitBlock)
 		{
 			if (CurrentBlockFocus)
 			{
-				CurrentBlockFocus->Highlight(false);
 			}
 			if (HitBlock)
 			{
-				HitBlock->Highlight(true);
 			}
 			CurrentBlockFocus = HitBlock;
 		}
 	}
 	else if (CurrentBlockFocus)
 	{
-		CurrentBlockFocus->Highlight(false);
 		CurrentBlockFocus = nullptr;
 	}
 }

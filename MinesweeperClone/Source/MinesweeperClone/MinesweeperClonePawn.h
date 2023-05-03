@@ -25,5 +25,5 @@ protected:
 	void TraceForBlock(const FVector& Start, const FVector& End, bool bDrawDebugHelpers);
 
 	UPROPERTY(EditInstanceOnly, BlueprintReadWrite)
-	class AMinesweeperCloneBlock* CurrentBlockFocus;
+	class AGridSquare* CurrentBlockFocus;
 };

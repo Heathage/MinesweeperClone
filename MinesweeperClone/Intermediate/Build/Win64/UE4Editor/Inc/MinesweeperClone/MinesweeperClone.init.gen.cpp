@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeMinesweeperClone_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x880B4AAE,
-				0xCD9C6999,
+				0x219A20AE,
+				0x048E745D,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

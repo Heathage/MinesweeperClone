@@ -3,6 +3,8 @@ D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Source\MinesweeperClone\Min
 D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Inc\MinesweeperClone\MinesweeperClonePawn.generated.h
 D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Source\MinesweeperClone\MinesweeperCloneBlock.h
 D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Inc\MinesweeperClone\MinesweeperCloneBlock.generated.h
+D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Source\MinesweeperClone\Public\GridSquare.h
+D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Inc\MinesweeperClone\GridSquare.generated.h
 D:\EpicGames\UE_4.27\Engine\Source\Runtime\HeadMountedDisplay\Public\HeadMountedDisplayFunctionLibrary.h
 D:\EpicGames\UE_4.27\Engine\Source\Runtime\HeadMountedDisplay\Public\HeadMountedDisplayTypes.h
 D:\EpicGames\UE_4.27\Engine\Source\Runtime\HeadMountedDisplay\Public\IMotionController.h

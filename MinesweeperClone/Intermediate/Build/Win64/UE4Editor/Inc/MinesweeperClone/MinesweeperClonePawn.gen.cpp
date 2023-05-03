@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeMinesweeperClonePawn() {}
 	MINESWEEPERCLONE_API UClass* Z_Construct_UClass_AMinesweeperClonePawn();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_MinesweeperClone();
-	MINESWEEPERCLONE_API UClass* Z_Construct_UClass_AMinesweeperCloneBlock_NoRegister();
+	MINESWEEPERCLONE_API UClass* Z_Construct_UClass_AGridSquare_NoRegister();
 // End Cross Module References
 	void AMinesweeperClonePawn::StaticRegisterNativesAMinesweeperClonePawn()
 	{
@@ -57,7 +57,7 @@ void EmptyLinkFunctionForGeneratedCodeMinesweeperClonePawn() {}
 		{ "ModuleRelativePath", "MinesweeperClonePawn.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMinesweeperClonePawn_Statics::NewProp_CurrentBlockFocus = { "CurrentBlockFocus", nullptr, (EPropertyFlags)0x0020080000000805, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMinesweeperClonePawn, CurrentBlockFocus), Z_Construct_UClass_AMinesweeperCloneBlock_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMinesweeperClonePawn_Statics::NewProp_CurrentBlockFocus_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMinesweeperClonePawn_Statics::NewProp_CurrentBlockFocus_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMinesweeperClonePawn_Statics::NewProp_CurrentBlockFocus = { "CurrentBlockFocus", nullptr, (EPropertyFlags)0x0020080000000805, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMinesweeperClonePawn, CurrentBlockFocus), Z_Construct_UClass_AGridSquare_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMinesweeperClonePawn_Statics::NewProp_CurrentBlockFocus_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMinesweeperClonePawn_Statics::NewProp_CurrentBlockFocus_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMinesweeperClonePawn_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMinesweeperClonePawn_Statics::NewProp_CurrentBlockFocus,
 	};
@@ -88,7 +88,7 @@ void EmptyLinkFunctionForGeneratedCodeMinesweeperClonePawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMinesweeperClonePawn, 1761947145);
+	IMPLEMENT_CLASS(AMinesweeperClonePawn, 3675238215);
 	template<> MINESWEEPERCLONE_API UClass* StaticClass<AMinesweeperClonePawn>()
 	{
 		return AMinesweeperClonePawn::StaticClass();
