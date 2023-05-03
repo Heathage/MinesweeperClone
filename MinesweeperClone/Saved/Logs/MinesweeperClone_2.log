@@ -2030,3 +2030,110 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.05.03-13.56.45:305][997]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0089 seconds. Added 3830 classes and 931 folders.
 [2023.05.03-13.56.45:317][997]Display: HotReload took  0.1s.
 [2023.05.03-14.01.01:328][369]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2023.05.03-14.01.47:349][145]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.05.03-14.01.47:364][145]LogContentBrowser: Creating deferred item: NewFolder
+[2023.05.03-14.01.56:494][195]LogContentBrowser: Attempting asset rename: NewFolder -> Materials
+[2023.05.03-14.01.56:494][195]LogContentBrowser: End creating deferred item NewFolder
+[2023.05.03-14.02.13:318][ 15]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2023.05.03-14.02.13:326][ 15]LogContentBrowser: Creating deferred item: NewMaterial
+[2023.05.03-14.02.14:644][166]LogContentBrowser: Attempting asset rename: NewMaterial -> NewMaterial
+[2023.05.03-14.02.14:699][166]LogContentBrowser: End creating deferred item NewMaterial
+[2023.05.03-14.02.16:632][379]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2023.05.03-14.02.17:761][379]LogSlate: Window 'Delete Assets' being destroyed
+[2023.05.03-14.02.17:818][379]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.05.03-14.02.28:472][819]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../FlixInteractive/T_Mine.png)
+[2023.05.03-14.02.28:475][819]LogTexture: Display: Building textures: T_Mine (OODLE_AutoDXT, 256X256)
+[2023.05.03-14.02.42:441][344]LogContentBrowser: Attempting asset rename: Materials -> Textures
+[2023.05.03-14.02.42:537][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/T_Mine" FILE="../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/T_Mine.uasset" SILENT=true
+[2023.05.03-14.02.42:562][344]LogSavePackage: Moving '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/T_MineDF2A72B1492BC12C9BD1F1842B7E43DA.tmp' to '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/T_Mine.uasset'
+[2023.05.03-14.02.42:626][344]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2023.05.03-14.02.42:650][344]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.05.03-14.02.42:664][344]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.05.03-14.02.42:692][344]AssetCheck: New page: Asset Save: T_Mine
+[2023.05.03-14.02.42:692][344]LogContentValidation: Display: Validating Texture2D /Game/Textures/T_Mine.T_Mine
+[2023.05.03-14.02.55:009][339]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../FlixInteractive/T_Flag.png)
+[2023.05.03-14.02.55:010][339]LogTexture: Display: Building textures: T_Flag (OODLE_AutoDXT, 256X256)
+[2023.05.03-14.02.59:855][816]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2023.05.03-14.02.59:909][816]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/T_Flag" FILE="../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/T_Flag.uasset" SILENT=true
+[2023.05.03-14.02.59:912][816]LogSavePackage: Moving '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/T_Flag2F698EE94A5542DC40FB7397D60C4AF4.tmp' to '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/T_Flag.uasset'
+[2023.05.03-14.02.59:925][816]AssetCheck: New page: Asset Save: T_Flag
+[2023.05.03-14.02.59:925][816]LogContentValidation: Display: Validating Texture2D /Game/Textures/T_Flag.T_Flag
+[2023.05.03-14.03.56:093][490]LogContentBrowser: Deferred new asset file creation: T_Flag_Mat
+[2023.05.03-14.03.56:102][490]LogContentBrowser: Creating deferred item: T_Flag_Mat
+[2023.05.03-14.03.58:745][803]LogContentBrowser: Attempting asset rename: T_Flag_Mat -> T_Flag_Mat
+[2023.05.03-14.03.58:747][803]LogMaterial: Display: Missing cached shadermap for T_Flag_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 2C713779C2B0BD3913353436AF461658F7370218), compiling. 
+[2023.05.03-14.03.58:797][803]LogContentBrowser: End creating deferred item T_Flag_Mat
+[2023.05.03-14.03.58:831][805]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.05.03-14.03.58:835][805]LogShaderCompilers: Display: Worker (1/21): shaders left to compile 2
+[2023.05.03-14.03.58:835][805]LogShaderCompilers: Display: Worker (2/21): shaders left to compile 1
+[2023.05.03-14.03.58:835][805]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.05.03-14.03.58:890][805]LogShaderCompilers: Display: Submitted 14 shader compile jobs with 'Normal' priority
+[2023.05.03-14.03.59:014][819]LogShaderCompilers: Display: Worker (3/21): shaders left to compile 14
+[2023.05.03-14.03.59:014][819]LogShaderCompilers: Display: Worker (4/21): shaders left to compile 13
+[2023.05.03-14.03.59:014][819]LogShaderCompilers: Display: Worker (5/21): shaders left to compile 12
+[2023.05.03-14.03.59:014][819]LogShaderCompilers: Display: Worker (6/21): shaders left to compile 11
+[2023.05.03-14.03.59:014][819]LogShaderCompilers: Display: Worker (7/21): shaders left to compile 10
+[2023.05.03-14.03.59:014][819]LogShaderCompilers: Display: Worker (8/21): shaders left to compile 9
+[2023.05.03-14.03.59:014][819]LogShaderCompilers: Display: Worker (9/21): shaders left to compile 8
+[2023.05.03-14.03.59:014][819]LogShaderCompilers: Display: Worker (10/21): shaders left to compile 7
+[2023.05.03-14.03.59:014][819]LogShaderCompilers: Display: Worker (11/21): shaders left to compile 6
+[2023.05.03-14.03.59:014][819]LogShaderCompilers: Display: Worker (12/21): shaders left to compile 5
+[2023.05.03-14.03.59:014][819]LogShaderCompilers: Display: Worker (13/21): shaders left to compile 4
+[2023.05.03-14.03.59:014][819]LogShaderCompilers: Display: Worker (14/21): shaders left to compile 3
+[2023.05.03-14.03.59:014][819]LogShaderCompilers: Display: Worker (15/21): shaders left to compile 2
+[2023.05.03-14.03.59:014][819]LogShaderCompilers: Display: Worker (16/21): shaders left to compile 1
+[2023.05.03-14.03.59:014][819]LogShaderCompilers: Display: Started 14 'Local' shader compile jobs with 'Normal' priority
+[2023.05.03-14.04.00:626][979]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Textures/T_Flag_Mat.T_Flag_Mat
+[2023.05.03-14.04.00:638][979]LogMaterial: Display: Missing cached shadermap for T_Flag_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 9F927B042815E5BD0F2610C23362F4672E60BE5F), compiling. 
+[2023.05.03-14.04.00:983][979]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1.EpicQuadPanorama_CC+EV1', its maximum texture size has been explicitly set to 512.
+[2023.05.03-14.04.01:630][979]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/SunsetAmbientCubemap.SunsetAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2023.05.03-14.04.01:971][979]LogMaterial: Display: Missing cached shadermap for T_Flag_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 8814ACBE2626C3DE6CC5FB37486078B480D304DC), compiling. 
+[2023.05.03-14.04.01:973][979]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 8738735E4F37E7D0E51D1ABBF6405DA2DF74FC9F), compiling. 
+[2023.05.03-14.04.01:987][979]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.03-14.04.01:987][979]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2023.05.03-14.04.01:987][979]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.03-14.04.02:198][984]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.05.03-14.04.02:198][984]LogShaderCompilers: Display: Worker (17/21): shaders left to compile 2
+[2023.05.03-14.04.02:198][984]LogShaderCompilers: Display: Worker (18/21): shaders left to compile 1
+[2023.05.03-14.04.02:198][984]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.05.03-14.04.02:427][998]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.03-14.04.02:427][998]LogShaderCompilers: Display: Total job queries 38, among them cache hits 0 (0.00%)
+[2023.05.03-14.04.02:427][998]LogShaderCompilers: Display: Tracking 2 distinct input hashes that result in 2 distinct outputs (100.00%)
+[2023.05.03-14.04.02:427][998]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 3276.80 MB (3.20 GB) budget. Usage: 0.00%
+[2023.05.03-14.04.02:427][998]LogShaderCompilers: Display: ================================================
+[2023.05.03-14.04.02:667][ 24]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.03-14.04.02:667][ 24]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2023.05.03-14.04.02:667][ 24]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.03-14.04.02:726][ 31]MaterialEditorStats: Base pass shader: 120 instructions
+[2023.05.03-14.04.02:726][ 31]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 194 instructions
+[2023.05.03-14.04.02:726][ 31]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2023.05.03-14.04.02:726][ 31]MaterialEditorStats: Texture samplers: 3/16
+[2023.05.03-14.04.02:726][ 31]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2023.05.03-14.04.02:726][ 31]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.03-14.04.05:091][285]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2023.05.03-14.04.05:091][285]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-14.04.08:662][640]LogContentBrowser: Deferred new asset file creation: T_Mine_Mat
+[2023.05.03-14.04.08:671][640]LogContentBrowser: Creating deferred item: T_Mine_Mat
+[2023.05.03-14.04.10:505][855]LogContentBrowser: Attempting asset rename: T_Mine_Mat -> T_Mine_Mat
+[2023.05.03-14.04.10:506][855]LogMaterial: Display: Missing cached shadermap for T_Mine_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 8F03A3FA1F4D95AB0A43F0566F2518F0871BE1DC), compiling. 
+[2023.05.03-14.04.10:508][855]LogContentBrowser: End creating deferred item T_Mine_Mat
+[2023.05.03-14.04.10:511][856]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.05.03-14.04.10:517][857]LogShaderCompilers: Display: Submitted 14 shader compile jobs with 'Normal' priority
+[2023.05.03-14.04.10:518][857]LogShaderCompilers: Display: Worker (1/21): shaders left to compile 2
+[2023.05.03-14.04.10:518][857]LogShaderCompilers: Display: Worker (2/21): shaders left to compile 1
+[2023.05.03-14.04.10:518][857]LogShaderCompilers: Display: Worker (3/21): shaders left to compile 14
+[2023.05.03-14.04.10:518][857]LogShaderCompilers: Display: Worker (4/21): shaders left to compile 13
+[2023.05.03-14.04.10:518][857]LogShaderCompilers: Display: Worker (5/21): shaders left to compile 12
+[2023.05.03-14.04.10:518][857]LogShaderCompilers: Display: Worker (6/21): shaders left to compile 11
+[2023.05.03-14.04.10:518][857]LogShaderCompilers: Display: Worker (7/21): shaders left to compile 10
+[2023.05.03-14.04.10:518][857]LogShaderCompilers: Display: Worker (8/21): shaders left to compile 9
+[2023.05.03-14.04.10:518][857]LogShaderCompilers: Display: Worker (9/21): shaders left to compile 8
+[2023.05.03-14.04.10:518][857]LogShaderCompilers: Display: Worker (10/21): shaders left to compile 7
+[2023.05.03-14.04.10:518][857]LogShaderCompilers: Display: Worker (11/21): shaders left to compile 6
+[2023.05.03-14.04.10:518][857]LogShaderCompilers: Display: Worker (12/21): shaders left to compile 5
+[2023.05.03-14.04.10:518][857]LogShaderCompilers: Display: Worker (13/21): shaders left to compile 4
+[2023.05.03-14.04.10:518][857]LogShaderCompilers: Display: Worker (14/21): shaders left to compile 3
+[2023.05.03-14.04.10:518][857]LogShaderCompilers: Display: Worker (15/21): shaders left to compile 2
+[2023.05.03-14.04.10:518][857]LogShaderCompilers: Display: Worker (16/21): shaders left to compile 1
+[2023.05.03-14.04.10:518][857]LogShaderCompilers: Display: Started 14 'Local' shader compile jobs with 'Normal' priority
+[2023.05.03-14.04.10:518][857]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
