@@ -89,59 +89,97 @@ void AMinesweeperGrid::CalculateNeighbouringTilesValue()
 {
 	for (FVector2D GridPosition : MineGridPositions)
 	{
-		////above level
-		//int32 TopLeftCell = SquareNumber - 11;
-		//int32 TopCell = SquareNumber - 10;
-		//int32 TopRightCell = SquareNumber - 9;
+		//above level
+		FVector2D TopLeftCell = FVector2D(GridPosition.X - 1, GridPosition.Y - 1);
+		int32 TopLeftInt = TopLeftCell.Y * GridSize + TopLeftCell.X;
+		CheckBounds(TopLeftCell);
 
-		////same level
-		//int32 LeftCell = SquareNumber - 1;
-		//int32 RightCell = SquareNumber + 1;
+		if (TopLeftInt >= 0 && !OutOfBounds)
+		{
+			ListOfGridSquares[TopLeftInt]->AddToMineNeighbouringValue();
+		}
 
-		////below level
-		//int32 BottomLeftCell = SquareNumber + 9;
-		//int32 BottomCell = SquareNumber + 10;
-		//int32 BottomRightCell = SquareNumber + 11;
+		FVector2D TopCell = FVector2D(GridPosition.X, GridPosition.Y - 1);;
+		int32 TopInt = TopCell.Y * GridSize + TopCell.X;
+		CheckBounds(TopCell);
 
-		//if (TopLeftCell >= 0)
-		//{
-		//	ListOfGridSquares[TopLeftCell]->AddToMineNeighbouringValue();
-		//}
+		if (TopInt >= 0 && !OutOfBounds)
+		{
+			ListOfGridSquares[TopInt]->AddToMineNeighbouringValue();
+		}
 
-		//if (TopCell >= 0)
-		//{
-		//	ListOfGridSquares[TopCell]->AddToMineNeighbouringValue();
-		//}
+		FVector2D TopRightCell = FVector2D(GridPosition.X + 1, GridPosition.Y - 1);;
+		int32 TopRightInt = TopRightCell.Y * GridSize + TopRightCell.X;
+		CheckBounds(TopRightCell);
 
-		//if (TopRightCell >= 0)
-		//{
-		//	ListOfGridSquares[TopRightCell]->AddToMineNeighbouringValue();
-		//}
+		if (TopRightInt >= 0 && !OutOfBounds)
+		{
+			ListOfGridSquares[TopRightInt]->AddToMineNeighbouringValue();
+		}
 
-		//if (LeftCell >= 0)
-		//{
-		//	ListOfGridSquares[LeftCell]->AddToMineNeighbouringValue();
-		//}
+		//same level
+		FVector2D LeftCell = FVector2D(GridPosition.X - 1, GridPosition.Y);;
+		int32 LeftInt = LeftCell.Y * GridSize + LeftCell.X;
+		CheckBounds(LeftCell);
 
-		//if (RightCell <= 99)
-		//{
-		//	ListOfGridSquares[RightCell]->AddToMineNeighbouringValue();
-		//}
+		if (LeftInt >= 0 && !OutOfBounds)
+		{
+			ListOfGridSquares[LeftInt]->AddToMineNeighbouringValue();
+		}
 
-		//if (BottomLeftCell <= 99)
-		//{
-		//	ListOfGridSquares[BottomLeftCell]->AddToMineNeighbouringValue();
-		//}
+		FVector2D RightCell = FVector2D(GridPosition.X + 1, GridPosition.Y);;
+		int32 RightInt = RightCell.Y * GridSize + RightCell.X;
+		CheckBounds(RightCell);
 
-		//if (BottomCell <= 99)
-		//{
-		//	ListOfGridSquares[BottomCell]->AddToMineNeighbouringValue();
-		//}
+		if (RightInt <= 99 && !OutOfBounds)
+		{
+			ListOfGridSquares[RightInt]->AddToMineNeighbouringValue();
+		}
 
-		//if (BottomRightCell <= 99)
-		//{
-		//	ListOfGridSquares[BottomRightCell]->AddToMineNeighbouringValue();
-		//}
+		//below level
+		FVector2D BottomLeftCell = FVector2D(GridPosition.X - 1, GridPosition.Y + 1);
+		int32 BottomLeftInt = BottomLeftCell.Y * GridSize + BottomLeftCell.X;
+		CheckBounds(BottomLeftCell);
+
+		if (BottomLeftInt <= 99 && !OutOfBounds)
+		{
+			ListOfGridSquares[BottomLeftInt]->AddToMineNeighbouringValue();
+		}
+
+		FVector2D BottomCell = FVector2D(GridPosition.X, GridPosition.Y + 1);
+		int32 BottomInt = BottomCell.Y * GridSize + BottomCell.X;
+		CheckBounds(BottomCell);
+
+		if (BottomInt <= 99 && !OutOfBounds)
+		{
+			ListOfGridSquares[BottomInt]->AddToMineNeighbouringValue();
+		}
+
+		FVector2D BottomRightCell = FVector2D(GridPosition.X + 1, GridPosition.Y + 1);
+		int32 BottomRightInt = BottomRightCell.Y * GridSize + BottomRightCell.X;
+		CheckBounds(BottomRightCell);
+
+		if (BottomRightInt <= 99 && !OutOfBounds)
+		{
+			ListOfGridSquares[BottomRightInt]->AddToMineNeighbouringValue();
+		}
+	}
+}
+
+void AMinesweeperGrid::CheckBounds(FVector2D GridPosition)
+{
+	OutOfBounds = false;
+
+	if (GridPosition.X < 0 || GridPosition.X > 9)
+	{
+		OutOfBounds = true;
+		GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Green, TEXT("Check Position X"));
+	}
+
+	if (GridPosition.Y < 0 || GridPosition.Y > 9)
+	{
+		OutOfBounds = true;
+		GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Blue, TEXT("Check Position Y"));
 	}
 }
 

@@ -29,7 +29,10 @@ private:
 	int32 Random;
 
 	TArray<AGridSquare*> ListOfGridSquares;
+	TArray<FVector2D> GridPositions;
 	TArray<FVector2D> MineGridPositions;
+
+	bool OutOfBounds;
 
 protected:
 	// Called when the game starts or when spawned
@@ -45,4 +48,5 @@ private:
 	void SetMines();
 	void GenerateRandomNumber();
 	void CalculateNeighbouringTilesValue();
+	void CheckBounds(FVector2D GridPosition);
 };
