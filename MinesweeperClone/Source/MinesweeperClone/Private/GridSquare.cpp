@@ -99,20 +99,17 @@ void AGridSquare::SetFlag()
 			break;
 		}
 	}
-	/*if (!Flagged)
-	{
-		Flagged = true;
-		IsEmpty = false;
-		FrontPlane->SetMaterial(0, Flag);
-	}*/
 }
 
 void AGridSquare::FlipCell()
 {
 	if (bIsFlipped == false)
 	{
-		bIsFlipped = true;
-		this->SetActorRotation(FRotator(180, 0, 0));
+		if (!Flagged)
+		{
+			bIsFlipped = true;
+			this->SetActorRotation(FRotator(180, 0, 0));
+		}
 
 		if (IsMine)
 		{
