@@ -2291,3 +2291,323 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.05.04-15.01.08:304][345]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2023.05.04-15.01.08:307][345]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
 [2023.05.04-15.01.08:342][348]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2023.05.04-15.10.41:131][892]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../FlixInteractive/1.png)
+[2023.05.04-15.10.41:151][892]LogTexture: Display: Building textures: 1 (OODLE_AutoDXT, 256X256)
+[2023.05.04-15.10.41:267][892]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../FlixInteractive/2.png)
+[2023.05.04-15.10.41:268][892]LogTexture: Display: Building textures: 2 (OODLE_AutoDXT, 256X256)
+[2023.05.04-15.10.41:280][892]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../FlixInteractive/3.png)
+[2023.05.04-15.10.41:281][892]LogTexture: Display: Building textures: 3 (OODLE_AutoDXT, 256X256)
+[2023.05.04-15.10.41:284][892]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../FlixInteractive/4.png)
+[2023.05.04-15.10.41:286][892]LogTexture: Display: Building textures: 4 (OODLE_AutoDXT, 256X256)
+[2023.05.04-15.10.41:289][892]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../FlixInteractive/5.png)
+[2023.05.04-15.10.41:290][892]LogTexture: Display: Building textures: 5 (OODLE_AutoDXT, 256X256)
+[2023.05.04-15.10.41:302][892]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../FlixInteractive/6.png)
+[2023.05.04-15.10.41:303][892]LogTexture: Display: Building textures: 6 (OODLE_AutoDXT, 256X256)
+[2023.05.04-15.10.41:314][892]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../FlixInteractive/7.png)
+[2023.05.04-15.10.41:316][892]LogTexture: Display: Building textures: 7 (OODLE_AutoDXT, 256X256)
+[2023.05.04-15.10.41:338][892]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../FlixInteractive/8.png)
+[2023.05.04-15.10.41:339][892]LogTexture: Display: Building textures: 8 (OODLE_AutoDXT, 256X256)
+[2023.05.04-15.10.44:427][239]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2023.05.04-15.10.44:429][239]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MineswepperMap' took 0.022
+[2023.05.04-15.10.44:429][239]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/1] ([1] browsable assets)...
+[2023.05.04-15.10.44:434][239]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/1.1]
+[2023.05.04-15.10.44:434][239]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/1]
+[2023.05.04-15.10.44:434][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/1" FILE="../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/Autosaves/Game/Textures/1_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2023.05.04-15.10.44:466][239]LogSavePackage: Moving '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/1_Auto1E4065DAB4DE61F4CE76329A813A22BB8.tmp' to '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/Autosaves/Game/Textures/1_Auto1.uasset'
+[2023.05.04-15.10.44:466][239]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/2] ([1] browsable assets)...
+[2023.05.04-15.10.44:471][239]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/2.2]
+[2023.05.04-15.10.44:471][239]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/2]
+[2023.05.04-15.10.44:471][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/2" FILE="../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/Autosaves/Game/Textures/2_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2023.05.04-15.10.44:473][239]LogSavePackage: Moving '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/2_Auto1B0EEA714434A1CF46D0DCB9910C7A799.tmp' to '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/Autosaves/Game/Textures/2_Auto1.uasset'
+[2023.05.04-15.10.44:474][239]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/3] ([1] browsable assets)...
+[2023.05.04-15.10.44:477][239]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/3.3]
+[2023.05.04-15.10.44:477][239]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/3]
+[2023.05.04-15.10.44:477][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/3" FILE="../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/Autosaves/Game/Textures/3_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2023.05.04-15.10.44:480][239]LogSavePackage: Moving '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/3_Auto13F280BEF46150B9D4BAB6AB77671D231.tmp' to '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/Autosaves/Game/Textures/3_Auto1.uasset'
+[2023.05.04-15.10.44:480][239]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/4] ([1] browsable assets)...
+[2023.05.04-15.10.44:483][239]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/4.4]
+[2023.05.04-15.10.44:483][239]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/4]
+[2023.05.04-15.10.44:483][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/4" FILE="../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/Autosaves/Game/Textures/4_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2023.05.04-15.10.44:486][239]LogSavePackage: Moving '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/4_Auto1DCC9F4524E9773F057CB40A1EAD6E2D1.tmp' to '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/Autosaves/Game/Textures/4_Auto1.uasset'
+[2023.05.04-15.10.44:486][239]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/5] ([1] browsable assets)...
+[2023.05.04-15.10.44:490][239]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/5.5]
+[2023.05.04-15.10.44:490][239]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/5]
+[2023.05.04-15.10.44:490][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/5" FILE="../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/Autosaves/Game/Textures/5_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2023.05.04-15.10.44:492][239]LogSavePackage: Moving '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/5_Auto11EBF3FD74C12FEFFAEE306B44E608A65.tmp' to '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/Autosaves/Game/Textures/5_Auto1.uasset'
+[2023.05.04-15.10.44:493][239]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/6] ([1] browsable assets)...
+[2023.05.04-15.10.44:496][239]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/6.6]
+[2023.05.04-15.10.44:496][239]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/6]
+[2023.05.04-15.10.44:496][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/6" FILE="../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/Autosaves/Game/Textures/6_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2023.05.04-15.10.44:499][239]LogSavePackage: Moving '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/6_Auto1437C368F49536B62C22DD88850AB4C4E.tmp' to '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/Autosaves/Game/Textures/6_Auto1.uasset'
+[2023.05.04-15.10.44:499][239]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/7] ([1] browsable assets)...
+[2023.05.04-15.10.44:503][239]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/7.7]
+[2023.05.04-15.10.44:503][239]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/7]
+[2023.05.04-15.10.44:503][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/7" FILE="../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/Autosaves/Game/Textures/7_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2023.05.04-15.10.44:505][239]LogSavePackage: Moving '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/7_Auto103ED9EEB458660C420A9938868477002.tmp' to '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/Autosaves/Game/Textures/7_Auto1.uasset'
+[2023.05.04-15.10.44:506][239]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/8] ([1] browsable assets)...
+[2023.05.04-15.10.44:509][239]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/8.8]
+[2023.05.04-15.10.44:509][239]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/8]
+[2023.05.04-15.10.44:509][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/8" FILE="../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/Autosaves/Game/Textures/8_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2023.05.04-15.10.44:511][239]LogSavePackage: Moving '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/8_Auto1A44A8EDF4F773FEC99442684DDAC3602.tmp' to '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/Autosaves/Game/Textures/8_Auto1.uasset'
+[2023.05.04-15.10.44:512][239]LogFileHelpers: Auto-saving content packages took 0.083
+[2023.05.04-15.10.52:868][ 41]LogMaterial: Display: Missing cached shadermap for 1_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: CB3CDCEEC8AD2ADD56E3F94929F6F2E08445E29E), compiling. 
+[2023.05.04-15.10.52:916][ 41]LogMaterial: Display: Missing cached shadermap for 2_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 5B654149072374A479DE28B0E2771EFDBF440908), compiling. 
+[2023.05.04-15.10.52:918][ 41]LogMaterial: Display: Missing cached shadermap for 3_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: ABF6615927DB08AD2029AB8DF6C80A75F1A9AB56), compiling. 
+[2023.05.04-15.10.52:920][ 41]LogMaterial: Display: Missing cached shadermap for 4_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 444E8578711F7FABF331796AC22E3E4072CBA4F7), compiling. 
+[2023.05.04-15.10.52:922][ 41]LogMaterial: Display: Missing cached shadermap for 5_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 9D7AF1F2207E1034A793292CA51DDA2587656406), compiling. 
+[2023.05.04-15.10.52:924][ 41]LogMaterial: Display: Missing cached shadermap for 6_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: AF28F71226824F3D558C0E61CF76AF0C5AB45AC4), compiling. 
+[2023.05.04-15.10.52:926][ 41]LogMaterial: Display: Missing cached shadermap for 7_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: A192C716B938343D8BEAFF3716DBFDD3A95077C0), compiling. 
+[2023.05.04-15.10.52:928][ 41]LogMaterial: Display: Missing cached shadermap for 8_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: DC760B5D36C949B77C8058C1A8D56AD69A625390), compiling. 
+[2023.05.04-15.10.53:093][ 46]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.05.04-15.10.53:093][ 46]LogShaderCompilers: Display: Worker (1/21): shaders left to compile 2
+[2023.05.04-15.10.53:093][ 46]LogShaderCompilers: Display: Worker (2/21): shaders left to compile 1
+[2023.05.04-15.10.53:093][ 46]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.05.04-15.10.53:163][ 46]LogShaderCompilers: Display: Submitted 14 shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.53:176][ 46]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.05.04-15.10.53:182][ 46]LogShaderCompilers: Display: Submitted 14 shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.53:186][ 46]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.05.04-15.10.53:192][ 46]LogShaderCompilers: Display: Submitted 14 shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.53:196][ 46]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.05.04-15.10.53:202][ 46]LogShaderCompilers: Display: Worker (3/21): shaders left to compile 6
+[2023.05.04-15.10.53:202][ 46]LogShaderCompilers: Display: Worker (4/21): shaders left to compile 5
+[2023.05.04-15.10.53:202][ 46]LogShaderCompilers: Display: Worker (5/21): shaders left to compile 4
+[2023.05.04-15.10.53:202][ 46]LogShaderCompilers: Display: Worker (6/21): shaders left to compile 3
+[2023.05.04-15.10.53:202][ 46]LogShaderCompilers: Display: Worker (7/21): shaders left to compile 2
+[2023.05.04-15.10.53:202][ 46]LogShaderCompilers: Display: Worker (8/21): shaders left to compile 1
+[2023.05.04-15.10.53:202][ 46]LogShaderCompilers: Display: Worker (9/21): shaders left to compile 42
+[2023.05.04-15.10.53:202][ 46]LogShaderCompilers: Display: Worker (10/21): shaders left to compile 39
+[2023.05.04-15.10.53:202][ 46]LogShaderCompilers: Display: Worker (11/21): shaders left to compile 36
+[2023.05.04-15.10.53:202][ 46]LogShaderCompilers: Display: Worker (12/21): shaders left to compile 33
+[2023.05.04-15.10.53:202][ 46]LogShaderCompilers: Display: Worker (13/21): shaders left to compile 44
+[2023.05.04-15.10.53:202][ 46]LogShaderCompilers: Display: Submitted 14 shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.53:202][ 46]LogShaderCompilers: Display: Worker (14/21): shaders left to compile 41
+[2023.05.04-15.10.53:202][ 46]LogShaderCompilers: Display: Worker (15/21): shaders left to compile 38
+[2023.05.04-15.10.53:202][ 46]LogShaderCompilers: Display: Worker (16/21): shaders left to compile 35
+[2023.05.04-15.10.53:202][ 46]LogShaderCompilers: Display: Worker (17/21): shaders left to compile 32
+[2023.05.04-15.10.53:202][ 46]LogShaderCompilers: Display: Worker (18/21): shaders left to compile 29
+[2023.05.04-15.10.53:202][ 46]LogShaderCompilers: Display: Worker (19/21): shaders left to compile 26
+[2023.05.04-15.10.53:202][ 46]LogShaderCompilers: Display: Worker (20/21): shaders left to compile 23
+[2023.05.04-15.10.53:202][ 46]LogShaderCompilers: Display: Started 36 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.53:202][ 46]LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.05.04-15.10.53:206][ 46]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.05.04-15.10.53:213][ 46]LogShaderCompilers: Display: Submitted 14 shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.53:217][ 46]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.05.04-15.10.53:223][ 46]LogShaderCompilers: Display: Submitted 14 shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.53:228][ 46]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.05.04-15.10.53:234][ 46]LogShaderCompilers: Display: Submitted 14 shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.53:238][ 46]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2023.05.04-15.10.53:244][ 46]LogShaderCompilers: Display: Submitted 14 shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.55:514][222]LogShaderCompilers: Display: Worker (2/21): shaders left to compile 8
+[2023.05.04-15.10.55:514][222]LogShaderCompilers: Display: Worker (4/21): shaders left to compile 7
+[2023.05.04-15.10.55:514][222]LogShaderCompilers: Display: Worker (6/21): shaders left to compile 6
+[2023.05.04-15.10.55:514][222]LogShaderCompilers: Display: Worker (8/21): shaders left to compile 5
+[2023.05.04-15.10.55:514][222]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.05.04-15.10.55:518][222]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.04-15.10.55:518][222]LogShaderCompilers: Display: Total job queries 128, among them cache hits 0 (0.00%)
+[2023.05.04-15.10.55:518][222]LogShaderCompilers: Display: Tracking 4 distinct input hashes that result in 1 distinct outputs (25.00%)
+[2023.05.04-15.10.55:518][222]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 3276.80 MB (3.20 GB) budget. Usage: 0.00%
+[2023.05.04-15.10.55:518][222]LogShaderCompilers: Display: ================================================
+[2023.05.04-15.10.55:620][232]LogShaderCompilers: Display: Worker (7/21): shaders left to compile 4
+[2023.05.04-15.10.55:620][232]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.05.04-15.10.55:632][233]LogShaderCompilers: Display: Worker (3/21): shaders left to compile 3
+[2023.05.04-15.10.55:632][233]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.05.04-15.10.55:662][236]LogShaderCompilers: Display: Worker (1/21): shaders left to compile 2
+[2023.05.04-15.10.55:662][236]LogShaderCompilers: Display: Worker (5/21): shaders left to compile 1
+[2023.05.04-15.10.55:662][236]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2023.05.04-15.10.56:038][262]LogShaderCompilers: Display: Worker (4/21): shaders left to compile 76
+[2023.05.04-15.10.56:039][262]LogShaderCompilers: Display: Worker (8/21): shaders left to compile 72
+[2023.05.04-15.10.56:039][262]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.56:095][267]LogShaderCompilers: Display: Worker (9/21): shaders left to compile 68
+[2023.05.04-15.10.56:095][267]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.56:148][271]LogShaderCompilers: Display: Worker (12/21): shaders left to compile 64
+[2023.05.04-15.10.56:148][271]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.56:148][271]LogShaderCompilers: Display: Worker (3/21): shaders left to compile 60
+[2023.05.04-15.10.56:148][271]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.56:160][272]LogShaderCompilers: Display: Worker (2/21): shaders left to compile 56
+[2023.05.04-15.10.56:160][272]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.56:200][275]LogShaderCompilers: Display: Worker (5/21): shaders left to compile 53
+[2023.05.04-15.10.56:200][275]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.56:223][277]LogShaderCompilers: Display: Worker (6/21): shaders left to compile 50
+[2023.05.04-15.10.56:223][277]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.56:311][285]LogShaderCompilers: Display: Worker (7/21): shaders left to compile 47
+[2023.05.04-15.10.56:311][285]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.56:327][286]LogShaderCompilers: Display: Worker (18/21): shaders left to compile 44
+[2023.05.04-15.10.56:327][286]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.56:347][287]LogShaderCompilers: Display: Worker (1/21): shaders left to compile 41
+[2023.05.04-15.10.56:347][287]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.56:379][289]LogShaderCompilers: Display: Worker (14/21): shaders left to compile 38
+[2023.05.04-15.10.56:379][289]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.56:446][295]LogShaderCompilers: Display: Worker (11/21): shaders left to compile 36
+[2023.05.04-15.10.56:447][295]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.56:467][296]LogShaderCompilers: Display: Worker (17/21): shaders left to compile 34
+[2023.05.04-15.10.56:467][296]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.56:624][307]LogShaderCompilers: Display: Worker (16/21): shaders left to compile 32
+[2023.05.04-15.10.56:624][307]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.56:655][309]LogShaderCompilers: Display: Worker (20/21): shaders left to compile 30
+[2023.05.04-15.10.56:655][309]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.56:819][320]LogShaderCompilers: Display: Worker (19/21): shaders left to compile 28
+[2023.05.04-15.10.56:819][320]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.56:865][323]LogShaderCompilers: Display: Worker (15/21): shaders left to compile 26
+[2023.05.04-15.10.56:865][323]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.57:078][336]LogShaderCompilers: Display: Worker (13/21): shaders left to compile 24
+[2023.05.04-15.10.57:078][336]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.57:117][338]LogShaderCompilers: Display: Worker (17/21): shaders left to compile 22
+[2023.05.04-15.10.57:117][338]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.57:133][339]LogShaderCompilers: Display: Worker (10/21): shaders left to compile 20
+[2023.05.04-15.10.57:133][339]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.57:429][362]LogShaderCompilers: Display: Worker (11/21): shaders left to compile 18
+[2023.05.04-15.10.57:429][362]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.57:631][376]LogShaderCompilers: Display: Worker (2/21): shaders left to compile 17
+[2023.05.04-15.10.57:631][376]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.57:647][377]LogShaderCompilers: Display: Worker (6/21): shaders left to compile 16
+[2023.05.04-15.10.57:647][377]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.57:692][378]LogShaderCompilers: Display: Worker (14/21): shaders left to compile 15
+[2023.05.04-15.10.57:692][378]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.57:692][378]LogShaderCompilers: Display: Worker (7/21): shaders left to compile 14
+[2023.05.04-15.10.57:692][378]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.57:753][383]LogShaderCompilers: Display: Worker (4/21): shaders left to compile 13
+[2023.05.04-15.10.57:753][383]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.57:767][384]LogShaderCompilers: Display: Worker (19/21): shaders left to compile 12
+[2023.05.04-15.10.57:767][384]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.57:786][385]LogShaderCompilers: Display: Worker (12/21): shaders left to compile 11
+[2023.05.04-15.10.57:786][385]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.57:802][386]LogShaderCompilers: Display: Worker (16/21): shaders left to compile 10
+[2023.05.04-15.10.57:803][386]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.57:984][395]LogShaderCompilers: Display: Worker (6/21): shaders left to compile 9
+[2023.05.04-15.10.57:984][395]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.57:984][395]LogShaderCompilers: Display: Worker (4/21): shaders left to compile 8
+[2023.05.04-15.10.57:984][395]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.58:053][398]LogShaderCompilers: Display: Worker (15/21): shaders left to compile 7
+[2023.05.04-15.10.58:053][398]LogShaderCompilers: Display: Worker (20/21): shaders left to compile 6
+[2023.05.04-15.10.58:053][398]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.58:071][399]LogShaderCompilers: Display: Worker (17/21): shaders left to compile 5
+[2023.05.04-15.10.58:071][399]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.58:071][399]LogShaderCompilers: Display: Worker (5/21): shaders left to compile 4
+[2023.05.04-15.10.58:071][399]LogShaderCompilers: Display: Worker (18/21): shaders left to compile 3
+[2023.05.04-15.10.58:071][399]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.58:071][399]LogShaderCompilers: Display: Worker (7/21): shaders left to compile 2
+[2023.05.04-15.10.58:071][399]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.58:116][401]LogShaderCompilers: Display: Worker (2/21): shaders left to compile 1
+[2023.05.04-15.10.58:116][401]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2023.05.04-15.10.58:841][453]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2023.05.04-15.10.58:899][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/1" FILE="../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/1.uasset" SILENT=true
+[2023.05.04-15.10.58:941][453]LogSavePackage: Moving '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/1415A20C543D1270134743DBA35E8D124.tmp' to '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/1.uasset'
+[2023.05.04-15.10.58:942][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/2" FILE="../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/2.uasset" SILENT=true
+[2023.05.04-15.10.58:945][453]LogSavePackage: Moving '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/2A06E5A3249A579A434036480B8B6C77B.tmp' to '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/2.uasset'
+[2023.05.04-15.10.58:946][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/3" FILE="../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/3.uasset" SILENT=true
+[2023.05.04-15.10.58:949][453]LogSavePackage: Moving '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/358029EBF473056AACF719FB7945BF234.tmp' to '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/3.uasset'
+[2023.05.04-15.10.58:950][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/4" FILE="../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/4.uasset" SILENT=true
+[2023.05.04-15.10.58:953][453]LogSavePackage: Moving '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/4BF2035634C27C10D30765E8E82F29ED8.tmp' to '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/4.uasset'
+[2023.05.04-15.10.58:954][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/5" FILE="../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/5.uasset" SILENT=true
+[2023.05.04-15.10.58:957][453]LogSavePackage: Moving '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/54557C0A84195A721F28BAC941759C143.tmp' to '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/5.uasset'
+[2023.05.04-15.10.58:958][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/6" FILE="../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/6.uasset" SILENT=true
+[2023.05.04-15.10.58:961][453]LogSavePackage: Moving '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/6CF96B1764D89CE6DFDCDD091177B45F5.tmp' to '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/6.uasset'
+[2023.05.04-15.10.58:961][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/7" FILE="../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/7.uasset" SILENT=true
+[2023.05.04-15.10.58:965][453]LogSavePackage: Moving '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/71A1C6AB643E8C015EC4739949E871EBE.tmp' to '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/7.uasset'
+[2023.05.04-15.10.58:965][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/8" FILE="../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/8.uasset" SILENT=true
+[2023.05.04-15.10.58:969][453]LogSavePackage: Moving '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/8F0FEDF2A49B771B939A310B16C0637A8.tmp' to '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/8.uasset'
+[2023.05.04-15.10.58:975][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/1_Mat" FILE="../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/1_Mat.uasset" SILENT=true
+[2023.05.04-15.10.58:980][453]LogSavePackage: Moving '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/1_MatC322866244317F35A2F02386675E7EAA.tmp' to '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/1_Mat.uasset'
+[2023.05.04-15.10.58:986][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/2_Mat" FILE="../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/2_Mat.uasset" SILENT=true
+[2023.05.04-15.10.58:990][453]LogSavePackage: Moving '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/2_Mat289D84B24F401E07B8977B9F10699C0A.tmp' to '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/2_Mat.uasset'
+[2023.05.04-15.10.59:000][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/3_Mat" FILE="../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/3_Mat.uasset" SILENT=true
+[2023.05.04-15.10.59:004][453]LogSavePackage: Moving '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/3_MatD7196C1243DDB8034853EE9E772C7E8B.tmp' to '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/3_Mat.uasset'
+[2023.05.04-15.10.59:010][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/4_Mat" FILE="../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/4_Mat.uasset" SILENT=true
+[2023.05.04-15.10.59:014][453]LogSavePackage: Moving '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/4_Mat00F919584782BA60129A1A8E7E4CF014.tmp' to '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/4_Mat.uasset'
+[2023.05.04-15.10.59:049][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/5_Mat" FILE="../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/5_Mat.uasset" SILENT=true
+[2023.05.04-15.10.59:053][453]LogSavePackage: Moving '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/5_MatF96BC8D34C229D840C34B68D8D305DD8.tmp' to '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/5_Mat.uasset'
+[2023.05.04-15.10.59:061][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/6_Mat" FILE="../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/6_Mat.uasset" SILENT=true
+[2023.05.04-15.10.59:066][453]LogSavePackage: Moving '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/6_Mat8958567A45CD24640DB285992E76454B.tmp' to '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/6_Mat.uasset'
+[2023.05.04-15.10.59:072][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/7_Mat" FILE="../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/7_Mat.uasset" SILENT=true
+[2023.05.04-15.10.59:076][453]LogSavePackage: Moving '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/7_Mat5765FD234E9A77E991E6B192141E6FBA.tmp' to '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/7_Mat.uasset'
+[2023.05.04-15.10.59:083][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/8_Mat" FILE="../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/8_Mat.uasset" SILENT=true
+[2023.05.04-15.10.59:087][453]LogSavePackage: Moving '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Saved/8_MatCB704A1A4904908B741CF3817B782B84.tmp' to '../../../../../FlixInteractive/MinesweeperClone/MinesweeperClone/Content/Textures/8_Mat.uasset'
+[2023.05.04-15.10.59:102][453]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.04-15.10.59:102][453]LogContentValidation: Display: Validating Material /Game/Textures/8_Mat.8_Mat
+[2023.05.04-15.10.59:102][453]LogContentValidation: Display: Validating Material /Game/Textures/7_Mat.7_Mat
+[2023.05.04-15.10.59:102][453]LogContentValidation: Display: Validating Material /Game/Textures/6_Mat.6_Mat
+[2023.05.04-15.10.59:102][453]LogContentValidation: Display: Validating Material /Game/Textures/5_Mat.5_Mat
+[2023.05.04-15.10.59:102][453]LogContentValidation: Display: Validating Material /Game/Textures/4_Mat.4_Mat
+[2023.05.04-15.10.59:102][453]LogContentValidation: Display: Validating Material /Game/Textures/3_Mat.3_Mat
+[2023.05.04-15.10.59:102][453]LogContentValidation: Display: Validating Material /Game/Textures/2_Mat.2_Mat
+[2023.05.04-15.10.59:102][453]LogContentValidation: Display: Validating Material /Game/Textures/1_Mat.1_Mat
+[2023.05.04-15.10.59:102][453]LogContentValidation: Display: Validating Texture2D /Game/Textures/8.8
+[2023.05.04-15.10.59:102][453]LogContentValidation: Display: Validating Texture2D /Game/Textures/7.7
+[2023.05.04-15.10.59:102][453]LogContentValidation: Display: Validating Texture2D /Game/Textures/6.6
+[2023.05.04-15.10.59:102][453]LogContentValidation: Display: Validating Texture2D /Game/Textures/5.5
+[2023.05.04-15.10.59:102][453]LogContentValidation: Display: Validating Texture2D /Game/Textures/4.4
+[2023.05.04-15.10.59:102][453]LogContentValidation: Display: Validating Texture2D /Game/Textures/3.3
+[2023.05.04-15.10.59:102][453]LogContentValidation: Display: Validating Texture2D /Game/Textures/2.2
+[2023.05.04-15.10.59:102][453]LogContentValidation: Display: Validating Texture2D /Game/Textures/1.1
+[2023.05.04-15.19.15:446][992]LogHotReload: New module detected: UE4Editor-MinesweeperClone-0017.dll
+[2023.05.04-15.19.15:795][994]LogHotReload: Starting Hot-Reload from IDE
+[2023.05.04-15.19.15:823][994]LogClass: Could not find existing class GridSquare in package /Script/MinesweeperClone for HotReload, assuming new class
+[2023.05.04-15.19.15:840][994]LogHotReload: Re-instancing GridSquare after hot-reload.
+[2023.05.04-15.19.15:882][994]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MinesweeperClone' in 0.0003 seconds. Added 10 classes and 3 folders.
+[2023.05.04-15.19.15:887][994]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2023.05.04-15.19.15:948][994]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0086 seconds. Added 3832 classes and 931 folders.
+[2023.05.04-15.19.15:957][994]Display: HotReload took  0.2s.
+[2023.05.04-15.20.21:945][765]LogHotReload: New module detected: UE4Editor-MinesweeperClone-0019.dll
+[2023.05.04-15.20.22:628][768]LogHotReload: Starting Hot-Reload from IDE
+[2023.05.04-15.20.22:695][768]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MinesweeperClone' in 0.0003 seconds. Added 10 classes and 3 folders.
+[2023.05.04-15.20.22:699][768]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2023.05.04-15.20.22:774][768]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0111 seconds. Added 3832 classes and 931 folders.
+[2023.05.04-15.20.22:780][768]Display: HotReload took  0.2s.
+[2023.05.04-15.20.24:650][828]LogTemp: Repeating last play command: Selected Viewport
+[2023.05.04-15.20.24:654][828]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.04-15.20.24:654][828]PIE: New page: PIE session: MineswepperMap (4 May 2023, 17:20:24)
+[2023.05.04-15.20.24:654][828]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MineswepperMap
+[2023.05.04-15.20.24:655][828]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000977s)
+[2023.05.04-15.20.24:656][828]LogAIModule: Creating AISystem for world MineswepperMap
+[2023.05.04-15.20.24:656][828]LogPlayLevel: PIE: World Init took: (0.001013s)
+[2023.05.04-15.20.24:656][828]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MineswepperMap.MineswepperMap to /Game/UEDPIE_0_MineswepperMap.MineswepperMap (0.002072s)
+[2023.05.04-15.20.24:742][828]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2023.05.04-15.20.24:743][828]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.05.04-15.20.24:743][828]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.04-15.20.24:743][828]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.04-15.20.24:743][828]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.04-15.20.24:743][828]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.04-15.20.24:743][828]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.05.04-15.20.24:743][828]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.05.04-15.20.24:743][828]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.05.04-15.20.24:743][828]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.04-15.20.24:743][828]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.05.04-15.20.24:743][828]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.05.04-15.20.24:743][828]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.04-15.20.24:743][828]LogAudioMixer: Display: Initializing audio mixer.
+[2023.05.04-15.20.24:746][828]LogAudioMixer: Display: 0: FrontLeft
+[2023.05.04-15.20.24:746][828]LogAudioMixer: Display: 1: FrontRight
+[2023.05.04-15.20.24:746][828]LogAudioMixer: Display: 2: FrontCenter
+[2023.05.04-15.20.24:746][828]LogAudioMixer: Display: 3: LowFrequency
+[2023.05.04-15.20.24:746][828]LogAudioMixer: Display: 4: BackLeft
+[2023.05.04-15.20.24:746][828]LogAudioMixer: Display: 5: BackRight
+[2023.05.04-15.20.24:746][828]LogAudioMixer: Display: 6: SideLeft
+[2023.05.04-15.20.24:746][828]LogAudioMixer: Display: 7: SideRight
+[2023.05.04-15.20.24:877][828]LogAudioMixer: Display: Using Audio Device Headset Earphone (CORSAIR VOID ELITE USB Gaming Headset)
+[2023.05.04-15.20.24:877][828]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.04-15.20.24:877][828]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.04-15.20.24:878][828]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.04-15.20.24:878][828]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.05.04-15.20.24:878][828]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.05.04-15.20.24:878][828]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2023.05.04-15.20.24:879][828]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.05.04-15.20.24:879][828]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.05.04-15.20.24:879][828]LogInit: FAudioDevice initialized.
+[2023.05.04-15.20.24:879][828]LogAudio: Display: Audio Device (ID: 20) registered with world 'MineswepperMap'.
+[2023.05.04-15.20.24:888][828]LogLoad: Game class is 'MinesweeperGameMode'
+[2023.05.04-15.20.24:889][828]LogWorld: Bringing World /Game/UEDPIE_0_MineswepperMap.MineswepperMap up for play (max tick rate 0) at 2023.05.04-16.20.24
+[2023.05.04-15.20.24:889][828]LogWorld: Bringing up level for play took: 0.000242
+[2023.05.04-15.20.24:889][828]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2023.05.04-15.20.24:904][828]PIE: Server logged in
+[2023.05.04-15.20.24:905][828]PIE: Play in editor total start time 0.251 seconds.
+[2023.05.04-15.21.00:979][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.04-15.21.00:979][ 98]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MineswepperMap
+[2023.05.04-15.21.00:979][ 98]LogWorld: UWorld::CleanupWorld for MineswepperMap, bSessionEnded=true, bCleanupResources=true
+[2023.05.04-15.21.00:980][ 98]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.04-15.21.00:988][ 98]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.04-15.21.00:992][ 98]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.04-15.21.01:008][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.04-15.21.01:008][ 98]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.04-15.21.01:008][ 98]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.05.04-15.21.01:014][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2023.05.04-15.21.01:059][102]LogPlayLevel: Display: Destroying online subsystem :Context_23

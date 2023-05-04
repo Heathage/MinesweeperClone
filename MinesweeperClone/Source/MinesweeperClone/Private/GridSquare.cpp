@@ -15,6 +15,25 @@ AGridSquare::AGridSquare()
 
 	ConstructorHelpers::FObjectFinder<UMaterial>MineMaterial(TEXT("/Game/Textures/T_Mine_Mat"));
 	Mine = MineMaterial.Object;
+
+	//Add number materials to array
+	ConstructorHelpers::FObjectFinder<UMaterial>OneMaterial(TEXT("/Game/Textures/1_Mat"));
+	Numbers.Add(OneMaterial.Object);
+	ConstructorHelpers::FObjectFinder<UMaterial>TwoMaterial(TEXT("/Game/Textures/2_Mat"));
+	Numbers.Add(TwoMaterial.Object);
+	ConstructorHelpers::FObjectFinder<UMaterial>ThreeMaterial(TEXT("/Game/Textures/3_Mat"));
+	Numbers.Add(ThreeMaterial.Object);
+	ConstructorHelpers::FObjectFinder<UMaterial>FourMaterial(TEXT("/Game/Textures/4_Mat"));
+	Numbers.Add(FourMaterial.Object);
+	ConstructorHelpers::FObjectFinder<UMaterial>FiveMaterial(TEXT("/Game/Textures/5_Mat"));
+	Numbers.Add(FiveMaterial.Object);
+	ConstructorHelpers::FObjectFinder<UMaterial>SixMaterial(TEXT("/Game/Textures/6_Mat"));
+	Numbers.Add(SixMaterial.Object);
+	ConstructorHelpers::FObjectFinder<UMaterial>SevenMaterial(TEXT("/Game/Textures/7_Mat"));
+	Numbers.Add(SevenMaterial.Object);
+	ConstructorHelpers::FObjectFinder<UMaterial>EightMaterial(TEXT("/Game/Textures/8_Mat"));
+	Numbers.Add(EightMaterial.Object);
+
 	
 	Root = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
 	this->SetRootComponent(Root);
@@ -74,8 +93,10 @@ void AGridSquare::AddToMineNeighbouringValue()
 	{
 		NumNeighbouringMines++;
 
-		FString IntAsString = FString::FromInt(NumNeighbouringMines);
-		Text->SetText(IntAsString);
+		//FString IntAsString = FString::FromInt(NumNeighbouringMines);
+
+		BackPlane->SetMaterial(0, Numbers[NumNeighbouringMines - 1]);
+		//Text->SetText(IntAsString);
 	}
 }
 

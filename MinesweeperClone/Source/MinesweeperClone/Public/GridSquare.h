@@ -36,6 +36,9 @@ public:
 	UPROPERTY(VisibleAnywhere)
 	UMaterial* Flag;
 
+	UPROPERTY(VisibleAnywhere)
+	TArray<UMaterial*> Numbers;
+
 	UPROPERTY(EditAnywhere)
 	UStaticMeshComponent* FrontPlane;
 
