@@ -20,6 +20,9 @@ AMyPawn::AMyPawn()
 void AMyPawn::BeginPlay()
 {
 	Super::BeginPlay();
+
+	this->SetActorLocation(FVector(450, 450, 1200));
+	this->SetActorRotation(FRotator(270, 0, 0));
 	
 }
 

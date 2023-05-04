@@ -1,11 +1,12 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\FlixInteractive\MinesweeperClone).
   Building MinesweeperCloneEditor...
   Using Visual Studio 2022 14.34.31937 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933) and Windows 10.0.22000.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 3 actions with 24 processes...
-    [1/3] UE4Editor-MinesweeperClone-0013.lib
-       Creating library D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone-0013.lib and object D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone-0013.exp
-    [2/3] UE4Editor-MinesweeperClone-0013.dll
-       Creating library D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone-0013.suppressed.lib and object D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone-0013.suppressed.exp
-    [3/3] MinesweeperCloneEditor.target
-  Total time in Parallel executor: 0.69 seconds
-  Total execution time: 1.15 seconds
+  Building 4 actions with 24 processes...
+    [1/4] MyPawn.cpp
+    [2/4] UE4Editor-MinesweeperClone-0015.lib
+       Creating library D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone-0015.lib and object D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone-0015.exp
+    [3/4] UE4Editor-MinesweeperClone-0015.dll
+       Creating library D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone-0015.suppressed.lib and object D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone-0015.suppressed.exp
+    [4/4] MinesweeperCloneEditor.target
+  Total time in Parallel executor: 1.04 seconds
+  Total execution time: 1.51 seconds
