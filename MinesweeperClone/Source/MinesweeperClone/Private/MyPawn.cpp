@@ -3,6 +3,10 @@
 
 #include "MyPawn.h"
 #include "Camera/CameraComponent.h"
+#include "MyPlayerController.h"
+#include "GridSquare.h"
+#include "DrawDebugHelpers.h"
+
 
 // Sets default values
 AMyPawn::AMyPawn()
@@ -22,7 +26,7 @@ void AMyPawn::BeginPlay()
 	Super::BeginPlay();
 
 	this->SetActorLocation(FVector(450, 450, 1200));
-	this->SetActorRotation(FRotator(270, 0, 0));
+	this->SetActorRotation(FRotator(270, 270, 0));
 	
 }
 
@@ -33,10 +37,47 @@ void AMyPawn::Tick(float DeltaTime)
 
 }
 
+void AMyPawn::LeftClick()
+{
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, TEXT("LeftClick"));
+	FHitResult HitResult;
+
+	if (AMyPlayerController* PC = Cast<AMyPlayerController>(GetController()))
+	{
+		PC->GetHitResultUnderCursorByChannel(UEngineTypes::ConvertToTraceType(ECC_Camera), true, HitResult);
+	}
+
+	if (HitResult.Actor.IsValid())
+	{
+		AGridSquare* HitBlock = Cast<AGridSquare>(HitResult.Actor.Get());
+		HitBlock->FlipCell();
+	}
+}
+
+void AMyPawn::RightClick()
+{
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, TEXT("RightClick"));
+	FHitResult HitResult;
+
+	if (AMyPlayerController* PC = Cast<AMyPlayerController>(GetController()))
+	{
+		PC->GetHitResultUnderCursorByChannel(UEngineTypes::ConvertToTraceType(ECC_Camera), true, HitResult);
+	}
+
+	if (HitResult.Actor.IsValid())
+	{
+		AGridSquare* HitBlock = Cast<AGridSquare>(HitResult.Actor.Get());
+		HitBlock->SetFlagMaterial();
+	}
+}
+
 // Called to bind functionality to input
 void AMyPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+
+	PlayerInputComponent->BindAction("LMB", EInputEvent::IE_Pressed, this, &AMyPawn::LeftClick);
+	PlayerInputComponent->BindAction("RMB", EInputEvent::IE_Pressed, this, &AMyPawn::RightClick);
 
 }
 

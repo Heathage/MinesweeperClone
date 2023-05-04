@@ -75,7 +75,7 @@ void AGridSquare::SetMineMaterial()
 
 void AGridSquare::SetFlagMaterial()
 {
-	BackPlane->SetMaterial(0, Flag);
+	FrontPlane->SetMaterial(0, Flag);
 }
 
 void AGridSquare::FlipCell()

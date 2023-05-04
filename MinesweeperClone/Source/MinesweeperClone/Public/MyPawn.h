@@ -18,6 +18,11 @@ public:
 	UPROPERTY()
 	class UCameraComponent* Camera;
 
+private:
+	FVector Start;
+	FVector Dir;
+	FVector End;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -25,6 +30,9 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	void LeftClick();
+	void RightClick();
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
