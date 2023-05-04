@@ -58,7 +58,11 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AMinesweeperGrid)
 
 
-#define MinesweeperClone_Source_MinesweeperClone_MinesweeperGrid_h_14_PRIVATE_PROPERTY_OFFSET
+#define MinesweeperClone_Source_MinesweeperClone_MinesweeperGrid_h_14_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__WinScore() { return STRUCT_OFFSET(AMinesweeperGrid, WinScore); } \
+	FORCEINLINE static uint32 __PPO__CurrentScore() { return STRUCT_OFFSET(AMinesweeperGrid, CurrentScore); }
+
+
 #define MinesweeperClone_Source_MinesweeperClone_MinesweeperGrid_h_11_PROLOG
 #define MinesweeperClone_Source_MinesweeperClone_MinesweeperGrid_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

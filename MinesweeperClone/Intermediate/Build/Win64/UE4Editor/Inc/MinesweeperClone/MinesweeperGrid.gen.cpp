@@ -38,9 +38,13 @@ void EmptyLinkFunctionForGeneratedCodeMinesweeperGrid() {}
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_GridSquare;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_GridSize_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_WinScore_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FIntPropertyParams NewProp_GridSize;
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_WinScore;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentScore_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_CurrentScore;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -63,15 +67,23 @@ void EmptyLinkFunctionForGeneratedCodeMinesweeperGrid() {}
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMinesweeperGrid_Statics::NewProp_GridSquare = { "GridSquare", nullptr, (EPropertyFlags)0x0014000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMinesweeperGrid, GridSquare), Z_Construct_UClass_AGridSquare_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMinesweeperGrid_Statics::NewProp_GridSquare_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMinesweeperGrid_Statics::NewProp_GridSquare_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMinesweeperGrid_Statics::NewProp_GridSize_MetaData[] = {
-		{ "Category", "Grid" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMinesweeperGrid_Statics::NewProp_WinScore_MetaData[] = {
+		{ "Category", "MinesweeperGrid" },
 		{ "ModuleRelativePath", "MinesweeperGrid.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMinesweeperGrid_Statics::NewProp_GridSize = { "GridSize", nullptr, (EPropertyFlags)0x0010000000000015, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMinesweeperGrid, GridSize), METADATA_PARAMS(Z_Construct_UClass_AMinesweeperGrid_Statics::NewProp_GridSize_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMinesweeperGrid_Statics::NewProp_GridSize_MetaData)) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMinesweeperGrid_Statics::NewProp_WinScore = { "WinScore", nullptr, (EPropertyFlags)0x0040000000020001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMinesweeperGrid, WinScore), METADATA_PARAMS(Z_Construct_UClass_AMinesweeperGrid_Statics::NewProp_WinScore_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMinesweeperGrid_Statics::NewProp_WinScore_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMinesweeperGrid_Statics::NewProp_CurrentScore_MetaData[] = {
+		{ "Category", "MinesweeperGrid" },
+		{ "ModuleRelativePath", "MinesweeperGrid.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMinesweeperGrid_Statics::NewProp_CurrentScore = { "CurrentScore", nullptr, (EPropertyFlags)0x0040000000020001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMinesweeperGrid, CurrentScore), METADATA_PARAMS(Z_Construct_UClass_AMinesweeperGrid_Statics::NewProp_CurrentScore_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMinesweeperGrid_Statics::NewProp_CurrentScore_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMinesweeperGrid_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMinesweeperGrid_Statics::NewProp_GridSquare,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMinesweeperGrid_Statics::NewProp_GridSize,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMinesweeperGrid_Statics::NewProp_WinScore,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMinesweeperGrid_Statics::NewProp_CurrentScore,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AMinesweeperGrid_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AMinesweeperGrid>::IsAbstract,
@@ -100,7 +112,7 @@ void EmptyLinkFunctionForGeneratedCodeMinesweeperGrid() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMinesweeperGrid, 2453195342);
+	IMPLEMENT_CLASS(AMinesweeperGrid, 1209234249);
 	template<> MINESWEEPERCLONE_API UClass* StaticClass<AMinesweeperGrid>()
 	{
 		return AMinesweeperGrid::StaticClass();

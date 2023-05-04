@@ -12,6 +12,8 @@ AMinesweeperGrid::AMinesweeperGrid()
 
 	GridSize = 10;
 	CellSpacing = 100;
+	NumberOfMines = 9;
+	WinScore = NumberOfMines;
 
 	static ConstructorHelpers::FObjectFinder<UBlueprint>ItemBlueprint(TEXT("Blueprint'/Game/MyBlueprints/BP_GridSquare'"));
 	if (ItemBlueprint.Object)
@@ -36,6 +38,8 @@ void AMinesweeperGrid::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 }
+
+
 
 void AMinesweeperGrid::CreateGrid()
 {
@@ -62,7 +66,7 @@ void AMinesweeperGrid::CreateGrid()
 
 void AMinesweeperGrid::SetMines()
 {
-	for (int32 i = 0; i < 9; i++)
+	for (int32 i = 0; i < NumberOfMines; i++)
 	{
 		GenerateRandomNumber();
 
@@ -178,6 +182,15 @@ void AMinesweeperGrid::CheckBounds(FVector2D GridPosition)
 	if (GridPosition.Y < 0 || GridPosition.Y > 9)
 	{
 		OutOfBounds = true;
+	}
+}
+
+void AMinesweeperGrid::WinCondition(int32 Value)
+{
+	CurrentScore += Value;
+	if (CurrentScore == WinScore)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Red, TEXT("YOU WIN!!"));
 	}
 }
 

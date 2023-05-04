@@ -89,6 +89,11 @@ void AGridSquare::SetFlag()
 			Flagged = false;
 			IsEmpty = true;
 			FrontPlane->SetMaterial(0, DefaultImage);
+
+			if (IsMine)
+			{
+				OwningGrid->WinCondition(-1);
+			}
 			break;
 		}
 		case false:
@@ -96,6 +101,11 @@ void AGridSquare::SetFlag()
 			Flagged = true;
 			IsEmpty = false;
 			FrontPlane->SetMaterial(0, Flag);
+
+			if (IsMine)
+			{
+				OwningGrid->WinCondition(1);
+			}
 			break;
 		}
 	}
@@ -113,6 +123,8 @@ void AGridSquare::FlipCell()
 
 		if (IsMine)
 		{
+			bIsFlipped = true;
+			this->SetActorRotation(FRotator(180, 0, 0));
 			OwningGrid->FlipAllMines();
 		}
 
@@ -131,10 +143,7 @@ void AGridSquare::AddToMineNeighbouringValue()
 
 		IsEmpty = false;
 
-		//FString IntAsString = FString::FromInt(NumNeighbouringMines);
-
 		BackPlane->SetMaterial(0, Numbers[NumNeighbouringMines - 1]);
-		//Text->SetText(IntAsString);
 	}
 }
 

@@ -20,13 +20,18 @@ public:
 	UPROPERTY(EditAnywhere, Category = "GridCell")
 	TSubclassOf<AGridSquare> GridSquare;
 
-	UPROPERTY(Category = Grid, EditAnywhere, BlueprintReadOnly)
 	int32 GridSize;
 	int32 CellSpacing;
 
 private:
 	int32 NumGridCells;
 	int32 Random;
+
+	int32 NumberOfMines;
+	UPROPERTY(VisibleAnywhere)
+	int32 WinScore;
+	UPROPERTY(VisibleAnywhere)
+	int32 CurrentScore;
 
 	TArray<AGridSquare*> ListOfGridSquares;
 	TArray<FVector2D> GridPositions;
@@ -46,6 +51,8 @@ public:
 	void FlipAllMines();
 
 	void FlipEmptyCells(int32 GridSquareNumber);
+
+	void WinCondition(int32 Value);
 
 private:
 	void CreateGrid();
