@@ -45,6 +45,8 @@ public:
 
 	void FlipAllMines();
 
+	void FlipEmptyCells(int32 GridSquareNumber);
+
 private:
 	void CreateGrid();
 	void SetMines();

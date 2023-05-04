@@ -73,6 +73,7 @@ void AGridSquare::Tick(float DeltaTime)
 void AGridSquare::SetMineMaterial()
 {
 	IsMine = true;
+	IsEmpty = false;
 	BackPlane->SetMaterial(0, Mine);
 }
 
@@ -87,9 +88,15 @@ void AGridSquare::FlipCell()
 	{
 		bIsFlipped = true;
 		this->SetActorRotation(FRotator(180, 0, 0));
+
 		if (IsMine)
 		{
 			OwningGrid->FlipAllMines();
+		}
+
+		if (IsEmpty)
+		{
+			OwningGrid->FlipEmptyCells(GridSquareNumber);
 		}
 	}
 }
@@ -99,6 +106,8 @@ void AGridSquare::AddToMineNeighbouringValue()
 	if (IsMine == false)
 	{
 		NumNeighbouringMines++;
+
+		IsEmpty = false;
 
 		//FString IntAsString = FString::FromInt(NumNeighbouringMines);
 

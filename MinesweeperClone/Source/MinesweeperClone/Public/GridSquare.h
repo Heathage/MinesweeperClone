@@ -15,6 +15,8 @@ public:
 	// Sets default values for this actor's properties
 	AGridSquare();
 
+	int32 GridSquareNumber;
+
 	UPROPERTY()
 	class AMinesweeperGrid* OwningGrid;
 
@@ -23,6 +25,10 @@ public:
 
 	UPROPERTY(VisibleAnywhere)
 	bool IsMine;
+
+	UPROPERTY(VisibleAnywhere)
+	bool IsEmpty = true;
+
 
 	UPROPERTY(VisibleAnywhere)
 	uint8 bIsFlipped:1;
