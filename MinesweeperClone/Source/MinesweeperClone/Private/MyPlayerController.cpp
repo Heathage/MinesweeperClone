@@ -3,3 +3,11 @@
 
 #include "MyPlayerController.h"
 
+AMyPlayerController::AMyPlayerController()
+{
+	bShowMouseCursor = true;
+	bEnableClickEvents = true;
+	bEnableTouchEvents = true;
+	DefaultMouseCursor = EMouseCursor::Crosshairs;
+}
+

@@ -13,5 +13,8 @@ UCLASS()
 class MINESWEEPERCLONE_API AMyPlayerController : public APlayerController
 {
 	GENERATED_BODY()
+public:
+	AMyPlayerController();
+
 	
 };
