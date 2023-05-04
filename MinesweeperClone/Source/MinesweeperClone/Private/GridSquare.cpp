@@ -3,6 +3,9 @@
 
 #include "GridSquare.h"
 #include "Components/TextRenderComponent.h"
+#include "../Public/MyPawn.h"
+#include "Kismet/GameplayStatics.h"
+#include "../MinesweeperGrid.h"
 
 // Sets default values
 AGridSquare::AGridSquare()
@@ -84,6 +87,10 @@ void AGridSquare::FlipCell()
 	{
 		bIsFlipped = true;
 		this->SetActorRotation(FRotator(180, 0, 0));
+		if (IsMine)
+		{
+			OwningGrid->FlipAllMines();
+		}
 	}
 }
 

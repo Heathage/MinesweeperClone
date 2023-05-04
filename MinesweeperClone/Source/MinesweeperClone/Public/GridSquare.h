@@ -47,7 +47,6 @@ public:
 
 	UPROPERTY(VisibleAnywhere)
 	USceneComponent* Root;
-
 	
 
 protected:

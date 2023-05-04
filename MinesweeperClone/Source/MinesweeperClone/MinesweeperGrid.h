@@ -43,10 +43,13 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	void FlipAllMines();
+
 private:
 	void CreateGrid();
 	void SetMines();
 	void GenerateRandomNumber();
 	void CalculateNeighbouringTilesValue();
+	void CheckIndividualTiles();
 	void CheckBounds(FVector2D GridPosition);
 };

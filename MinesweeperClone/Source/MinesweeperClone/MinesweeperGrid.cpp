@@ -183,6 +183,18 @@ void AMinesweeperGrid::CheckBounds(FVector2D GridPosition)
 	}
 }
 
+void AMinesweeperGrid::FlipAllMines()
+{
+	for (AGridSquare* Square : ListOfGridSquares)
+	{
+		if (Square->IsMine)
+		{
+			Square->FlipCell();
+		}
+	}
+	GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Red, TEXT("YOU LOSE!!"));
+}
+
 void AMinesweeperGrid::GenerateRandomNumber()
 {
 	Random = FMath::RandRange(0, 99);
