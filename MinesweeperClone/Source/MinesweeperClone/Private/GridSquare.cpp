@@ -68,3 +68,11 @@ void AGridSquare::FlipCell()
 	}
 }
 
+void AGridSquare::AddToMineNeighbouringValue()
+{
+	if (IsMine == false)
+	{
+		NumNeighbouringMines++;
+	}
+}
+

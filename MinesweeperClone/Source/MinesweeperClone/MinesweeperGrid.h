@@ -29,6 +29,7 @@ private:
 	int32 Random;
 
 	TArray<AGridSquare*> ListOfGridSquares;
+	TArray<FVector2D> MineGridPositions;
 
 protected:
 	// Called when the game starts or when spawned
@@ -43,4 +44,5 @@ private:
 	void CreateGrid();
 	void SetMines();
 	void GenerateRandomNumber();
+	void CalculateNeighbouringTilesValue();
 };

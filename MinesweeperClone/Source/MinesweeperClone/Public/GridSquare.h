@@ -27,6 +27,7 @@ public:
 	UPROPERTY(VisibleAnywhere)
 	uint8 bIsFlipped:1;
 
+	UPROPERTY(VisibleAnywhere)
 	int32 NumNeighbouringMines;
 
 	UPROPERTY(VisibleAnywhere)
@@ -59,5 +60,7 @@ public:
 	void SetFlagMaterial();
 
 	void FlipCell();
+
+	void AddToMineNeighbouringValue();
 
 };
