@@ -39,7 +39,6 @@ void AMyPawn::Tick(float DeltaTime)
 
 void AMyPawn::LeftClick()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, TEXT("LeftClick"));
 	FHitResult HitResult;
 
 	if (AMyPlayerController* PC = Cast<AMyPlayerController>(GetController()))
@@ -56,7 +55,6 @@ void AMyPawn::LeftClick()
 
 void AMyPawn::RightClick()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, TEXT("RightClick"));
 	FHitResult HitResult;
 
 	if (AMyPlayerController* PC = Cast<AMyPlayerController>(GetController()))
@@ -67,7 +65,7 @@ void AMyPawn::RightClick()
 	if (HitResult.Actor.IsValid())
 	{
 		AGridSquare* HitBlock = Cast<AGridSquare>(HitResult.Actor.Get());
-		HitBlock->SetFlagMaterial();
+		HitBlock->SetFlag();
 	}
 }
 

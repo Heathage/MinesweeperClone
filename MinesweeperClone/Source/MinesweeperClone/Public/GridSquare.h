@@ -29,12 +29,18 @@ public:
 	UPROPERTY(VisibleAnywhere)
 	bool IsEmpty = true;
 
+	UPROPERTY(VisibleAnywhere)
+	bool Flagged = false;
+
 
 	UPROPERTY(VisibleAnywhere)
 	uint8 bIsFlipped:1;
 
 	UPROPERTY(VisibleAnywhere)
 	int32 NumNeighbouringMines;
+
+	UPROPERTY(VisibleAnywhere)
+	UMaterial* DefaultImage;
 
 	UPROPERTY(VisibleAnywhere)
 	UMaterial* Mine;
@@ -65,7 +71,7 @@ public:
 
 	void SetMineMaterial();
 
-	void SetFlagMaterial();
+	void SetFlag();
 
 	void FlipCell();
 

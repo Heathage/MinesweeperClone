@@ -52,6 +52,9 @@ private:
 	void SetMines();
 	void GenerateRandomNumber();
 	void CalculateNeighbouringTilesValue();
-	void CheckIndividualTiles();
+	void CheckIndividualTiles(FVector2D CellVector2D, int32 CellInt);
+
+
 	void CheckBounds(FVector2D GridPosition);
+	void CheckCells(FVector2D GridSquareCoordinates);
 };

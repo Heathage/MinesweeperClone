@@ -13,6 +13,9 @@ AGridSquare::AGridSquare()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	ConstructorHelpers::FObjectFinder<UMaterial>DefaultMaterial(TEXT("/Game/Textures/GridSquare_Mat"));
+	DefaultImage = DefaultMaterial.Object;
+
 	ConstructorHelpers::FObjectFinder<UMaterial>FlagMaterial(TEXT("/Game/Textures/T_Flag_Mat"));
 	Flag = FlagMaterial.Object;
 
@@ -77,9 +80,31 @@ void AGridSquare::SetMineMaterial()
 	BackPlane->SetMaterial(0, Mine);
 }
 
-void AGridSquare::SetFlagMaterial()
+void AGridSquare::SetFlag()
 {
-	FrontPlane->SetMaterial(0, Flag);
+	switch (Flagged)
+	{
+		case true:
+		{
+			Flagged = false;
+			IsEmpty = true;
+			FrontPlane->SetMaterial(0, DefaultImage);
+			break;
+		}
+		case false:
+		{	
+			Flagged = true;
+			IsEmpty = false;
+			FrontPlane->SetMaterial(0, Flag);
+			break;
+		}
+	}
+	/*if (!Flagged)
+	{
+		Flagged = true;
+		IsEmpty = false;
+		FrontPlane->SetMaterial(0, Flag);
+	}*/
 }
 
 void AGridSquare::FlipCell()

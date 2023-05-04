@@ -55,6 +55,11 @@ void EmptyLinkFunctionForGeneratedCodeGridSquare() {}
 		static void NewProp_IsEmpty_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_IsEmpty;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Flagged_MetaData[];
+#endif
+		static void NewProp_Flagged_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_Flagged;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsFlipped_MetaData[];
 #endif
 		static void NewProp_bIsFlipped_SetBit(void* Obj);
@@ -63,6 +68,10 @@ void EmptyLinkFunctionForGeneratedCodeGridSquare() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_NumNeighbouringMines_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FIntPropertyParams NewProp_NumNeighbouringMines;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DefaultImage_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_DefaultImage;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Mine_MetaData[];
 #endif
@@ -138,6 +147,17 @@ void EmptyLinkFunctionForGeneratedCodeGridSquare() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AGridSquare_Statics::NewProp_IsEmpty = { "IsEmpty", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AGridSquare), &Z_Construct_UClass_AGridSquare_Statics::NewProp_IsEmpty_SetBit, METADATA_PARAMS(Z_Construct_UClass_AGridSquare_Statics::NewProp_IsEmpty_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGridSquare_Statics::NewProp_IsEmpty_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGridSquare_Statics::NewProp_Flagged_MetaData[] = {
+		{ "Category", "GridSquare" },
+		{ "ModuleRelativePath", "Public/GridSquare.h" },
+	};
+#endif
+	void Z_Construct_UClass_AGridSquare_Statics::NewProp_Flagged_SetBit(void* Obj)
+	{
+		((AGridSquare*)Obj)->Flagged = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AGridSquare_Statics::NewProp_Flagged = { "Flagged", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AGridSquare), &Z_Construct_UClass_AGridSquare_Statics::NewProp_Flagged_SetBit, METADATA_PARAMS(Z_Construct_UClass_AGridSquare_Statics::NewProp_Flagged_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGridSquare_Statics::NewProp_Flagged_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGridSquare_Statics::NewProp_bIsFlipped_MetaData[] = {
 		{ "Category", "GridSquare" },
 		{ "ModuleRelativePath", "Public/GridSquare.h" },
@@ -155,6 +175,13 @@ void EmptyLinkFunctionForGeneratedCodeGridSquare() {}
 	};
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AGridSquare_Statics::NewProp_NumNeighbouringMines = { "NumNeighbouringMines", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGridSquare, NumNeighbouringMines), METADATA_PARAMS(Z_Construct_UClass_AGridSquare_Statics::NewProp_NumNeighbouringMines_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGridSquare_Statics::NewProp_NumNeighbouringMines_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGridSquare_Statics::NewProp_DefaultImage_MetaData[] = {
+		{ "Category", "GridSquare" },
+		{ "ModuleRelativePath", "Public/GridSquare.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGridSquare_Statics::NewProp_DefaultImage = { "DefaultImage", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGridSquare, DefaultImage), Z_Construct_UClass_UMaterial_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGridSquare_Statics::NewProp_DefaultImage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGridSquare_Statics::NewProp_DefaultImage_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGridSquare_Statics::NewProp_Mine_MetaData[] = {
 		{ "Category", "GridSquare" },
@@ -206,8 +233,10 @@ void EmptyLinkFunctionForGeneratedCodeGridSquare() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGridSquare_Statics::NewProp_Text,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGridSquare_Statics::NewProp_IsMine,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGridSquare_Statics::NewProp_IsEmpty,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGridSquare_Statics::NewProp_Flagged,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGridSquare_Statics::NewProp_bIsFlipped,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGridSquare_Statics::NewProp_NumNeighbouringMines,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGridSquare_Statics::NewProp_DefaultImage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGridSquare_Statics::NewProp_Mine,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGridSquare_Statics::NewProp_Flag,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGridSquare_Statics::NewProp_Numbers_Inner,
@@ -243,7 +272,7 @@ void EmptyLinkFunctionForGeneratedCodeGridSquare() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGridSquare, 502470660);
+	IMPLEMENT_CLASS(AGridSquare, 2183704078);
 	template<> MINESWEEPERCLONE_API UClass* StaticClass<AGridSquare>()
 	{
 		return AGridSquare::StaticClass();

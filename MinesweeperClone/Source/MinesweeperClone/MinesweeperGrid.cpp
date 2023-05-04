@@ -68,7 +68,6 @@ void AMinesweeperGrid::SetMines()
 
 		while (ListOfGridSquares[Random]->IsMine)
 		{
-			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, TEXT("Repeated"));
 			GenerateRandomNumber();
 		}
 
@@ -81,7 +80,7 @@ void AMinesweeperGrid::SetMines()
 
 			MineGridPositions.Add(FVector2D(X, Y));
 
-			GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Red, TEXT("Set Mine"));
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Set Mine"));
 		}
 	}
 }
@@ -174,13 +173,11 @@ void AMinesweeperGrid::CheckBounds(FVector2D GridPosition)
 	if (GridPosition.X < 0 || GridPosition.X > 9)
 	{
 		OutOfBounds = true;
-		GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Green, TEXT("Check Position X"));
 	}
 
 	if (GridPosition.Y < 0 || GridPosition.Y > 9)
 	{
 		OutOfBounds = true;
-		GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Blue, TEXT("Check Position Y"));
 	}
 }
 
@@ -209,7 +206,10 @@ void AMinesweeperGrid::FlipEmptyCells(int32 GridSquareNumber)
 
 	if (TopLeftInt >= 0 && !OutOfBounds)
 	{
-		ListOfGridSquares[TopLeftInt]->FlipCell();
+		if (!ListOfGridSquares[TopLeftInt]->Flagged)
+		{
+			ListOfGridSquares[TopLeftInt]->FlipCell();
+		}
 	}
 
 	FVector2D TopCell = FVector2D(GridSquareCoordinates.X, GridSquareCoordinates.Y - 1);;
@@ -218,7 +218,10 @@ void AMinesweeperGrid::FlipEmptyCells(int32 GridSquareNumber)
 
 	if (TopInt >= 0 && !OutOfBounds)
 	{
-		ListOfGridSquares[TopInt]->FlipCell();
+		if (!ListOfGridSquares[TopInt]->Flagged)
+		{
+			ListOfGridSquares[TopInt]->FlipCell();
+		}
 	}
 
 	FVector2D TopRightCell = FVector2D(GridSquareCoordinates.X + 1, GridSquareCoordinates.Y - 1);;
@@ -227,7 +230,10 @@ void AMinesweeperGrid::FlipEmptyCells(int32 GridSquareNumber)
 
 	if (TopRightInt >= 0 && !OutOfBounds)
 	{
-		ListOfGridSquares[TopRightInt]->FlipCell();
+		if (!ListOfGridSquares[TopRightInt]->Flagged)
+		{
+			ListOfGridSquares[TopRightInt]->FlipCell();
+		}
 	}
 
 	//same level
@@ -237,7 +243,10 @@ void AMinesweeperGrid::FlipEmptyCells(int32 GridSquareNumber)
 
 	if (LeftInt >= 0 && !OutOfBounds)
 	{
-		ListOfGridSquares[LeftInt]->FlipCell();
+		if (!ListOfGridSquares[LeftInt]->Flagged)
+		{
+			ListOfGridSquares[LeftInt]->FlipCell();
+		}
 	}
 
 	FVector2D RightCell = FVector2D(GridSquareCoordinates.X + 1, GridSquareCoordinates.Y);;
@@ -246,7 +255,10 @@ void AMinesweeperGrid::FlipEmptyCells(int32 GridSquareNumber)
 
 	if (RightInt <= 99 && !OutOfBounds)
 	{
-		ListOfGridSquares[RightInt]->FlipCell();
+		if (!ListOfGridSquares[RightInt]->Flagged)
+		{
+			ListOfGridSquares[RightInt]->FlipCell();
+		}
 	}
 
 	//below level
@@ -256,7 +268,10 @@ void AMinesweeperGrid::FlipEmptyCells(int32 GridSquareNumber)
 
 	if (BottomLeftInt <= 99 && !OutOfBounds)
 	{
-		ListOfGridSquares[BottomLeftInt]->FlipCell();
+		if (!ListOfGridSquares[BottomLeftInt]->Flagged)
+		{
+			ListOfGridSquares[BottomLeftInt]->FlipCell();
+		}
 	}
 
 	FVector2D BottomCell = FVector2D(GridSquareCoordinates.X, GridSquareCoordinates.Y + 1);
@@ -265,7 +280,10 @@ void AMinesweeperGrid::FlipEmptyCells(int32 GridSquareNumber)
 
 	if (BottomInt <= 99 && !OutOfBounds)
 	{
-		ListOfGridSquares[BottomInt]->FlipCell();
+		if (!ListOfGridSquares[BottomInt]->Flagged)
+		{
+			ListOfGridSquares[BottomInt]->FlipCell();
+		}
 	}
 
 	FVector2D BottomRightCell = FVector2D(GridSquareCoordinates.X + 1, GridSquareCoordinates.Y + 1);
@@ -274,7 +292,10 @@ void AMinesweeperGrid::FlipEmptyCells(int32 GridSquareNumber)
 
 	if (BottomRightInt <= 99 && !OutOfBounds)
 	{
-		ListOfGridSquares[BottomRightInt]->FlipCell();
+		if (!ListOfGridSquares[BottomRightInt]->Flagged)
+		{
+			ListOfGridSquares[BottomRightInt]->FlipCell();
+		}
 	}
 }
 
