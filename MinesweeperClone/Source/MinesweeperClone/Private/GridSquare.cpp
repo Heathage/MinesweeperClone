@@ -2,6 +2,7 @@
 
 
 #include "GridSquare.h"
+#include "Components/TextRenderComponent.h"
 
 // Sets default values
 AGridSquare::AGridSquare()
@@ -18,11 +19,16 @@ AGridSquare::AGridSquare()
 	Root = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
 	this->SetRootComponent(Root);
 
+
 	FrontPlane = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Front Plane"));
 	FrontPlane->SetupAttachment(this->Root);
 
 	BackPlane = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Back Plane"));
 	BackPlane->SetupAttachment(this->Root);
+
+	Text = CreateDefaultSubobject<UTextRenderComponent>(TEXT("Number"));
+	Text->SetupAttachment(this->BackPlane);
+	Text->SetTextRenderColor(FColor::Red);
 
 }
 
@@ -31,6 +37,8 @@ void AGridSquare::BeginPlay()
 {
 	Super::BeginPlay();
 	bIsFlipped = false;
+
+	Text->SetText("Hello");
 }
 
 // Called every frame

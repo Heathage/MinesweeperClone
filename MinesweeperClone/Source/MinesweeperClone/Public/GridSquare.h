@@ -18,6 +18,9 @@ public:
 	UPROPERTY()
 	class AMinesweeperGrid* OwningGrid;
 
+	UPROPERTY()
+	class UTextRenderComponent* Text;
+
 	UPROPERTY(VisibleAnywhere)
 	bool IsMine;
 
@@ -40,8 +43,6 @@ public:
 
 	UPROPERTY(VisibleAnywhere)
 	USceneComponent* Root;
-
-	
 
 	
 
