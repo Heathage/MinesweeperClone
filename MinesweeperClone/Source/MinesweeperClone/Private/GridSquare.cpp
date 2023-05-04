@@ -38,7 +38,7 @@ void AGridSquare::BeginPlay()
 	Super::BeginPlay();
 	bIsFlipped = false;
 
-	Text->SetText("Hello");
+	Text->SetText("");
 }
 
 // Called every frame
@@ -73,6 +73,9 @@ void AGridSquare::AddToMineNeighbouringValue()
 	if (IsMine == false)
 	{
 		NumNeighbouringMines++;
+
+		FString IntAsString = FString::FromInt(NumNeighbouringMines);
+		Text->SetText(IntAsString);
 	}
 }
 
