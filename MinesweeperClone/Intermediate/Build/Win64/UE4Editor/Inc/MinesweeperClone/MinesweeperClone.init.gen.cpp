@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeMinesweeperClone_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x219A20AE,
+				0x4D020E68,
 				0x048E745D,
 				METADATA_PARAMS(nullptr, 0)
 			};

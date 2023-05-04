@@ -5,10 +5,12 @@
 #include "../MinesweeperClonePawn.h"
 #include "../MinesweeperGrid.h"
 #include "../Public/MyPawn.h"
+#include "../Public/MyPlayerController.h"
 
 AMinesweeperGameMode::AMinesweeperGameMode()
 {
 	DefaultPawnClass = AMyPawn::StaticClass();
+	PlayerControllerClass = AMyPlayerController::StaticClass();
 }
 
 void AMinesweeperGameMode::BeginPlay()

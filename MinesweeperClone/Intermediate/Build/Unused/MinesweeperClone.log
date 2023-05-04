@@ -1,41 +1,11 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\FlixInteractive\MinesweeperClone).
-  Creating makefile for MinesweeperCloneEditor (no existing makefile)
-  Parsing headers for MinesweeperCloneEditor
-    Running UnrealHeaderTool "D:\FlixInteractive\MinesweeperClone\MinesweeperClone\MinesweeperClone.uproject" "D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\MinesweeperCloneEditor\Development\MinesweeperCloneEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\cadia\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  LogInit: Display: Loading text-based GConfig....
-  Reflection code generated for MinesweeperCloneEditor in 2.9742424 seconds
   Building MinesweeperCloneEditor...
   Using Visual Studio 2022 14.34.31937 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933) and Windows 10.0.22000.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 27 actions with 24 processes...
-    [1/27] Default.rc2
-    [2/27] SharedPCH.Engine.ShadowErrors.cpp
-    Detected compiler newer than Visual Studio 2019, please update min version checking in WindowsPlatformCompilerSetup.h
-    [3/27] MinesweeperClone.cpp
-    [4/27] MyPawn.cpp
-    [5/27] MyPlayerController.cpp
-    [6/27] MinesweeperClonePlayerController.cpp
-    [7/27] GridSquare.cpp
-    [8/27] MinesweeperCloneGameMode.cpp
-    [9/27] MinesweeperCloneBlockGrid.gen.cpp
-    [10/27] MinesweeperClonePlayerController.gen.cpp
-    [11/27] MinesweeperGrid.cpp
-    [12/27] MinesweeperClone.init.gen.cpp
-    [13/27] MinesweeperCloneBlockGrid.cpp
-    [14/27] MyPawn.gen.cpp
-    [15/27] MinesweeperClonePawn.gen.cpp
-    [16/27] MinesweeperGameMode.cpp
-    [17/27] MyPlayerController.gen.cpp
-    [18/27] MinesweeperCloneBlock.cpp
-    [19/27] MinesweeperGameMode.gen.cpp
-    [20/27] MinesweeperCloneBlock.gen.cpp
-    [21/27] GridSquare.gen.cpp
-    [22/27] MinesweeperGrid.gen.cpp
-    [23/27] MinesweeperCloneGameMode.gen.cpp
-    [24/27] MinesweeperClonePawn.cpp
-    [25/27] UE4Editor-MinesweeperClone.lib
-       Creating library D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone.lib and object D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone.exp
-    [26/27] UE4Editor-MinesweeperClone.dll
-       Creating library D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone.suppressed.lib and object D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone.suppressed.exp
-    [27/27] MinesweeperCloneEditor.target
-  Total time in Parallel executor: 21.27 seconds
-  Total execution time: 28.52 seconds
+  Building 3 actions with 24 processes...
+    [1/3] UE4Editor-MinesweeperClone-0013.lib
+       Creating library D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone-0013.lib and object D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone-0013.exp
+    [2/3] UE4Editor-MinesweeperClone-0013.dll
+       Creating library D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone-0013.suppressed.lib and object D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone-0013.suppressed.exp
+    [3/3] MinesweeperCloneEditor.target
+  Total time in Parallel executor: 0.69 seconds
+  Total execution time: 1.15 seconds
