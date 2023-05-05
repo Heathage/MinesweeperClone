@@ -39,6 +39,8 @@ private:
 
 	uint8 bOutOfBounds:1;
 
+	class AMyPawn* Pawn;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

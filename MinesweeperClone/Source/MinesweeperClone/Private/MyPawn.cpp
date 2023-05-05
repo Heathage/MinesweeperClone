@@ -27,6 +27,8 @@ void AMyPawn::BeginPlay()
 
 	this->SetActorLocation(FVector(450, 450, 1200));
 	this->SetActorRotation(FRotator(270, 270, 0));
+
+	bGameEnded = false;
 	
 }
 
@@ -39,33 +41,39 @@ void AMyPawn::Tick(float DeltaTime)
 
 void AMyPawn::LeftClick()
 {
-	FHitResult HitResult;
-
-	if (AMyPlayerController* PC = Cast<AMyPlayerController>(GetController()))
+	if (!bGameEnded)
 	{
-		PC->GetHitResultUnderCursorByChannel(UEngineTypes::ConvertToTraceType(ECC_Camera), true, HitResult);
-	}
+		FHitResult HitResult;
 
-	if (HitResult.Actor.IsValid())
-	{
-		AGridSquare* HitBlock = Cast<AGridSquare>(HitResult.Actor.Get());
-		HitBlock->FlipCell();
+		if (AMyPlayerController* PC = Cast<AMyPlayerController>(GetController()))
+		{
+			PC->GetHitResultUnderCursorByChannel(UEngineTypes::ConvertToTraceType(ECC_Camera), true, HitResult);
+		}
+
+		if (HitResult.Actor.IsValid())
+		{
+			AGridSquare* HitBlock = Cast<AGridSquare>(HitResult.Actor.Get());
+			HitBlock->FlipCell();
+		}
 	}
 }
 
 void AMyPawn::RightClick()
 {
-	FHitResult HitResult;
-
-	if (AMyPlayerController* PC = Cast<AMyPlayerController>(GetController()))
+	if (!bGameEnded)
 	{
-		PC->GetHitResultUnderCursorByChannel(UEngineTypes::ConvertToTraceType(ECC_Camera), true, HitResult);
-	}
+		FHitResult HitResult;
 
-	if (HitResult.Actor.IsValid())
-	{
-		AGridSquare* HitBlock = Cast<AGridSquare>(HitResult.Actor.Get());
-		HitBlock->SetFlag();
+		if (AMyPlayerController* PC = Cast<AMyPlayerController>(GetController()))
+		{
+			PC->GetHitResultUnderCursorByChannel(UEngineTypes::ConvertToTraceType(ECC_Camera), true, HitResult);
+		}
+
+		if (HitResult.Actor.IsValid())
+		{
+			AGridSquare* HitBlock = Cast<AGridSquare>(HitResult.Actor.Get());
+			HitBlock->SetFlag();
+		}
 	}
 }
 

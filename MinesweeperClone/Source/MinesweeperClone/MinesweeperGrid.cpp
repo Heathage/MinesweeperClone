@@ -3,6 +3,8 @@
 
 #include "MinesweeperGrid.h"
 #include "GridSquare.h"
+#include "Public/MyPawn.h"
+#include "Kismet/GameplayStatics.h"
 
 // Sets default values
 AMinesweeperGrid::AMinesweeperGrid()
@@ -20,6 +22,8 @@ AMinesweeperGrid::AMinesweeperGrid()
 	{
 		GridSquare = (UClass*)ItemBlueprint.Object->GeneratedClass;
 	}
+
+	Pawn = Cast<AMyPawn>(UGameplayStatics::GetPlayerPawn(GetWorld(), 0));
 }
 
 // Called when the game starts or when spawned
@@ -36,7 +40,6 @@ void AMinesweeperGrid::BeginPlay()
 void AMinesweeperGrid::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 
@@ -84,7 +87,7 @@ void AMinesweeperGrid::SetMines()
 
 			MineGridPositions.Add(FVector2D(X, Y));
 
-			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Set Mine"));
+			GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Blue, TEXT("Set Mine"));
 		}
 	}
 }
@@ -191,6 +194,7 @@ void AMinesweeperGrid::WinCondition(int32 Value)
 	if (CurrentScore == WinScore)
 	{
 		GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Red, TEXT("YOU WIN!!"));
+		Pawn->bGameEnded = true;
 	}
 }
 
@@ -204,6 +208,7 @@ void AMinesweeperGrid::FlipAllMines()
 		}
 	}
 	GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Red, TEXT("YOU LOSE!!"));
+	Pawn->bGameEnded = true;
 }
 
 void AMinesweeperGrid::FlipEmptyCells(int32 GridSquareNumber)

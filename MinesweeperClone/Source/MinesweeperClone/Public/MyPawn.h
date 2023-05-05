@@ -18,6 +18,8 @@ public:
 	UPROPERTY()
 	class UCameraComponent* Camera;
 
+	uint8 bGameEnded:1;
+
 private:
 	FVector Start;
 	FVector Dir;
