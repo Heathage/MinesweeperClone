@@ -35,6 +35,7 @@ public:
 
 	void LeftClick();
 	void RightClick();
+	void Reset();
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;

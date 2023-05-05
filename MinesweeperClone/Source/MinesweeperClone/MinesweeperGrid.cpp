@@ -204,13 +204,13 @@ void AMinesweeperGrid::CheckBounds(FVector2D GridPosition)
 //Handles the end game result.
 void AMinesweeperGrid::EndGame(FString EndGameResult)
 {
-	GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Red, EndGameResult);
+	GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Red, EndGameResult);
 
 	Pawn->bGameEnded = true;
 
 	EndTime = GetWorld()->GetTimeSeconds() - StartTime;
 	FString TimeAsString = FString::SanitizeFloat(EndTime);
-	GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Red, TimeAsString);
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TimeAsString);
 
 }
 

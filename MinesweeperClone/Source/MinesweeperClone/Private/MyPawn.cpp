@@ -6,6 +6,7 @@
 #include "MyPlayerController.h"
 #include "GridSquare.h"
 #include "DrawDebugHelpers.h"
+#include "Kismet/GameplayStatics.h"
 
 
 // Sets default values
@@ -77,6 +78,12 @@ void AMyPawn::RightClick()
 	}
 }
 
+void AMyPawn::Reset()
+{
+	GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Green, TEXT("Reset"));
+	UGameplayStatics::OpenLevel(this, FName(*GetWorld()->GetName()), false);
+}
+
 // Called to bind functionality to input
 void AMyPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
@@ -84,6 +91,7 @@ void AMyPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 	PlayerInputComponent->BindAction("LMB", EInputEvent::IE_Pressed, this, &AMyPawn::LeftClick);
 	PlayerInputComponent->BindAction("RMB", EInputEvent::IE_Pressed, this, &AMyPawn::RightClick);
+	PlayerInputComponent->BindAction("Reset", EInputEvent::IE_Pressed, this, &AMyPawn::Reset);
 
 }
 
