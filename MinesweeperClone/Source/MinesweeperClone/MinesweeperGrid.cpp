@@ -70,12 +70,12 @@ void AMinesweeperGrid::SetMines()
 	{
 		GenerateRandomNumber();
 
-		while (ListOfGridSquares[Random]->IsMine)
+		while (ListOfGridSquares[Random]->bIsMine)
 		{
 			GenerateRandomNumber();
 		}
 
-		if (ListOfGridSquares[Random]->IsMine == false)
+		if (ListOfGridSquares[Random]->bIsMine == false)
 		{
 			ListOfGridSquares[Random]->SetMineMaterial();
 
@@ -98,7 +98,7 @@ void AMinesweeperGrid::CalculateNeighbouringTilesValue()
 		int32 TopLeftInt = TopLeftCell.Y * GridSize + TopLeftCell.X;
 		CheckBounds(TopLeftCell);
 
-		if (TopLeftInt >= 0 && !OutOfBounds)
+		if (TopLeftInt >= 0 && !bOutOfBounds)
 		{
 			ListOfGridSquares[TopLeftInt]->AddToMineNeighbouringValue();
 		}
@@ -107,7 +107,7 @@ void AMinesweeperGrid::CalculateNeighbouringTilesValue()
 		int32 TopInt = TopCell.Y * GridSize + TopCell.X;
 		CheckBounds(TopCell);
 
-		if (TopInt >= 0 && !OutOfBounds)
+		if (TopInt >= 0 && !bOutOfBounds)
 		{
 			ListOfGridSquares[TopInt]->AddToMineNeighbouringValue();
 		}
@@ -116,7 +116,7 @@ void AMinesweeperGrid::CalculateNeighbouringTilesValue()
 		int32 TopRightInt = TopRightCell.Y * GridSize + TopRightCell.X;
 		CheckBounds(TopRightCell);
 
-		if (TopRightInt >= 0 && !OutOfBounds)
+		if (TopRightInt >= 0 && !bOutOfBounds)
 		{
 			ListOfGridSquares[TopRightInt]->AddToMineNeighbouringValue();
 		}
@@ -126,7 +126,7 @@ void AMinesweeperGrid::CalculateNeighbouringTilesValue()
 		int32 LeftInt = LeftCell.Y * GridSize + LeftCell.X;
 		CheckBounds(LeftCell);
 
-		if (LeftInt >= 0 && !OutOfBounds)
+		if (LeftInt >= 0 && !bOutOfBounds)
 		{
 			ListOfGridSquares[LeftInt]->AddToMineNeighbouringValue();
 		}
@@ -135,7 +135,7 @@ void AMinesweeperGrid::CalculateNeighbouringTilesValue()
 		int32 RightInt = RightCell.Y * GridSize + RightCell.X;
 		CheckBounds(RightCell);
 
-		if (RightInt <= 99 && !OutOfBounds)
+		if (RightInt <= 99 && !bOutOfBounds)
 		{
 			ListOfGridSquares[RightInt]->AddToMineNeighbouringValue();
 		}
@@ -145,7 +145,7 @@ void AMinesweeperGrid::CalculateNeighbouringTilesValue()
 		int32 BottomLeftInt = BottomLeftCell.Y * GridSize + BottomLeftCell.X;
 		CheckBounds(BottomLeftCell);
 
-		if (BottomLeftInt <= 99 && !OutOfBounds)
+		if (BottomLeftInt <= 99 && !bOutOfBounds)
 		{
 			ListOfGridSquares[BottomLeftInt]->AddToMineNeighbouringValue();
 		}
@@ -154,7 +154,7 @@ void AMinesweeperGrid::CalculateNeighbouringTilesValue()
 		int32 BottomInt = BottomCell.Y * GridSize + BottomCell.X;
 		CheckBounds(BottomCell);
 
-		if (BottomInt <= 99 && !OutOfBounds)
+		if (BottomInt <= 99 && !bOutOfBounds)
 		{
 			ListOfGridSquares[BottomInt]->AddToMineNeighbouringValue();
 		}
@@ -163,7 +163,7 @@ void AMinesweeperGrid::CalculateNeighbouringTilesValue()
 		int32 BottomRightInt = BottomRightCell.Y * GridSize + BottomRightCell.X;
 		CheckBounds(BottomRightCell);
 
-		if (BottomRightInt <= 99 && !OutOfBounds)
+		if (BottomRightInt <= 99 && !bOutOfBounds)
 		{
 			ListOfGridSquares[BottomRightInt]->AddToMineNeighbouringValue();
 		}
@@ -172,16 +172,16 @@ void AMinesweeperGrid::CalculateNeighbouringTilesValue()
 
 void AMinesweeperGrid::CheckBounds(FVector2D GridPosition)
 {
-	OutOfBounds = false;
+	bOutOfBounds = false;
 
 	if (GridPosition.X < 0 || GridPosition.X > 9)
 	{
-		OutOfBounds = true;
+		bOutOfBounds = true;
 	}
 
 	if (GridPosition.Y < 0 || GridPosition.Y > 9)
 	{
-		OutOfBounds = true;
+		bOutOfBounds = true;
 	}
 }
 
@@ -198,7 +198,7 @@ void AMinesweeperGrid::FlipAllMines()
 {
 	for (AGridSquare* Square : ListOfGridSquares)
 	{
-		if (Square->IsMine)
+		if (Square->bIsMine)
 		{
 			Square->FlipCell();
 		}
@@ -217,9 +217,9 @@ void AMinesweeperGrid::FlipEmptyCells(int32 GridSquareNumber)
 	int32 TopLeftInt = TopLeftCell.Y * GridSize + TopLeftCell.X;
 	CheckBounds(TopLeftCell);
 
-	if (TopLeftInt >= 0 && !OutOfBounds)
+	if (TopLeftInt >= 0 && !bOutOfBounds)
 	{
-		if (!ListOfGridSquares[TopLeftInt]->Flagged)
+		if (!ListOfGridSquares[TopLeftInt]->bIsFlagged)
 		{
 			ListOfGridSquares[TopLeftInt]->FlipCell();
 		}
@@ -229,9 +229,9 @@ void AMinesweeperGrid::FlipEmptyCells(int32 GridSquareNumber)
 	int32 TopInt = TopCell.Y * GridSize + TopCell.X;
 	CheckBounds(TopCell);
 
-	if (TopInt >= 0 && !OutOfBounds)
+	if (TopInt >= 0 && !bOutOfBounds)
 	{
-		if (!ListOfGridSquares[TopInt]->Flagged)
+		if (!ListOfGridSquares[TopInt]->bIsFlagged)
 		{
 			ListOfGridSquares[TopInt]->FlipCell();
 		}
@@ -241,9 +241,9 @@ void AMinesweeperGrid::FlipEmptyCells(int32 GridSquareNumber)
 	int32 TopRightInt = TopRightCell.Y * GridSize + TopRightCell.X;
 	CheckBounds(TopRightCell);
 
-	if (TopRightInt >= 0 && !OutOfBounds)
+	if (TopRightInt >= 0 && !bOutOfBounds)
 	{
-		if (!ListOfGridSquares[TopRightInt]->Flagged)
+		if (!ListOfGridSquares[TopRightInt]->bIsFlagged)
 		{
 			ListOfGridSquares[TopRightInt]->FlipCell();
 		}
@@ -254,9 +254,9 @@ void AMinesweeperGrid::FlipEmptyCells(int32 GridSquareNumber)
 	int32 LeftInt = LeftCell.Y * GridSize + LeftCell.X;
 	CheckBounds(LeftCell);
 
-	if (LeftInt >= 0 && !OutOfBounds)
+	if (LeftInt >= 0 && !bOutOfBounds)
 	{
-		if (!ListOfGridSquares[LeftInt]->Flagged)
+		if (!ListOfGridSquares[LeftInt]->bIsFlagged)
 		{
 			ListOfGridSquares[LeftInt]->FlipCell();
 		}
@@ -266,9 +266,9 @@ void AMinesweeperGrid::FlipEmptyCells(int32 GridSquareNumber)
 	int32 RightInt = RightCell.Y * GridSize + RightCell.X;
 	CheckBounds(RightCell);
 
-	if (RightInt <= 99 && !OutOfBounds)
+	if (RightInt <= 99 && !bOutOfBounds)
 	{
-		if (!ListOfGridSquares[RightInt]->Flagged)
+		if (!ListOfGridSquares[RightInt]->bIsFlagged)
 		{
 			ListOfGridSquares[RightInt]->FlipCell();
 		}
@@ -279,9 +279,9 @@ void AMinesweeperGrid::FlipEmptyCells(int32 GridSquareNumber)
 	int32 BottomLeftInt = BottomLeftCell.Y * GridSize + BottomLeftCell.X;
 	CheckBounds(BottomLeftCell);
 
-	if (BottomLeftInt <= 99 && !OutOfBounds)
+	if (BottomLeftInt <= 99 && !bOutOfBounds)
 	{
-		if (!ListOfGridSquares[BottomLeftInt]->Flagged)
+		if (!ListOfGridSquares[BottomLeftInt]->bIsFlagged)
 		{
 			ListOfGridSquares[BottomLeftInt]->FlipCell();
 		}
@@ -291,9 +291,9 @@ void AMinesweeperGrid::FlipEmptyCells(int32 GridSquareNumber)
 	int32 BottomInt = BottomCell.Y * GridSize + BottomCell.X;
 	CheckBounds(BottomCell);
 
-	if (BottomInt <= 99 && !OutOfBounds)
+	if (BottomInt <= 99 && !bOutOfBounds)
 	{
-		if (!ListOfGridSquares[BottomInt]->Flagged)
+		if (!ListOfGridSquares[BottomInt]->bIsFlagged)
 		{
 			ListOfGridSquares[BottomInt]->FlipCell();
 		}
@@ -303,9 +303,9 @@ void AMinesweeperGrid::FlipEmptyCells(int32 GridSquareNumber)
 	int32 BottomRightInt = BottomRightCell.Y * GridSize + BottomRightCell.X;
 	CheckBounds(BottomRightCell);
 
-	if (BottomRightInt <= 99 && !OutOfBounds)
+	if (BottomRightInt <= 99 && !bOutOfBounds)
 	{
-		if (!ListOfGridSquares[BottomRightInt]->Flagged)
+		if (!ListOfGridSquares[BottomRightInt]->bIsFlagged)
 		{
 			ListOfGridSquares[BottomRightInt]->FlipCell();
 		}

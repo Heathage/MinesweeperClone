@@ -37,7 +37,7 @@ private:
 	TArray<FVector2D> GridPositions;
 	TArray<FVector2D> MineGridPositions;
 
-	bool OutOfBounds;
+	uint8 bOutOfBounds:1;
 
 protected:
 	// Called when the game starts or when spawned

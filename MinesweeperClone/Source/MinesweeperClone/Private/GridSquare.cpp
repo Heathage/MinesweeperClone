@@ -64,6 +64,8 @@ void AGridSquare::BeginPlay()
 	bIsFlipped = false;
 
 	Text->SetText("");
+	bIsFlagged = false;
+	bIsEmpty = true;
 }
 
 // Called every frame
@@ -75,22 +77,22 @@ void AGridSquare::Tick(float DeltaTime)
 
 void AGridSquare::SetMineMaterial()
 {
-	IsMine = true;
-	IsEmpty = false;
+	bIsMine = true;
+	bIsEmpty = false;
 	BackPlane->SetMaterial(0, Mine);
 }
 
 void AGridSquare::SetFlag()
 {
-	switch (Flagged)
+	switch (bIsFlagged)
 	{
 		case true:
 		{
-			Flagged = false;
-			IsEmpty = true;
+			bIsFlagged = false;
+			bIsEmpty = true;
 			FrontPlane->SetMaterial(0, DefaultImage);
 
-			if (IsMine)
+			if (bIsMine)
 			{
 				OwningGrid->WinCondition(-1);
 			}
@@ -98,11 +100,11 @@ void AGridSquare::SetFlag()
 		}
 		case false:
 		{	
-			Flagged = true;
-			IsEmpty = false;
+			bIsFlagged = true;
+			bIsEmpty = false;
 			FrontPlane->SetMaterial(0, Flag);
 
-			if (IsMine)
+			if (bIsMine)
 			{
 				OwningGrid->WinCondition(1);
 			}
@@ -115,20 +117,20 @@ void AGridSquare::FlipCell()
 {
 	if (bIsFlipped == false)
 	{
-		if (!Flagged)
+		if (!bIsFlagged)
 		{
 			bIsFlipped = true;
 			this->SetActorRotation(FRotator(180, 0, 0));
 		}
 
-		if (IsMine)
+		if (bIsMine)
 		{
 			bIsFlipped = true;
 			this->SetActorRotation(FRotator(180, 0, 0));
 			OwningGrid->FlipAllMines();
 		}
 
-		if (IsEmpty)
+		if (bIsEmpty)
 		{
 			OwningGrid->FlipEmptyCells(GridSquareNumber);
 		}
@@ -137,11 +139,11 @@ void AGridSquare::FlipCell()
 
 void AGridSquare::AddToMineNeighbouringValue()
 {
-	if (IsMine == false)
+	if (bIsMine == false)
 	{
 		NumNeighbouringMines++;
 
-		IsEmpty = false;
+		bIsEmpty = false;
 
 		BackPlane->SetMaterial(0, Numbers[NumNeighbouringMines - 1]);
 	}

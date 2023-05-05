@@ -24,14 +24,13 @@ public:
 	class UTextRenderComponent* Text;
 
 	UPROPERTY(VisibleAnywhere)
-	bool IsMine;
+	uint8 bIsMine:1;
 
 	UPROPERTY(VisibleAnywhere)
-	bool IsEmpty = true;
+	uint8 bIsEmpty:1;
 
 	UPROPERTY(VisibleAnywhere)
-	bool Flagged = false;
-
+	uint8 bIsFlagged:1;
 
 	UPROPERTY(VisibleAnywhere)
 	uint8 bIsFlipped:1;

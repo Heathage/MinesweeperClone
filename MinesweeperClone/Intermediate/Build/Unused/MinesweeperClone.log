@@ -2,12 +2,11 @@
   Building MinesweeperCloneEditor...
   Using Visual Studio 2022 14.34.31937 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933) and Windows 10.0.22000.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 24 processes...
-    [1/4] GridSquare.cpp
-D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Source\MinesweeperClone\Private\GridSquare.cpp(66): warning C4996: 'UTextRenderComponent::SetText': Passing text as FString is deprecated, please use FText instead (likely via a LOCTEXT). Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-    [2/4] UE4Editor-MinesweeperClone-0004.lib
-       Creating library D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone-0004.lib and object D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone-0004.exp
-    [3/4] UE4Editor-MinesweeperClone-0004.dll
-       Creating library D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone-0004.suppressed.lib and object D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone-0004.suppressed.exp
+    [1/4] MinesweeperGrid.cpp
+    [2/4] UE4Editor-MinesweeperClone-0002.lib
+       Creating library D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone-0002.lib and object D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone-0002.exp
+    [3/4] UE4Editor-MinesweeperClone-0002.dll
+       Creating library D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone-0002.suppressed.lib and object D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone-0002.suppressed.exp
     [4/4] MinesweeperCloneEditor.target
-  Total time in Parallel executor: 1.62 seconds
-  Total execution time: 2.10 seconds
+  Total time in Parallel executor: 1.29 seconds
+  Total execution time: 1.80 seconds
