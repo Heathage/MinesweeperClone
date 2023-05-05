@@ -7,15 +7,15 @@ I created the project using the Unreal Engine 4.27.2 Puzzle C++ template to help
 I have moved all the C++ files that came with it to a unused folder to differentiate between code that I have written and code that came with the template. 
 
 I created:
-  MinesweeperGrid.cpp
-  MinesweeperGrid.h
-  GridSquare.cpp
-  GridSquare.h
-  MinesweeperGameMode.cpp
-  MinesweeperGameMode.h
-  MyPawn.cpp
-  MyPawn.h
-  MyPlayerController.cpp
-  MyPlayerController.h
+  - MinesweeperGrid.cpp
+  - MinesweeperGrid.h
+  - GridSquare.cpp
+  - GridSquare.h
+  - MinesweeperGameMode.cpp
+  - MinesweeperGameMode.h
+  - MyPawn.cpp
+  - MyPawn.h
+  - MyPlayerController.cpp
+  - MyPlayerController.h
   
   
