@@ -5,6 +5,7 @@
 #include "GridSquare.h"
 #include "Public/MyPawn.h"
 #include "Kismet/GameplayStatics.h"
+#include "Engine/World.h"
 
 // Sets default values
 AMinesweeperGrid::AMinesweeperGrid()
@@ -34,12 +35,23 @@ void AMinesweeperGrid::BeginPlay()
 	CreateGrid();
 	SetMines();
 	CalculateNeighbouringTilesValue();
+
+	StartTime = GetWorld()->GetTimeSeconds();
+
 }
 
 // Called every frame
 void AMinesweeperGrid::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	if (!Pawn->bGameEnded)
+	{
+		CurrentTime = GetWorld()->GetTimeSeconds() - StartTime;
+
+		FString TimeAsString = FString::SanitizeFloat(CurrentTime);
+		GEngine->AddOnScreenDebugMessage(-1, 0.001f, FColor::Red, TimeAsString);
+	}
 }
 
 
@@ -87,7 +99,7 @@ void AMinesweeperGrid::SetMines()
 
 			MineGridPositions.Add(FVector2D(X, Y));
 
-			GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Blue, TEXT("Set Mine"));
+			GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Blue, TEXT("Mine set"));
 		}
 	}
 }
@@ -188,13 +200,24 @@ void AMinesweeperGrid::CheckBounds(FVector2D GridPosition)
 	}
 }
 
+void AMinesweeperGrid::EndGame(FString EndGameResult)
+{
+	GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Red, EndGameResult);
+
+	Pawn->bGameEnded = true;
+
+	EndTime = GetWorld()->GetTimeSeconds() - StartTime;
+	FString TimeAsString = FString::SanitizeFloat(EndTime);
+	GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Red, TimeAsString);
+
+}
+
 void AMinesweeperGrid::WinCondition(int32 Value)
 {
 	CurrentScore += Value;
 	if (CurrentScore == WinScore)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Red, TEXT("YOU WIN!!"));
-		Pawn->bGameEnded = true;
+		EndGame("YOU WIN!!");
 	}
 }
 
@@ -207,8 +230,12 @@ void AMinesweeperGrid::FlipAllMines()
 			Square->FlipCell();
 		}
 	}
-	GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Red, TEXT("YOU LOSE!!"));
-	Pawn->bGameEnded = true;
+
+	//Used to run the method only once. 
+	if (!Pawn->bGameEnded)
+	{
+		EndGame("YOU LOSE!!");
+	}
 }
 
 void AMinesweeperGrid::FlipEmptyCells(int32 GridSquareNumber)

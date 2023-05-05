@@ -1,7 +1,12 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\FlixInteractive\MinesweeperClone).
   Building MinesweeperCloneEditor...
   Using Visual Studio 2022 14.34.31937 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933) and Windows 10.0.22000.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 1 action with 24 processes...
-    [1/1] MinesweeperCloneEditor.target
-  Total time in Parallel executor: 0.16 seconds
-  Total execution time: 0.62 seconds
+  Building 4 actions with 24 processes...
+    [1/4] MinesweeperGrid.cpp
+    [2/4] UE4Editor-MinesweeperClone-0006.lib
+       Creating library D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone-0006.lib and object D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone-0006.exp
+    [3/4] UE4Editor-MinesweeperClone-0006.dll
+       Creating library D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone-0006.suppressed.lib and object D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone-0006.suppressed.exp
+    [4/4] MinesweeperCloneEditor.target
+  Total time in Parallel executor: 1.12 seconds
+  Total execution time: 1.62 seconds

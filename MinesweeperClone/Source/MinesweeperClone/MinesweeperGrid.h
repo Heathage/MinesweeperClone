@@ -41,6 +41,10 @@ private:
 
 	class AMyPawn* Pawn;
 
+	float StartTime;
+	float CurrentTime;
+	float EndTime;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -66,4 +70,6 @@ private:
 
 	void CheckBounds(FVector2D GridPosition);
 	void CheckCells(FVector2D GridSquareCoordinates);
+
+	void EndGame(FString EndGameResult);
 };
