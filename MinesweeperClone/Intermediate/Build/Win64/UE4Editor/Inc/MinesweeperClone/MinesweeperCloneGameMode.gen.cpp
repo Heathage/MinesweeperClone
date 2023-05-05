@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "MinesweeperClone/MinesweeperCloneGameMode.h"
+#include "MinesweeperClone/Unused/MinesweeperCloneGameMode.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -42,8 +42,8 @@ void EmptyLinkFunctionForGeneratedCodeMinesweeperCloneGameMode() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMinesweeperCloneGameMode_Statics::Class_MetaDataParams[] = {
 		{ "Comment", "/** GameMode class to specify pawn and playercontroller */" },
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering Utilities|Transformation" },
-		{ "IncludePath", "MinesweeperCloneGameMode.h" },
-		{ "ModuleRelativePath", "MinesweeperCloneGameMode.h" },
+		{ "IncludePath", "Unused/MinesweeperCloneGameMode.h" },
+		{ "ModuleRelativePath", "Unused/MinesweeperCloneGameMode.h" },
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 		{ "ToolTip", "GameMode class to specify pawn and playercontroller" },
 	};
@@ -75,7 +75,7 @@ void EmptyLinkFunctionForGeneratedCodeMinesweeperCloneGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMinesweeperCloneGameMode, 480758683);
+	IMPLEMENT_CLASS(AMinesweeperCloneGameMode, 1011300376);
 	template<> MINESWEEPERCLONE_API UClass* StaticClass<AMinesweeperCloneGameMode>()
 	{
 		return AMinesweeperCloneGameMode::StaticClass();

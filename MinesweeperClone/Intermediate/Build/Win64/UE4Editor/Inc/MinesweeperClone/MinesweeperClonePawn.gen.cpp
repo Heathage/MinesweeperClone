@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "MinesweeperClone/MinesweeperClonePawn.h"
+#include "MinesweeperClone/Unused/MinesweeperClonePawn.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -47,14 +47,14 @@ void EmptyLinkFunctionForGeneratedCodeMinesweeperClonePawn() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMinesweeperClonePawn_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Navigation" },
-		{ "IncludePath", "MinesweeperClonePawn.h" },
-		{ "ModuleRelativePath", "MinesweeperClonePawn.h" },
+		{ "IncludePath", "Unused/MinesweeperClonePawn.h" },
+		{ "ModuleRelativePath", "Unused/MinesweeperClonePawn.h" },
 	};
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMinesweeperClonePawn_Statics::NewProp_CurrentBlockFocus_MetaData[] = {
 		{ "Category", "MinesweeperClonePawn" },
-		{ "ModuleRelativePath", "MinesweeperClonePawn.h" },
+		{ "ModuleRelativePath", "Unused/MinesweeperClonePawn.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMinesweeperClonePawn_Statics::NewProp_CurrentBlockFocus = { "CurrentBlockFocus", nullptr, (EPropertyFlags)0x0020080000000805, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMinesweeperClonePawn, CurrentBlockFocus), Z_Construct_UClass_AGridSquare_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMinesweeperClonePawn_Statics::NewProp_CurrentBlockFocus_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMinesweeperClonePawn_Statics::NewProp_CurrentBlockFocus_MetaData)) };
@@ -88,7 +88,7 @@ void EmptyLinkFunctionForGeneratedCodeMinesweeperClonePawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMinesweeperClonePawn, 3675238215);
+	IMPLEMENT_CLASS(AMinesweeperClonePawn, 2491473390);
 	template<> MINESWEEPERCLONE_API UClass* StaticClass<AMinesweeperClonePawn>()
 	{
 		return AMinesweeperClonePawn::StaticClass();

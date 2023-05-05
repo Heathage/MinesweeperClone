@@ -5,8 +5,6 @@ D:\EpicGames\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatRepli
 D:\EpicGames\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 D:\EpicGames\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
 D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Inc\MinesweeperClone\MinesweeperGameMode.generated.h
-D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Source\MinesweeperClone\Private\../MinesweeperClonePawn.h
-D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Inc\MinesweeperClone\MinesweeperClonePawn.generated.h
 D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Source\MinesweeperClone\Private\../MinesweeperGrid.h
 D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Inc\MinesweeperClone\MinesweeperGrid.generated.h
 D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Source\MinesweeperClone\Private\../Public/MyPawn.h

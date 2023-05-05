@@ -2,7 +2,6 @@
 
 
 #include "MinesweeperGameMode.h"
-#include "../MinesweeperClonePawn.h"
 #include "../MinesweeperGrid.h"
 #include "../Public/MyPawn.h"
 #include "../Public/MyPlayerController.h"

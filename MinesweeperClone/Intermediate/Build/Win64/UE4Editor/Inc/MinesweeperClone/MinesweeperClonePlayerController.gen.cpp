@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "MinesweeperClone/MinesweeperClonePlayerController.h"
+#include "MinesweeperClone/Unused/MinesweeperClonePlayerController.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -42,8 +42,8 @@ void EmptyLinkFunctionForGeneratedCodeMinesweeperClonePlayerController() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMinesweeperClonePlayerController_Statics::Class_MetaDataParams[] = {
 		{ "Comment", "/** PlayerController class used to enable cursor */" },
 		{ "HideCategories", "Collision Rendering Utilities|Transformation" },
-		{ "IncludePath", "MinesweeperClonePlayerController.h" },
-		{ "ModuleRelativePath", "MinesweeperClonePlayerController.h" },
+		{ "IncludePath", "Unused/MinesweeperClonePlayerController.h" },
+		{ "ModuleRelativePath", "Unused/MinesweeperClonePlayerController.h" },
 		{ "ToolTip", "PlayerController class used to enable cursor" },
 	};
 #endif
@@ -74,7 +74,7 @@ void EmptyLinkFunctionForGeneratedCodeMinesweeperClonePlayerController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMinesweeperClonePlayerController, 222726850);
+	IMPLEMENT_CLASS(AMinesweeperClonePlayerController, 2819122647);
 	template<> MINESWEEPERCLONE_API UClass* StaticClass<AMinesweeperClonePlayerController>()
 	{
 		return AMinesweeperClonePlayerController::StaticClass();
