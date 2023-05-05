@@ -13,6 +13,7 @@ AGridSquare::AGridSquare()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	//Set materials
 	ConstructorHelpers::FObjectFinder<UMaterial>DefaultMaterial(TEXT("/Game/Textures/GridSquare_Mat"));
 	DefaultImage = DefaultMaterial.Object;
 
@@ -75,6 +76,7 @@ void AGridSquare::Tick(float DeltaTime)
 
 }
 
+//To show where the mines are.
 void AGridSquare::SetMineMaterial()
 {
 	bIsMine = true;
@@ -82,6 +84,7 @@ void AGridSquare::SetMineMaterial()
 	BackPlane->SetMaterial(0, Mine);
 }
 
+//To show where the player set the flag, and to check win condition.
 void AGridSquare::SetFlag()
 {
 	switch (bIsFlagged)
@@ -113,6 +116,7 @@ void AGridSquare::SetFlag()
 	}
 }
 
+//Handles all cases that could cause a grid square to flip.
 void AGridSquare::FlipCell()
 {
 	if (bIsFlipped == false)
@@ -137,6 +141,7 @@ void AGridSquare::FlipCell()
 	}
 }
 
+//To handle how many mines this grid square is adjacent to.
 void AGridSquare::AddToMineNeighbouringValue()
 {
 	if (bIsMine == false)

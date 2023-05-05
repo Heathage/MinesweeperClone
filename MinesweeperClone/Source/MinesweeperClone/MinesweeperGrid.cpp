@@ -55,7 +55,6 @@ void AMinesweeperGrid::Tick(float DeltaTime)
 }
 
 
-
 void AMinesweeperGrid::CreateGrid()
 {
 	NumGridCells = GridSize * GridSize;
@@ -104,6 +103,7 @@ void AMinesweeperGrid::SetMines()
 	}
 }
 
+//Informs adjacent grid tiles that they neighbour a mine. 
 void AMinesweeperGrid::CalculateNeighbouringTilesValue()
 {
 	for (FVector2D GridPosition : MineGridPositions)
@@ -185,6 +185,7 @@ void AMinesweeperGrid::CalculateNeighbouringTilesValue()
 	}
 }
 
+//Checks if the grid square is within the 10 x 10 grid. 
 void AMinesweeperGrid::CheckBounds(FVector2D GridPosition)
 {
 	bOutOfBounds = false;
@@ -200,6 +201,7 @@ void AMinesweeperGrid::CheckBounds(FVector2D GridPosition)
 	}
 }
 
+//Handles the end game result.
 void AMinesweeperGrid::EndGame(FString EndGameResult)
 {
 	GEngine->AddOnScreenDebugMessage(-1, 10.f, FColor::Red, EndGameResult);
@@ -221,6 +223,7 @@ void AMinesweeperGrid::WinCondition(int32 Value)
 	}
 }
 
+//Flips all the mines, called when by a flipped mine.
 void AMinesweeperGrid::FlipAllMines()
 {
 	for (AGridSquare* Square : ListOfGridSquares)
@@ -231,13 +234,14 @@ void AMinesweeperGrid::FlipAllMines()
 		}
 	}
 
-	//Used to run the method only once. 
+	//Used to run the EndGame() method only once. 
 	if (!Pawn->bGameEnded)
 	{
 		EndGame("YOU LOSE!!");
 	}
 }
 
+//Flips all the mineless cells that neighbour the empty cell provided to this method.
 void AMinesweeperGrid::FlipEmptyCells(int32 GridSquareNumber)
 {
 	int32 X = GridSquareNumber % GridSize;
