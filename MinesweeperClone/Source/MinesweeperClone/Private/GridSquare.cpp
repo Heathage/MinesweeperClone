@@ -127,7 +127,7 @@ void AGridSquare::FlipCell()
 			this->SetActorRotation(FRotator(180, 0, 0));
 		}
 
-		if (bIsMine)
+		if (bIsMine && !bIsFlagged)
 		{
 			bIsFlipped = true;
 			this->SetActorRotation(FRotator(180, 0, 0));
