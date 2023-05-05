@@ -237,7 +237,7 @@ void AMinesweeperGrid::FlipAllMines()
 	//Used to run the EndGame() method only once. 
 	if (!Pawn->bGameEnded)
 	{
-		EndGame("YOU LOSE!!");
+		EndGame("GAME OVER!");
 	}
 }
 

@@ -1,12 +1,16 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\FlixInteractive\MinesweeperClone).
+  Deleted hot-reload file: D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Binaries\Win64\UE4Editor-MinesweeperClone-0001.pdb
+  Deleted hot-reload file: D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Binaries\Win64\UE4Editor-MinesweeperClone-0003.pdb
+  Deleted hot-reload file: D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Binaries\Win64\UE4Editor-MinesweeperClone-0004.pdb
+  Deleted hot-reload file: D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Binaries\Win64\UE4Editor-MinesweeperClone-0005.pdb
   Building MinesweeperCloneEditor...
   Using Visual Studio 2022 14.34.31937 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933) and Windows 10.0.22000.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 24 processes...
     [1/4] MinesweeperGrid.cpp
-    [2/4] UE4Editor-MinesweeperClone-0005.lib
-       Creating library D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone-0005.lib and object D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone-0005.exp
-    [3/4] UE4Editor-MinesweeperClone-0005.dll
-       Creating library D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone-0005.suppressed.lib and object D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone-0005.suppressed.exp
+    [2/4] UE4Editor-MinesweeperClone.lib
+       Creating library D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone.lib and object D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone.exp
+    [3/4] UE4Editor-MinesweeperClone.dll
+       Creating library D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone.suppressed.lib and object D:\FlixInteractive\MinesweeperClone\MinesweeperClone\Intermediate\Build\Win64\UE4Editor\Development\MinesweeperClone\UE4Editor-MinesweeperClone.suppressed.exp
     [4/4] MinesweeperCloneEditor.target
-  Total time in Parallel executor: 1.24 seconds
-  Total execution time: 1.74 seconds
+  Total time in Parallel executor: 1.14 seconds
+  Total execution time: 1.55 seconds
